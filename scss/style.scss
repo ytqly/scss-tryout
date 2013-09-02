@@ -186,6 +186,9 @@
 		}
 		a{
 			color: $c-96;
+			&:hover{
+				font-weight: bold;
+			}
 		}
 	}
 }
@@ -202,8 +205,11 @@
 		span{
 			margin: 0 5px;
 		}
-		span,a{
+		a{
 			color: #005466;
+			&:hover{
+				font-weight: bold;
+			}
 		}
 	}
 }
@@ -258,12 +264,14 @@
 	height: 26px;
 	background: #efeff0;
 	.lh{
-		cursor: default;
 		float: left;
 		font-weight: bold;
 		padding: 0 13px 0 6px;
 		letter-spacing: 1px;
 		position: relative;
+		&:hover{
+			text-decoration: none;
+		}
 		.r{
 			display: block;
 			width: 9px;
@@ -311,6 +319,32 @@
 			right: -2px;
 		}
 	}
+}
+.law-head-switcher,.law-head2-switcher{
+	font-size: 15px!important;
+	font-weight: bold;
+	font-family: $msyh;
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+	background: url(../images/law/law_head_switcher_bg.jpg) no-repeat;
+	&.two-tabs{
+		background-position: 0 0;
+	}
+	&.three-tabs{
+		background-position: 0 -78px;
+	}
+	a{
+		float: left;
+		margin: 0 6px 0 0;
+		padding: 0 10px 0 6px;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+.law-head2-switcher{
+	background: url(../images/law/law_head_switcher2_bg.jpg) no-repeat;
 }
 
 .edu-head{
@@ -640,6 +674,9 @@
 				margin: 0 13px;
 				a{
 					cursor: pointer;
+					&:hover{
+						color: $c-96;
+					}
 					span{
 						font-size: 12px;
 						display: block;
@@ -1037,8 +1074,7 @@
 			padding-left: 8px;
 			@include crop;
 			&:hover{
-				font-weight: bold;
-				text-decoration: none;
+				color: $c-96;
 			}
 		}
 	}
@@ -1048,6 +1084,10 @@
 		margin: 9px 0 0;
 		*margin-left: -8px;
 	}
+}
+.edu-list-s dd a:hover,
+.edu-list dd a:hover{
+	color: #006f64;
 }
 
 .law-news{
@@ -1167,6 +1207,7 @@
 		top: 14px;
 		left: 0;
 		span{
+			font-weight: bold;
 			display: block;
 			text-align: center;
 			@include crop;
@@ -1184,6 +1225,9 @@
 			margin-right: 14px;
 			padding-left: 3px;
 			@include crop;
+			&:hover{
+				font-weight: bold;
+			}
 		}
 	}
 	h3{
@@ -1193,6 +1237,9 @@
 			font-size: 16px;
 			font-weight: bold;
 			font-family: $st;
+			&:hover{
+				color: $c-96;
+			}
 		}
 	}
 	.cb-a{
@@ -1202,8 +1249,7 @@
 			@include crop;
 			a{
 				&:hover{
-					font-weight: bold;
-					text-decoration: none;
+					color: $c-96;
 				}
 			}
 		}
@@ -1243,7 +1289,6 @@
 		border: 1px solid #ddd;
 		border-color: #f2f2f2 #ddd;
 		h3{
-			color: #3171b9;
 			font-size: 17px;
 			font-weight: bold;
 			letter-spacing: 3px;
@@ -1290,3 +1335,11 @@
 		}
 	}
 }
+
+/* global cascading style */
+.law-wrapper .footer .rel-link h3{color: #2f3942;}
+.law-wrapper .footer a:hover,
+.law-wrapper .law-sermon h2 a:hover,
+.law-wrapper .law-sermon a:hover .c15{color: $c-96!important;}
+.law-wrapper .law-sermon p a{color: #585858;}
+.edu-wrapper .footer .rel-link h3{color: #006069;}

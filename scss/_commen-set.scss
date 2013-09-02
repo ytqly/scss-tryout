@@ -45,7 +45,8 @@ $st: "\5B8B\4F53"; $msyh: "\5FAE\8F6F\96C5\9ED1";
     font-weight: bold;;
 }
 
-.a1{color: #a10000!important;}.c0{color: #c02076!important;}.c15{color: $c-15!important;}.c00{color: #00875a!important;}
+.a1{color: #a10000!important;}.c0{color: #c02076!important;}.c15{color: $c-15!important;}
+.f3{color: #fff!important;}.c96{color: $c-96!important;}.c00{color: #00875a!important;}
 .fl{float: left!important;}.fr{float: right!important;}
 .mt5{margin-top: 5px!important;}.mt10{margin-top: 10px!important;}.mt15{margin-top: 15px!important;}
 .mt20{margin-top: 20px!important;}.mt22{margin-top: 22px!important;}
@@ -61,7 +62,7 @@ body{font: 14px/1.5 $st, Arial, sans-serif;}
 
 /* sprites */
 i.sprites{display: inline-block; text-indent: -9999px; background: url(../images/sprites.jpg) no-repeat;}
-i.sscp{width: 32px; height: 44px; background-position: -136px 0;}
+i.sscp{width: 34px; height: 44px; background-position: 0 0;}
 
 /* layout */
 .row,.ad-banner{width: 1000px; clear: both;}
