@@ -495,6 +495,13 @@
 		overflow: hidden;
 		position: relative;
 	}
+	.flex-viewport{
+		width: 370px;
+		height: 309px;
+		li{
+			height: 309px;
+		}
+	}
 	.flex-control-nav{
 		width: 97%;
 		height: 33px;
@@ -503,13 +510,13 @@
 		padding-right: 3%;
 		text-align: right;
 		background: url(../images/law/law_slide_num_bg.png) 100% 0 no-repeat;
-		_background: url(../images/law/law_slide_num_bg.gif) 100% 0 no-repeat;
+		_background: #11455d;
 		position: absolute;
 		left: 0;
 		bottom: 0;
 		z-index: 10000;
 		li{
-			display: inline-block;
+			display: inline;
 			padding-right: 5px;
 			a{
 				color: #c6c6c6;
@@ -539,6 +546,11 @@
 		overflow: hidden;
 		position: relative;
 		.flex-viewport{
+			width: 295px;
+			height: 286px;
+			li{
+				height: 286px;
+			}
 			a{
 				color: #555;
 				display: block;
@@ -555,13 +567,13 @@
 		padding-right: 3%;
 		text-align: right;
 		background: url(../images/edu/edu_slide_num_bg.png) 100% 0 no-repeat;
-		_background: url(../images/edu/edu_slide_num_bg.gif) 100% 0 no-repeat;
+		_background: #0d380d;
 		position: absolute;
 		left: 0;
 		bottom: 41px;
 		z-index: 10000;
 		li{
-			display: inline-block;
+			display: inline;
 			padding-right: 5px;
 			a{
 				color: #000;
@@ -858,14 +870,16 @@
 	.access{
 		display: block;
 		height: 23px;
-		line-height: 21px;
+		line-height: 23px;
 		margin: 20px 0 0;
 		padding: 35px 0 0 0;
-		text-indent: 8px;
 		background: url(../images/gl/click_to_access.jpg) no-repeat;
 		a{
 			color: #fff;
 			font-weight: bold;
+			font-size: 12px;
+			float: left;
+			margin-left: 8px;
 			b{
 				color: #ef9117;
 			}
@@ -990,6 +1004,7 @@
 	.book-desc{
 		float: right;
 		width: 183px;
+		overflow: hidden;
 		h3{
 			@include crop;
 			a{
