@@ -375,7 +375,6 @@
 		color: $c-00;
 		font-size: 16px;
 		font-family: "方正大黑简体",$msyh;
-		font-weight: bold;
 		float: left;
 		height: 25px;
 		line-height: 20px;
@@ -389,6 +388,59 @@
 	}
 	.edu-more{
 		margin: 5px 0 0;
+	}
+}
+.edu-head2{
+	.eh2{
+		float: left;
+		a{
+			float: left;
+			cursor: pointer;
+			color: #fff;
+			height: 25px;
+			line-height: 20px;
+			font-size: 16px;
+			padding: 0 0 0 7px;
+			span{
+				float: left;
+			}
+			&:hover{
+				text-decoration: none;
+			}
+			&.alpha,&.beta{
+				color: #b5b5b6;
+				font-family: $msyh, "方正大黑简体";
+				background: url(../images/edu/sprites_edu.jpg) 0 -104px no-repeat;
+				span{
+					padding: 2px 7px 3px 0;
+				}
+				&.on{
+					color: $c-00;
+					font-family: "方正大黑简体", $msyh;
+					background: url(../images/edu/sprites_edu.jpg) 0 -29px no-repeat;
+					span{
+						background: url(../images/edu/sprites_edu.jpg) 97% -29px no-repeat;
+					}
+				}
+			}
+			&.omega{
+				color: #b5b5b6;
+				font-family: $msyh, "方正大黑简体";
+				background: url(../images/edu/sprites_edu.jpg) 0 -104px no-repeat;
+				span{
+					padding: 2px 12px 3px 0;
+					background: url(../images/edu/sprites_edu.jpg) 100% -104px no-repeat;
+				}
+				&.on{
+					color: $c-00;
+					font-family: "方正大黑简体", $msyh;
+					background: url(../images/edu/sprites_edu.jpg) 0 -29px no-repeat;
+					span{
+						background: url(../images/edu/sprites_edu.jpg) 100% -29px no-repeat;
+					}
+				}
+			}
+		}
 	}
 }
 .edu-head3{
@@ -424,7 +476,10 @@
 		font-weight: bold;
 		font-size: 14px;
 		padding-top: 5px;
-		&.on,&:hover{
+		&:hover{
+			text-decoration: none;
+		}
+		&.on{
 			color: $c-00;
 			font-size: 16px;
 			padding: 2px 3px 0 2px;
@@ -446,6 +501,54 @@
 		span{
 			padding: 2px 12px 3px 0;
 			background-position: 100% -54px;
+		}
+	}
+	.eh4{
+		float: left;
+		a{
+			float: left;
+			cursor: pointer;
+			color: #fff;
+			height: 25px;
+			line-height: 20px;
+			font-size: 16px;
+			padding: 0 0 0 7px;
+			span{
+				float: left;
+			}
+			&:hover{
+				text-decoration: none;
+			}
+			&.alpha,&.beta{
+				font-family: $msyh, "方正大黑简体";
+				background: url(../images/edu/sprites_edu.jpg) 0 -79px no-repeat;
+				span{
+					padding: 2px 7px 3px 0;
+				}
+				&.on{
+					font-family: "方正大黑简体", $msyh;
+					background: url(../images/edu/sprites_edu.jpg) 0 -54px no-repeat;
+					span{
+						background: url(../images/edu/sprites_edu.jpg) -7px -54px no-repeat;
+					}
+				}
+			}
+			&.beta,&.omega{margin-left: 1px;}
+			&.omega{
+				font-family: $msyh, "方正大黑简体";
+				background: url(../images/edu/sprites_edu.jpg) 0 -79px no-repeat;
+				span{
+					padding: 2px 12px 3px 0;
+					background: url(../images/edu/sprites_edu.jpg) 100% -79px no-repeat;
+				}
+				&.on{
+					font-family: "方正大黑简体", $msyh;
+					background: url(../images/edu/sprites_edu.jpg) 0 -54px no-repeat;
+					span{
+						background: url(../images/edu/sprites_edu.jpg) 100% -54px no-repeat;
+					}
+				}
+			}
 		}
 	}
 }
@@ -587,6 +690,9 @@
 			}
 			a{
 				color: #555;
+				font-size: 12px;
+				font-weight: bold;
+				letter-spacing: 1px;
 				display: block;
 				width: 100%;
 				@include crop;
@@ -1024,12 +1130,14 @@
 	margin: 12px 0 -5px;
 	overflow: hidden;
 	p{
-		color: #6e6e6e;
 		font-size: 12px;
 		padding: 0 0 0 109px;
 		line-height: 20px;
 		.t-name{
 			color: $c-00;
+		}
+		a{
+			color: #6e6e6e;
 		}
 	}
 }
@@ -1048,6 +1156,9 @@
 				font-size: 14px;
 				color: #000;
 				font-weight: bold;
+				&:hover{
+					color: #016f62;
+				}
 			}
 		}
 		p{
@@ -1056,6 +1167,12 @@
 			line-height: 20px;
 			&.ti2{
 				text-indent: 2em;
+				a{
+					color: #585858;
+					&:hover{
+						color: #006f69;
+					}
+				}
 			}
 		}
 	}
@@ -1142,7 +1259,7 @@
 		height: 95px;
 		margin: 16px 0 0;
 		padding: 0 0 0 99px;
-		overflow: hidden;
+		overflow: visible;
 		position: relative;
 		.pic{
 			width: 90px;
@@ -1186,6 +1303,9 @@
 			font-size: 13px;
 			line-height: 20px;
 			text-indent: 2em;
+			a{
+				color: #585858;
+			}
 		}
 	}
 }
@@ -1257,6 +1377,8 @@
 }
 
 .edu-col2 .colligate-box h3 a{color: #000;}
+.edu-col2 .colligate-box h3 a:hover{color: #006f63;}
+.edu-col2 .colligate-box .cb-a dd a:hover{color: #006f69;}
 
 /* edu-list */
 .edu-list-s{
@@ -1338,8 +1460,11 @@
 
 /* global cascading style */
 .law-wrapper .footer .rel-link h3{color: #2f3942;}
-.law-wrapper .footer a:hover,
+.law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15{color: $c-96!important;}
 .law-wrapper .law-sermon p a{color: #585858;}
 .edu-wrapper .footer .rel-link h3{color: #006069;}
+.edu-wrapper .footer .rel-link a:hover,
+.edu-wrapper .edu-observe h2 a:hover,
+.edu-wrapper .edu-observe a:hover .c15{color: #006f63!important;}
