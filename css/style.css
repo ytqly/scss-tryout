@@ -524,69 +524,74 @@ a:hover {
 }
 
 /* line 55, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+a:focus {
+  outline: none;
+}
+
+/* line 56, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 a.gl-more {
   margin-top: 5px;
   font-size: 12px !important;
 }
 
-/* line 56, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 57, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 a.gl-more b {
   color: #a10000;
   font-family: "\5B8B\4F53";
 }
 
-/* line 57, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 58, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 a.edu-more, a.edu-more2 {
   margin-top: 8px;
   font-size: 12px !important;
 }
 
-/* line 58, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 59, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 a.edu-more {
   color: #ff9a00;
 }
 
-/* line 58, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 59, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 a.edu-more b {
   color: #ff9a00;
   font-family: "\5B8B\4F53";
 }
 
-/* line 59, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 60, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 a.edu-more2 {
   color: #00875a;
 }
 
-/* line 59, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 60, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 a.edu-more2 b {
   color: #00875a;
   font-family: "\5B8B\4F53";
 }
 
-/* line 60, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 61, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 h1, h2, h3, h4, h5, h6, b, strong {
   font-weight: normal;
 }
 
-/* line 60, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 61, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 li {
   list-style: none;
 }
 
-/* line 61, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 62, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 body {
   font: 14px/1.5 "\5B8B\4F53", Arial, sans-serif;
 }
 
 /* sprites */
-/* line 64, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 65, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 i.sprites {
   display: inline-block;
   text-indent: -9999px;
   background: url(../images/sprites.jpg) no-repeat;
 }
 
-/* line 65, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 66, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 i.sscp {
   width: 34px;
   height: 44px;
@@ -594,82 +599,82 @@ i.sscp {
 }
 
 /* layout */
-/* line 68, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 69, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .row, .ad-banner {
   width: 1000px;
   clear: both;
 }
 
-/* line 69, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 70, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .ad-banner {
   margin: 22px 0;
 }
-/* line 69, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 70, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .ad-banner a {
   display: block;
 }
 
-/* line 70, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 71, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .gl-col1, .gl-col2, .law-col1, .law-col2, .law-col1-2, .edu-col1, .edu-col2 {
   float: left;
   overflow: hidden;
 }
 
-/* line 71, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 72, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .gl-col3, .law-col3, .edu-col3 {
   float: right;
   overflow: hidden;
 }
 
-/* line 72, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 73, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .gl-col1 {
   width: 317px;
 }
 
-/* line 72, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 73, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .gl-col2 {
   width: 357px;
   margin-left: 22px;
 }
 
-/* line 72, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 73, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .gl-col3 {
   width: 282px;
 }
 
-/* line 73, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 74, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .law-col1 {
   width: 305px;
 }
 
-/* line 73, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 74, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .law-col2 {
   width: 370px;
   margin-left: 25px;
 }
 
-/* line 73, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 74, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .law-col3 {
   width: 275px;
 }
 
-/* line 73, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 74, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .law-col1-2 {
   width: 700px;
 }
 
-/* line 74, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 75, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .edu-col1 {
   width: 295px;
 }
 
-/* line 74, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 75, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .edu-col2 {
   width: 415px;
   margin-left: 25px;
 }
 
-/* line 74, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
+/* line 75, C:/Zaki/yma work/sscp/scss/_commen-set.scss */
 .edu-col3 {
   width: 240px;
 }
