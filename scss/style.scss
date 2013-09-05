@@ -42,6 +42,13 @@
 			color: #595757;
 			font-family: $msyh;
 		}
+		a{
+			text-decoration: none;
+			&:hover{
+				color: #005dab;
+				font-weight: bold;
+			}
+		}
 		span{
 			margin: 0 9px;
 		}
@@ -159,6 +166,11 @@
 			display: inline-block;
 			margin: 0 4px;
 			font-family: $msyh;
+			&:hover{
+				color: #005dab;
+				font-weight: bold;
+				text-decoration: none;
+			}
 		}
 	}
 }
@@ -847,9 +859,11 @@
 			}
 		}
 		p{
-			color: #5a5a5a;
 			font-size: 12px;
 			text-indent: 1em;
+			a{
+				color: #5a5a5a;
+			}
 		}
 	}
 }
@@ -880,12 +894,19 @@
 		margin: 0 0 5px 12px;
 		font-size: 22px;
 		font-family: $msyh;
+		a{
+			&:hover{
+				color: #1E4D81;
+			}
+		}
 	}
 	p{
-		color: #686868;
 		font-size: 12px;
 		line-height: 27px;
 		text-indent: 1em;
+		a{
+			color: #686868;
+		}
 	}
 }
 
@@ -899,6 +920,7 @@
 		a{
 			margin-left: 14px;
 			&:hover{
+				color: #1E4D81;
 				font-weight: bold;
 				text-decoration: none;
 			}
@@ -999,6 +1021,7 @@
 			font-size: 12px;
 			margin-left: 15px;
 			&:hover{
+				font-weight: bold;
 				text-decoration: none;
 			}
 		}
@@ -1088,9 +1111,15 @@
 	line-height: 22px;
 	border: 1px solid #ddd;
 	overflow: hidden;
-	a.category{
-		color: $c-1e;
-		font-weight: bold;
+	a{
+		color: #3b3b3b;
+		&:hover{
+			color: $c-1e;
+		}
+		&.category{
+			color: $c-1e;
+			font-weight: bold;
+		}
 	}
 	.bl{
 		width: 500px;
@@ -1458,6 +1487,8 @@
 }
 
 /* global cascading style */
+.gl-wrapper .footer .rel-link h3{color: #3171b9;}
+.gl-wrapper .footer .rel-link a:hover{color: #005dab; font-weight: bold;}
 .law-wrapper .footer .rel-link h3{color: #2f3942;}
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
