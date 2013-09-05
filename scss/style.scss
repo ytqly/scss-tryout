@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 @import "normalize";
 @import "commen-set";
 
@@ -432,7 +431,7 @@
 					font-family: "方正大黑简体", $msyh;
 					background: url(../images/edu/sprites_edu.jpg) 0 -29px no-repeat;
 					span{
-						background: url(../images/edu/sprites_edu.jpg) 97% -29px no-repeat;
+						background: url(../images/edu/sprites_edu.jpg) 97% -29px no-repeat!important;
 					}
 				}
 			}
@@ -542,7 +541,7 @@
 					font-family: "方正大黑简体", $msyh;
 					background: url(../images/edu/sprites_edu.jpg) 0 -54px no-repeat;
 					span{
-						background: url(../images/edu/sprites_edu.jpg) -7px -54px no-repeat;
+						background: url(../images/edu/sprites_edu.jpg) -7px -54px no-repeat!important;
 					}
 				}
 			}
@@ -860,11 +859,9 @@
 			}
 		}
 		p{
+			color: #5a5a5a;
 			font-size: 12px;
 			text-indent: 1em;
-			a{
-				color: #5a5a5a;
-			}
 		}
 	}
 }
@@ -902,12 +899,10 @@
 		}
 	}
 	p{
+		color: #686868;
 		font-size: 12px;
 		line-height: 27px;
 		text-indent: 1em;
-		a{
-			color: #686868;
-		}
 	}
 }
 
@@ -1489,7 +1484,7 @@
 
 /* global cascading style */
 .gl-wrapper .footer .rel-link h3{color: #3171b9;}
-.gl-wrapper .footer .rel-link a:hover{color: #005dab; font-weight: bold;}
+.gl-wrapper .footer .rel-link a:hover{color: #005dab;}
 .law-wrapper .footer .rel-link h3{color: #2f3942;}
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
