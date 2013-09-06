@@ -295,14 +295,22 @@
 }
 .law-head{
 	color: #fff;
-	line-height: 26px;
+	line-height: 22px;
 	.lh{
 		color: #fff;
+		border: 2px solid $c-96;
 		background: $c-96;
 		.r{
 			background-position: 0 -60px;
-			top: 0;
-			right: 0;
+			top: -2px;
+			right: -2px;
+		}
+		&:hover{
+			color: $c-96;
+			background: #fff;
+			.r{
+				background-position: 0 -34px;
+			}
 		}
 	}
 }
@@ -316,6 +324,13 @@
 			background-position: 0 -34px;
 			top: -2px;
 			right: -2px;
+		}
+		&:hover{
+			color: #fff;
+			background: $c-96;
+			.r{
+				background-position: 0 -60px;
+			}
 		}
 	}
 }
@@ -338,14 +353,6 @@
 	font-family: $msyh;
 	height: 26px;
 	line-height: 26px;
-	overflow: hidden;
-	background: url(../images/law/law_head_switcher_bg.jpg) no-repeat;
-	&.two-tabs{
-		background-position: 0 0;
-	}
-	&.three-tabs{
-		background-position: 0 -78px;
-	}
 	a{
 		float: left;
 		margin: 0 6px 0 0;
@@ -355,8 +362,53 @@
 		}
 	}
 }
+.law-head-switcher{
+	background: #efeff1 url(../images/law/law_head_switcher_bg.jpg) no-repeat;
+	a{
+		color: #155F82;
+		&.on{
+			color: #fff;
+		}
+	}
+	&.tw-tab1{
+		background-position: 0 0!important;
+	}
+	&.tw-tab2{
+		background-position: 0 -26px!important;
+	}
+	&.three-tabs,&.th-tab1{
+		background-position: 0 -78px!important;
+	}
+	&.th-tab2{
+		background-position: 0 -104px!important;
+	}
+	&.th-tab3{
+		background-position: 0 -130px!important;
+	}
+}
 .law-head2-switcher{
-	background: url(../images/law/law_head_switcher2_bg.jpg) no-repeat;
+	background: #efeff1 url(../images/law/law_head_switcher2_bg.jpg) no-repeat;
+	a{
+		color: #fff;
+		&.on{
+			color: $c-96;
+		}
+	}
+	&.tw-tab1{
+		background-position: 0 0!important;
+	}
+	&.tw-tab2{
+		background-position: 0 -26px!important;
+	}
+	&.three-tabs1,&.th-tab1{
+		background-position: 0 -78px!important;
+	}
+	&.th-tab2{
+		background-position: 0 -104px!important;
+	}
+	&.th-tab3{
+		background-position: 0 -130px!important;
+	}
 }
 
 .edu-head{
@@ -798,7 +850,7 @@
 					span{
 						font-size: 12px;
 						display: block;
-						margin: 5px 0 0;
+						padding: 5px 0;
 						width: 100%;
 						@include crop;
 					}
@@ -899,10 +951,12 @@
 		}
 	}
 	p{
-		color: #686868;
 		font-size: 12px;
 		line-height: 27px;
 		text-indent: 1em;
+		a{
+			color: #686868;
+		}
 	}
 }
 

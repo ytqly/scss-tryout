@@ -38,4 +38,60 @@ $(function(){
 		$(this).addClass('on');
 		return false;
 	});
+
+	//法学tabs切换
+	$('.two-tabs a').click(function() {
+		$(this).parent().find('.on').removeClass('on');
+		$(this).addClass('on');
+		if($(this).parent().find('a').eq(0).hasClass('on')){
+			$(this).parent().addClass('tw-tab1');
+			$(this).parent().removeClass('tw-tab2');
+		}else if($(this).parent().find('a').eq(1).hasClass('on')){
+			$(this).parent().addClass('tw-tab2');
+			$(this).parent().removeClass('tw-tab1');
+		}
+		return false;
+	});
+	$('.three-tabs a').click(function() {
+		$(this).parent().find('.on').removeClass('on');
+		$(this).addClass('on');
+		if($(this).parent().find('a').eq(0).hasClass('on')){
+			$(this).parent().addClass('th-tab1');
+			$(this).parent().removeClass('th-tab2 th-tab3');
+		}else if($(this).parent().find('a').eq(1).hasClass('on')){
+			$(this).parent().addClass('th-tab2');
+			$(this).parent().removeClass('th-tab1 th-tab3');
+		}else if($(this).parent().find('a').eq(2).hasClass('on')){
+			$(this).parent().addClass('th-tab3');
+			$(this).parent().removeClass('th-tab1 th-tab2');
+		}
+		return false;
+	});
+	$('.two-tabs1 a').click(function() {
+		$(this).parent().find('.on').removeClass('on');
+		$(this).addClass('on');
+		if($(this).parent().find('a').eq(0).hasClass('on')){
+			$(this).parent().addClass('tw-tab1');
+			$(this).parent().removeClass('tw-tab2');
+		}else if($(this).parent().find('a').eq(1).hasClass('on')){
+			$(this).parent().addClass('tw-tab2');
+			$(this).parent().removeClass('tw-tab1');
+		}
+		return false;
+	});
+	$('.three-tabs1 a').click(function() {
+		$(this).parent().find('.on').removeClass('on');
+		$(this).addClass('on');
+		if($(this).parent().find('a').eq(0).hasClass('on')){
+			$(this).parent().addClass('th-tab1');
+			$(this).parent().removeClass('th-tab2 th-tab3');
+		}else if($(this).parent().find('a').eq(1).hasClass('on')){
+			$(this).parent().addClass('th-tab2');
+			$(this).parent().removeClass('th-tab1 th-tab3');
+		}else if($(this).parent().find('a').eq(2).hasClass('on')){
+			$(this).parent().addClass('th-tab3');
+			$(this).parent().removeClass('th-tab1 th-tab2');
+		}
+		return false;
+	});
 });
