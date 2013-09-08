@@ -9,6 +9,9 @@ $(function(){
 	$('.edu-slide .flexslider').flexslider({
 		animation: "slide"
 	});
+	$('.phi-slide .flexslider').flexslider({
+		animation: "slide"
+	});
 	
 	//书籍轮播
 	$('#box-scrolling').scrollbox({
