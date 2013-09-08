@@ -493,11 +493,16 @@ html[xmlns] .clearfix {
 }
 
 /* line 51, D:/Work/coding/scss-tryout/scss/_commen-set.scss */
+.mt7 {
+  margin-top: 7px !important;
+}
+
+/* line 51, D:/Work/coding/scss-tryout/scss/_commen-set.scss */
 .mt10 {
   margin-top: 10px !important;
 }
 
-/* line 51, D:/Work/coding/scss-tryout/scss/_commen-set.scss */
+/* line 52, D:/Work/coding/scss-tryout/scss/_commen-set.scss */
 .mt15 {
   margin-top: 15px !important;
 }
@@ -697,7 +702,7 @@ i.sscp {
 
 /* line 75, D:/Work/coding/scss-tryout/scss/_commen-set.scss */
 .phi-col1-2 {
-  width: 686px;
+  width: 692px;
 }
 
 /* top commen set */
@@ -1507,28 +1512,63 @@ i.sscp {
   background: url(../images/edu/sprites_edu.jpg) 100% -54px no-repeat;
 }
 
+/* line 666, ../scss/style.scss */
+.phi-head {
+  height: 33px;
+  background: url(../images/philosophy/phi_h2_bg.jpg) left bottom repeat-x;
+}
+/* line 669, ../scss/style.scss */
+.phi-head a.more {
+  color: #8e8e8e;
+  float: right;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+/* line 674, ../scss/style.scss */
+.phi-head a.more:hover {
+  color: #014d67;
+  text-decoration: none;
+}
+/* line 679, ../scss/style.scss */
+.phi-head span {
+  float: left;
+  font-size: 18px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  font-weight: bold;
+  text-indent: 3px;
+}
+/* line 685, ../scss/style.scss */
+.phi-head span a {
+  color: #014d67;
+}
+/* line 687, ../scss/style.scss */
+.phi-head span a:hover {
+  color: #00fff0;
+  text-decoration: none;
+}
+
 /* pictures slide */
-/* line 667, ../scss/style.scss */
+/* line 696, ../scss/style.scss */
 .gl-slide, .phi-slide {
   height: 292px;
 }
-/* line 669, ../scss/style.scss */
+/* line 698, ../scss/style.scss */
 .gl-slide .flexslider, .phi-slide .flexslider {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 673, ../scss/style.scss */
+/* line 702, ../scss/style.scss */
 .gl-slide .flexslider .flex-viewport, .phi-slide .flexslider .flex-viewport {
   width: 318px;
   height: 252px;
 }
-/* line 676, ../scss/style.scss */
+/* line 705, ../scss/style.scss */
 .gl-slide .flexslider .flex-viewport li, .phi-slide .flexslider .flex-viewport li {
   height: 252px;
   position: relative;
 }
-/* line 679, ../scss/style.scss */
+/* line 708, ../scss/style.scss */
 .gl-slide .flexslider .flex-viewport li span, .phi-slide .flexslider .flex-viewport li span {
   display: block;
   height: 45px;
@@ -1540,7 +1580,7 @@ i.sscp {
   left: 0;
   bottom: 0;
 }
-/* line 690, ../scss/style.scss */
+/* line 719, ../scss/style.scss */
 .gl-slide .flexslider .flex-viewport li a, .phi-slide .flexslider .flex-viewport li a {
   color: #fff;
   font-size: 12px;
@@ -1558,14 +1598,14 @@ i.sscp {
   left: 0;
   bottom: 14px;
 }
-/* line 706, ../scss/style.scss */
+/* line 735, ../scss/style.scss */
 .gl-slide .flexslider .flex-control-nav, .phi-slide .flexslider .flex-control-nav {
   font-size: 0;
   height: 6px;
   margin: 24px 0 0;
   padding-left: 128px;
 }
-/* line 711, ../scss/style.scss */
+/* line 740, ../scss/style.scss */
 .gl-slide .flexslider .flex-control-nav li, .phi-slide .flexslider .flex-control-nav li {
   list-style: none;
   float: left;
@@ -1574,7 +1614,7 @@ i.sscp {
   height: 6px;
   margin: 0 5px;
 }
-/* line 718, ../scss/style.scss */
+/* line 747, ../scss/style.scss */
 .gl-slide .flexslider .flex-control-nav li a, .phi-slide .flexslider .flex-control-nav li a {
   color: #bcbcbc;
   cursor: pointer;
@@ -1583,34 +1623,34 @@ i.sscp {
   height: 100%;
   background: #bcbcbc;
 }
-/* line 725, ../scss/style.scss */
+/* line 754, ../scss/style.scss */
 .gl-slide .flexslider .flex-control-nav li a.flex-active, .gl-slide .flexslider .flex-control-nav li a:hover, .phi-slide .flexslider .flex-control-nav li a.flex-active, .phi-slide .flexslider .flex-control-nav li a:hover {
   color: #a00000;
   background: #a00000;
 }
-/* line 732, ../scss/style.scss */
+/* line 761, ../scss/style.scss */
 .gl-slide .flexslider .flex-direction-nav, .phi-slide .flexslider .flex-direction-nav {
   display: none;
 }
 
-/* line 737, ../scss/style.scss */
+/* line 766, ../scss/style.scss */
 .phi-slide {
   height: 236px;
 }
-/* line 740, ../scss/style.scss */
+/* line 769, ../scss/style.scss */
 .phi-slide .flexslider .flex-viewport {
   width: 306px;
   height: 204px;
 }
-/* line 743, ../scss/style.scss */
+/* line 772, ../scss/style.scss */
 .phi-slide .flexslider .flex-viewport li {
   height: 204px;
 }
-/* line 745, ../scss/style.scss */
+/* line 774, ../scss/style.scss */
 .phi-slide .flexslider .flex-viewport li span {
   height: 27px;
 }
-/* line 748, ../scss/style.scss */
+/* line 777, ../scss/style.scss */
 .phi-slide .flexslider .flex-viewport li a {
   font-size: 16px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
@@ -1618,46 +1658,46 @@ i.sscp {
   bottom: 3px;
   _bottom: 5px;
 }
-/* line 754, ../scss/style.scss */
+/* line 783, ../scss/style.scss */
 .phi-slide .flexslider .flex-viewport li a:hover {
   text-decoration: underline;
 }
-/* line 760, ../scss/style.scss */
+/* line 789, ../scss/style.scss */
 .phi-slide .flexslider .flex-control-nav {
   padding-left: 115px;
 }
-/* line 763, ../scss/style.scss */
+/* line 792, ../scss/style.scss */
 .phi-slide .flexslider .flex-control-nav li a {
   color: #939393;
   background: #939393;
 }
-/* line 766, ../scss/style.scss */
+/* line 795, ../scss/style.scss */
 .phi-slide .flexslider .flex-control-nav li a.flex-active, .phi-slide .flexslider .flex-control-nav li a:hover {
   color: #82adcb;
   background: #82adcb;
 }
 
-/* line 775, ../scss/style.scss */
+/* line 804, ../scss/style.scss */
 .law-slide {
   height: 309px;
 }
-/* line 777, ../scss/style.scss */
+/* line 806, ../scss/style.scss */
 .law-slide .flexslider {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 783, ../scss/style.scss */
+/* line 812, ../scss/style.scss */
 .law-slide .flex-viewport {
   width: 370px;
   height: 309px;
 }
-/* line 786, ../scss/style.scss */
+/* line 815, ../scss/style.scss */
 .law-slide .flex-viewport li {
   height: 309px;
 }
-/* line 790, ../scss/style.scss */
+/* line 819, ../scss/style.scss */
 .law-slide .flex-control-nav {
   width: 97%;
   height: 33px;
@@ -1672,12 +1712,12 @@ i.sscp {
   bottom: 0;
   z-index: 10000;
 }
-/* line 803, ../scss/style.scss */
+/* line 832, ../scss/style.scss */
 .law-slide .flex-control-nav li {
   display: inline;
   padding-right: 5px;
 }
-/* line 806, ../scss/style.scss */
+/* line 835, ../scss/style.scss */
 .law-slide .flex-control-nav li a {
   color: #c6c6c6;
   cursor: pointer;
@@ -1685,41 +1725,41 @@ i.sscp {
   font-family: "\5FAE\8F6F\96C5\9ED1";
   padding: 0 5px;
 }
-/* line 812, ../scss/style.scss */
+/* line 841, ../scss/style.scss */
 .law-slide .flex-control-nav li a.flex-active {
   font-size: 20px;
   color: #ff0;
 }
-/* line 816, ../scss/style.scss */
+/* line 845, ../scss/style.scss */
 .law-slide .flex-control-nav li a:hover {
   text-decoration: none;
 }
-/* line 822, ../scss/style.scss */
+/* line 851, ../scss/style.scss */
 .law-slide .flex-direction-nav {
   display: none;
 }
 
-/* line 826, ../scss/style.scss */
+/* line 855, ../scss/style.scss */
 .edu-slide {
   height: 286px;
 }
-/* line 828, ../scss/style.scss */
+/* line 857, ../scss/style.scss */
 .edu-slide .flexslider {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 833, ../scss/style.scss */
+/* line 862, ../scss/style.scss */
 .edu-slide .flexslider .flex-viewport {
   width: 295px;
   height: 286px;
 }
-/* line 836, ../scss/style.scss */
+/* line 865, ../scss/style.scss */
 .edu-slide .flexslider .flex-viewport li {
   height: 286px;
 }
-/* line 839, ../scss/style.scss */
+/* line 868, ../scss/style.scss */
 .edu-slide .flexslider .flex-viewport a {
   color: #555;
   font-size: 12px;
@@ -1732,7 +1772,7 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 850, ../scss/style.scss */
+/* line 879, ../scss/style.scss */
 .edu-slide .flex-control-nav {
   width: 97%;
   height: 29px;
@@ -1747,12 +1787,12 @@ i.sscp {
   bottom: 41px;
   z-index: 10000;
 }
-/* line 863, ../scss/style.scss */
+/* line 892, ../scss/style.scss */
 .edu-slide .flex-control-nav li {
   display: inline;
   padding-right: 5px;
 }
-/* line 866, ../scss/style.scss */
+/* line 895, ../scss/style.scss */
 .edu-slide .flex-control-nav li a {
   color: #000;
   cursor: pointer;
@@ -1760,26 +1800,26 @@ i.sscp {
   font-family: "\5FAE\8F6F\96C5\9ED1";
   padding: 0 5px;
 }
-/* line 872, ../scss/style.scss */
+/* line 901, ../scss/style.scss */
 .edu-slide .flex-control-nav li a.flex-active {
   font-size: 20px;
   color: #ff0;
 }
-/* line 876, ../scss/style.scss */
+/* line 905, ../scss/style.scss */
 .edu-slide .flex-control-nav li a:hover {
   text-decoration: none;
 }
-/* line 882, ../scss/style.scss */
+/* line 911, ../scss/style.scss */
 .edu-slide .flex-direction-nav {
   display: none;
 }
 
-/* line 887, ../scss/style.scss */
+/* line 916, ../scss/style.scss */
 .scroll-box {
   position: relative;
   margin: 12px 0 0;
 }
-/* line 890, ../scss/style.scss */
+/* line 919, ../scss/style.scss */
 .scroll-box .x-ward {
   display: block;
   width: 14px;
@@ -1788,26 +1828,26 @@ i.sscp {
   position: absolute;
   top: 55px;
 }
-/* line 898, ../scss/style.scss */
+/* line 927, ../scss/style.scss */
 .scroll-box .forward {
   left: 0;
   _left: -20px;
   background-position: 0 -112px;
 }
-/* line 902, ../scss/style.scss */
+/* line 931, ../scss/style.scss */
 .scroll-box .forward:hover {
   background-position: 0 -138px;
 }
-/* line 906, ../scss/style.scss */
+/* line 935, ../scss/style.scss */
 .scroll-box .backward {
   right: 0;
   background-position: 0 -164px;
 }
-/* line 909, ../scss/style.scss */
+/* line 938, ../scss/style.scss */
 .scroll-box .backward:hover {
   background-position: 0 -190px;
 }
-/* line 913, ../scss/style.scss */
+/* line 942, ../scss/style.scss */
 .scroll-box .scroll-img {
   width: 655px;
   height: 166px;
@@ -1815,13 +1855,13 @@ i.sscp {
   overflow: hidden;
   font-size: 18px;
 }
-/* line 919, ../scss/style.scss */
+/* line 948, ../scss/style.scss */
 .scroll-box .scroll-img ul {
   width: 1000px;
   height: 166px;
   line-height: 1;
 }
-/* line 923, ../scss/style.scss */
+/* line 952, ../scss/style.scss */
 .scroll-box .scroll-img ul li {
   float: left;
   display: inline;
@@ -1829,15 +1869,15 @@ i.sscp {
   height: 100%;
   margin: 0 13px;
 }
-/* line 929, ../scss/style.scss */
+/* line 958, ../scss/style.scss */
 .scroll-box .scroll-img ul li a {
   cursor: pointer;
 }
-/* line 931, ../scss/style.scss */
+/* line 960, ../scss/style.scss */
 .scroll-box .scroll-img ul li a:hover {
   color: #96001e;
 }
-/* line 934, ../scss/style.scss */
+/* line 963, ../scss/style.scss */
 .scroll-box .scroll-img ul li a span {
   font-size: 12px;
   display: block;
@@ -1849,20 +1889,20 @@ i.sscp {
   word-wrap: normal;
 }
 
-/* line 947, ../scss/style.scss */
+/* line 976, ../scss/style.scss */
 .edu-pic-slide {
   height: 298px;
   overflow: hidden;
 }
 
 /* list in col1 */
-/* line 953, ../scss/style.scss */
+/* line 982, ../scss/style.scss */
 .ft-head {
   height: 25px;
   margin: 0 0 5px;
   background: url(../images/gl/feature_bg.jpg) no-repeat;
 }
-/* line 957, ../scss/style.scss */
+/* line 986, ../scss/style.scss */
 .ft-head em {
   float: left;
   color: #fff;
@@ -1876,18 +1916,18 @@ i.sscp {
   text-shadow: 0 1px 0 #557499;
 }
 
-/* line 971, ../scss/style.scss */
+/* line 1000, ../scss/style.scss */
 .feature {
   border: 1px solid #d0d0d0;
   padding: 5px 5px 0;
 }
-/* line 974, ../scss/style.scss */
+/* line 1003, ../scss/style.scss */
 .feature .block {
   padding: 0 0 10px;
   overflow: hidden;
   position: relative;
 }
-/* line 978, ../scss/style.scss */
+/* line 1007, ../scss/style.scss */
 .feature .block .pic {
   width: 156px;
   height: 111px;
@@ -1896,74 +1936,74 @@ i.sscp {
   left: 0;
   top: 0;
 }
-/* line 986, ../scss/style.scss */
+/* line 1015, ../scss/style.scss */
 .feature .block .title, .feature .block p {
   padding-left: 162px;
 }
-/* line 989, ../scss/style.scss */
+/* line 1018, ../scss/style.scss */
 .feature .block .title {
   font-size: 14px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
 }
-/* line 992, ../scss/style.scss */
+/* line 1021, ../scss/style.scss */
 .feature .block .title a {
   color: #1e4d81;
   font-weight: bold;
 }
-/* line 997, ../scss/style.scss */
+/* line 1026, ../scss/style.scss */
 .feature .block p {
   color: #5a5a5a;
   font-size: 12px;
   text-indent: 1em;
 }
 
-/* line 1007, ../scss/style.scss */
+/* line 1036, ../scss/style.scss */
 .gl-col1 .gl-list-col1 a {
   color: #3b3b3b;
 }
-/* line 1009, ../scss/style.scss */
+/* line 1038, ../scss/style.scss */
 .gl-col1 .gl-list-col1 a:hover {
   color: #1e4d81;
 }
-/* line 1014, ../scss/style.scss */
+/* line 1043, ../scss/style.scss */
 .gl-col1 .gl-list-col1 .abstract a {
   color: #1e4d81;
 }
 
 /* list in col2 */
-/* line 1022, ../scss/style.scss */
+/* line 1051, ../scss/style.scss */
 .hero {
   height: 122px;
   margin: 0 0 9px;
   padding: 8px 0 9px;
   border-bottom: 2px solid #e8e8e8;
 }
-/* line 1027, ../scss/style.scss */
+/* line 1056, ../scss/style.scss */
 .hero h1 {
   margin: 0 0 5px 12px;
   font-size: 22px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
 }
-/* line 1032, ../scss/style.scss */
+/* line 1061, ../scss/style.scss */
 .hero h1 a:hover {
   color: #1E4D81;
 }
-/* line 1037, ../scss/style.scss */
+/* line 1066, ../scss/style.scss */
 .hero p {
   font-size: 12px;
   line-height: 27px;
   text-indent: 1em;
 }
-/* line 1041, ../scss/style.scss */
+/* line 1070, ../scss/style.scss */
 .hero p a {
   color: #686868;
 }
 
-/* line 1047, ../scss/style.scss */
+/* line 1076, ../scss/style.scss */
 .gl-list-col2, .gl-list {
   line-height: 27px;
 }
-/* line 1049, ../scss/style.scss */
+/* line 1078, ../scss/style.scss */
 .gl-list-col2 dd, .gl-list dd {
   height: 27px;
   width: 100%;
@@ -1973,35 +2013,35 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1054, ../scss/style.scss */
+/* line 1083, ../scss/style.scss */
 .gl-list-col2 dd a, .gl-list dd a {
   margin-left: 14px;
 }
-/* line 1056, ../scss/style.scss */
+/* line 1085, ../scss/style.scss */
 .gl-list-col2 dd a:hover, .gl-list dd a:hover {
   color: #1E4D81;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 1065, ../scss/style.scss */
+/* line 1094, ../scss/style.scss */
 .gl-col2 .jlr {
   margin: 11px 0 0;
   height: 205px;
 }
-/* line 1069, ../scss/style.scss */
+/* line 1098, ../scss/style.scss */
 .gl-col2 .jlr .abstract p {
   height: 80px;
 }
 
-/* line 1075, ../scss/style.scss */
+/* line 1104, ../scss/style.scss */
 .one-detail-of-list {
   margin: 10px 0 0;
   height: 108px;
   padding-left: 102px;
   position: relative;
 }
-/* line 1080, ../scss/style.scss */
+/* line 1109, ../scss/style.scss */
 .one-detail-of-list .figure {
   width: 94px;
   height: 94px;
@@ -2009,7 +2049,7 @@ i.sscp {
   left: 0;
   top: 3px;
 }
-/* line 1087, ../scss/style.scss */
+/* line 1116, ../scss/style.scss */
 .one-detail-of-list h3.title {
   margin: 0 0 5px;
   font-size: 16px;
@@ -2020,11 +2060,11 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1093, ../scss/style.scss */
+/* line 1122, ../scss/style.scss */
 .one-detail-of-list h3.title a {
   color: #1e4d81;
 }
-/* line 1097, ../scss/style.scss */
+/* line 1126, ../scss/style.scss */
 .one-detail-of-list p {
   color: #5a5a5a;
   font-size: 12px;
@@ -2032,35 +2072,35 @@ i.sscp {
   text-indent: 2em;
 }
 
-/* line 1105, ../scss/style.scss */
+/* line 1134, ../scss/style.scss */
 .m-schools {
   height: 201px;
   margin: 11px 0 0;
 }
-/* line 1108, ../scss/style.scss */
+/* line 1137, ../scss/style.scss */
 .m-schools h3 {
   margin: 0 0 6px;
   padding-left: 24px;
 }
-/* line 1111, ../scss/style.scss */
+/* line 1140, ../scss/style.scss */
 .m-schools h3 a {
   color: #1e4d81;
   font-size: 16px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
   font-weight: bold;
 }
-/* line 1115, ../scss/style.scss */
+/* line 1144, ../scss/style.scss */
 .m-schools p {
   color: #686868;
   font-size: 12px;
   text-indent: 2em;
   line-height: 2;
 }
-/* line 1121, ../scss/style.scss */
+/* line 1150, ../scss/style.scss */
 .m-schools .schools-list {
   line-height: 28px;
 }
-/* line 1123, ../scss/style.scss */
+/* line 1152, ../scss/style.scss */
 .m-schools .schools-list span {
   float: left;
   display: inline;
@@ -2071,13 +2111,13 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1129, ../scss/style.scss */
+/* line 1158, ../scss/style.scss */
 .m-schools .schools-list span a {
   margin-left: 22px;
 }
 
 /* list in col3 */
-/* line 1137, ../scss/style.scss */
+/* line 1166, ../scss/style.scss */
 .gl-list-col3, .gl-list-col1 {
   margin: 11px 0 0;
   padding: 5px 0 10px;
@@ -2085,7 +2125,7 @@ i.sscp {
   background: #fcfcfc;
   line-height: 2;
 }
-/* line 1144, ../scss/style.scss */
+/* line 1173, ../scss/style.scss */
 .gl-list-col3 dt a, .gl-list-col1 dt a {
   color: #1e4d81;
   font-size: 16px;
@@ -2093,7 +2133,7 @@ i.sscp {
   font-weight: bold;
   padding: 0 0 0 12px;
 }
-/* line 1149, ../scss/style.scss */
+/* line 1178, ../scss/style.scss */
 .gl-list-col3 dd, .gl-list-col1 dd {
   width: 100%;
   overflow: hidden;
@@ -2102,23 +2142,23 @@ i.sscp {
   word-wrap: normal;
   background: url(../images/2px_dot.jpg) 6px 14px no-repeat;
 }
-/* line 1153, ../scss/style.scss */
+/* line 1182, ../scss/style.scss */
 .gl-list-col3 dd a, .gl-list-col1 dd a {
   color: #1e4d81;
   font-size: 12px;
   margin-left: 15px;
 }
-/* line 1157, ../scss/style.scss */
+/* line 1186, ../scss/style.scss */
 .gl-list-col3 dd a:hover, .gl-list-col1 dd a:hover {
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 1166, ../scss/style.scss */
+/* line 1195, ../scss/style.scss */
 .gl-list-col3.xh {
   background: url(../images/ccma.png) 176px 7px no-repeat;
 }
-/* line 1169, ../scss/style.scss */
+/* line 1198, ../scss/style.scss */
 .gl-list-col3 .access {
   display: block;
   height: 23px;
@@ -2127,7 +2167,7 @@ i.sscp {
   padding: 35px 0 0 0;
   background: url(../images/gl/click_to_access.jpg) no-repeat;
 }
-/* line 1176, ../scss/style.scss */
+/* line 1205, ../scss/style.scss */
 .gl-list-col3 .access a {
   color: #fff;
   font-weight: bold;
@@ -2135,21 +2175,21 @@ i.sscp {
   float: left;
   margin-left: 8px;
 }
-/* line 1182, ../scss/style.scss */
+/* line 1211, ../scss/style.scss */
 .gl-list-col3 .access a b {
   color: #ef9117;
 }
-/* line 1185, ../scss/style.scss */
+/* line 1214, ../scss/style.scss */
 .gl-list-col3 .access a:hover {
   text-decoration: underline;
 }
 
 /* gl-list */
-/* line 1193, ../scss/style.scss */
+/* line 1222, ../scss/style.scss */
 .gl-list {
   margin: 17px 0 0;
 }
-/* line 1195, ../scss/style.scss */
+/* line 1224, ../scss/style.scss */
 .gl-list .enhance {
   font-size: 16px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
@@ -2157,40 +2197,40 @@ i.sscp {
   margin: 0 0 5px;
   background: none !important;
 }
-/* line 1201, ../scss/style.scss */
+/* line 1230, ../scss/style.scss */
 .gl-list .enhance a:hover {
   text-decoration: underline;
 }
-/* line 1205, ../scss/style.scss */
+/* line 1234, ../scss/style.scss */
 .gl-list .figure {
   height: 113px;
 }
-/* line 1207, ../scss/style.scss */
+/* line 1236, ../scss/style.scss */
 .gl-list .figure a {
   display: inline-block;
   margin: 5px 20px 0 0;
 }
-/* line 1210, ../scss/style.scss */
+/* line 1239, ../scss/style.scss */
 .gl-list .figure a img {
   vertical-align: bottom;
 }
 
-/* line 1219, ../scss/style.scss */
+/* line 1248, ../scss/style.scss */
 .abstract a.fl:hover {
   text-decoration: none;
 }
-/* line 1222, ../scss/style.scss */
+/* line 1251, ../scss/style.scss */
 .abstract a.fl img.fl {
   margin: 0 12px 0 3px;
 }
-/* line 1226, ../scss/style.scss */
+/* line 1255, ../scss/style.scss */
 .abstract h3 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1228, ../scss/style.scss */
+/* line 1257, ../scss/style.scss */
 .abstract h3 a {
   color: #1e4d81;
   font-size: 16px;
@@ -2199,14 +2239,14 @@ i.sscp {
   position: relative;
   top: -5px;
 }
-/* line 1234, ../scss/style.scss */
+/* line 1263, ../scss/style.scss */
 .abstract p {
   color: #686868;
   font-size: 12px;
   text-indent: 2em;
 }
 
-/* line 1241, ../scss/style.scss */
+/* line 1270, ../scss/style.scss */
 .book-list {
   height: 170px;
   margin: 11px 0 0;
@@ -2215,30 +2255,30 @@ i.sscp {
   border: 1px solid #ddd;
   overflow: hidden;
 }
-/* line 1248, ../scss/style.scss */
+/* line 1277, ../scss/style.scss */
 .book-list a {
   color: #3b3b3b;
 }
-/* line 1250, ../scss/style.scss */
+/* line 1279, ../scss/style.scss */
 .book-list a:hover {
   color: #1e4d81;
 }
-/* line 1253, ../scss/style.scss */
+/* line 1282, ../scss/style.scss */
 .book-list a.category {
   color: #1e4d81;
   font-weight: bold;
 }
-/* line 1258, ../scss/style.scss */
+/* line 1287, ../scss/style.scss */
 .book-list .bl {
   width: 500px;
   margin-left: -52px;
 }
-/* line 1262, ../scss/style.scss */
+/* line 1291, ../scss/style.scss */
 .book-list .books {
   height: 140px;
   margin: 0 0 5px;
 }
-/* line 1265, ../scss/style.scss */
+/* line 1294, ../scss/style.scss */
 .book-list .books img {
   float: left;
   width: 95px;
@@ -2246,107 +2286,107 @@ i.sscp {
   margin-left: 6px;
   border: 1px solid #7b7b7b;
 }
-/* line 1273, ../scss/style.scss */
+/* line 1302, ../scss/style.scss */
 .book-list p {
   width: 100%;
 }
 
-/* line 1278, ../scss/style.scss */
+/* line 1307, ../scss/style.scss */
 .pic-list {
   width: 355px;
   border-color: #85a3c4;
   background: #dadada;
 }
-/* line 1282, ../scss/style.scss */
+/* line 1311, ../scss/style.scss */
 .pic-list .books {
   background: #fff;
 }
-/* line 1284, ../scss/style.scss */
+/* line 1313, ../scss/style.scss */
 .pic-list .books img {
   margin-left: 15px;
 }
 
-/* line 1290, ../scss/style.scss */
+/* line 1319, ../scss/style.scss */
 .teacher-info {
   height: 100px;
   margin: 12px 0 -5px;
   overflow: hidden;
 }
-/* line 1294, ../scss/style.scss */
+/* line 1323, ../scss/style.scss */
 .teacher-info p {
   font-size: 12px;
   padding: 0 0 0 109px;
   line-height: 20px;
 }
-/* line 1298, ../scss/style.scss */
+/* line 1327, ../scss/style.scss */
 .teacher-info p .t-name {
   color: #006069;
 }
-/* line 1301, ../scss/style.scss */
+/* line 1330, ../scss/style.scss */
 .teacher-info p a {
   color: #6e6e6e;
 }
 
-/* line 1307, ../scss/style.scss */
+/* line 1336, ../scss/style.scss */
 .book-info {
   height: 145px;
   margin: 12px 0 0;
   overflow: hidden;
 }
-/* line 1311, ../scss/style.scss */
+/* line 1340, ../scss/style.scss */
 .book-info .book-desc {
   float: right;
   width: 183px;
   overflow: hidden;
 }
-/* line 1315, ../scss/style.scss */
+/* line 1344, ../scss/style.scss */
 .book-info .book-desc h3 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1317, ../scss/style.scss */
+/* line 1346, ../scss/style.scss */
 .book-info .book-desc h3 a {
   font-size: 14px;
   color: #000;
   font-weight: bold;
 }
-/* line 1321, ../scss/style.scss */
+/* line 1350, ../scss/style.scss */
 .book-info .book-desc h3 a:hover {
   color: #016f62;
 }
-/* line 1326, ../scss/style.scss */
+/* line 1355, ../scss/style.scss */
 .book-info .book-desc p {
   color: #585858;
   font-size: 13px;
   line-height: 20px;
 }
-/* line 1330, ../scss/style.scss */
+/* line 1359, ../scss/style.scss */
 .book-info .book-desc p.ti2 {
   text-indent: 2em;
 }
-/* line 1332, ../scss/style.scss */
+/* line 1361, ../scss/style.scss */
 .book-info .book-desc p.ti2 a {
   color: #585858;
 }
-/* line 1334, ../scss/style.scss */
+/* line 1363, ../scss/style.scss */
 .book-info .book-desc p.ti2 a:hover {
   color: #006f69;
 }
 
 /* law-list */
-/* line 1344, ../scss/style.scss */
+/* line 1373, ../scss/style.scss */
 .law-list, .edu-list-s, .edu-list {
   line-height: 28px;
   margin: 10px 0 0;
 }
-/* line 1347, ../scss/style.scss */
+/* line 1376, ../scss/style.scss */
 .law-list dd, .edu-list-s dd, .edu-list dd {
   width: 100%;
   background: url(../images/2px_dot_gray.jpg) 0 14px no-repeat;
 }
-/* line 1350, ../scss/style.scss */
+/* line 1379, ../scss/style.scss */
 .law-list dd a, .edu-list-s dd a, .edu-list dd a {
   display: block;
   font-size: 14px;
@@ -2356,11 +2396,11 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1355, ../scss/style.scss */
+/* line 1384, ../scss/style.scss */
 .law-list dd a:hover, .edu-list-s dd a:hover, .edu-list dd a:hover {
   color: #96001e;
 }
-/* line 1360, ../scss/style.scss */
+/* line 1389, ../scss/style.scss */
 .law-list .interaction, .edu-list-s .interaction, .edu-list .interaction {
   display: block;
   height: 92px;
@@ -2368,31 +2408,31 @@ i.sscp {
   *margin-left: -8px;
 }
 
-/* line 1368, ../scss/style.scss */
+/* line 1397, ../scss/style.scss */
 .edu-list-s dd a:hover,
 .edu-list dd a:hover {
   color: #006f64;
 }
 
-/* line 1372, ../scss/style.scss */
+/* line 1401, ../scss/style.scss */
 .law-news {
   height: 308px;
   overflow: hidden;
 }
-/* line 1375, ../scss/style.scss */
+/* line 1404, ../scss/style.scss */
 .law-news dd {
   height: 52px;
   margin: 0 0 12px;
   background: #dde6e9;
 }
-/* line 1379, ../scss/style.scss */
+/* line 1408, ../scss/style.scss */
 .law-news dd a {
   color: #2f3942;
   display: block;
   padding: 6px 0 0 39px;
   position: relative;
 }
-/* line 1384, ../scss/style.scss */
+/* line 1413, ../scss/style.scss */
 .law-news dd a i {
   display: block;
   font-size: 0;
@@ -2405,41 +2445,61 @@ i.sscp {
   top: 14px;
   *top: 10px;
 }
-/* line 1395, ../scss/style.scss */
+/* line 1424, ../scss/style.scss */
 .law-news dd a i.num1 {
   background-position: 0 0;
 }
-/* line 1396, ../scss/style.scss */
+/* line 1425, ../scss/style.scss */
 .law-news dd a i.num2 {
   background-position: 0 -26px;
 }
-/* line 1397, ../scss/style.scss */
+/* line 1426, ../scss/style.scss */
 .law-news dd a i.num3 {
   background-position: 0 -52px;
 }
-/* line 1398, ../scss/style.scss */
+/* line 1427, ../scss/style.scss */
 .law-news dd a i.num4 {
   background-position: 0 -78px;
 }
-/* line 1399, ../scss/style.scss */
+/* line 1428, ../scss/style.scss */
 .law-news dd a i.num5 {
   background-position: 0 -104px;
 }
-/* line 1401, ../scss/style.scss */
+/* line 1430, ../scss/style.scss */
 .law-news dd a:hover {
   font-weight: bold;
   text-decoration: none;
 }
-/* line 1404, ../scss/style.scss */
+/* line 1433, ../scss/style.scss */
 .law-news dd a:hover i {
   background-position-x: -26px;
 }
 
-/* line 1411, ../scss/style.scss */
+/* line 1440, ../scss/style.scss */
 .phi-list {
   line-height: 30px;
 }
-/* line 1413, ../scss/style.scss */
+/* line 1442, ../scss/style.scss */
+.phi-list dt {
+  color: #608f9f;
+  font-size: 16px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  padding: 0 0 8px 9px;
+}
+/* line 1447, ../scss/style.scss */
+.phi-list dt a {
+  color: #608f9f;
+}
+/* line 1449, ../scss/style.scss */
+.phi-list dt a:hover, .phi-list dt a.on {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* line 1454, ../scss/style.scss */
+.phi-list dt span {
+  margin: 0 5px;
+}
+/* line 1458, ../scss/style.scss */
 .phi-list dd {
   height: 30px;
   width: 100%;
@@ -2449,28 +2509,28 @@ i.sscp {
   word-wrap: normal;
   background: url(../images/philosophy/6px_dot_yellow.jpg) 10px 13px no-repeat;
 }
-/* line 1418, ../scss/style.scss */
+/* line 1463, ../scss/style.scss */
 .phi-list dd a {
   margin-left: 23px;
 }
-/* line 1420, ../scss/style.scss */
+/* line 1465, ../scss/style.scss */
 .phi-list dd a:hover {
   color: #2670a6;
   text-decoration: none;
 }
 
 /* law-top-slide */
-/* line 1429, ../scss/style.scss */
+/* line 1474, ../scss/style.scss */
 .law-top-slide {
   height: 308px;
 }
 
-/* line 1433, ../scss/style.scss */
+/* line 1478, ../scss/style.scss */
 .law-sermon, .edu-observe {
   height: 223px;
   overflow: hidden;
 }
-/* line 1436, ../scss/style.scss */
+/* line 1481, ../scss/style.scss */
 .law-sermon .ls-box, .edu-observe .ls-box {
   height: 95px;
   margin: 16px 0 0;
@@ -2478,7 +2538,7 @@ i.sscp {
   overflow: visible;
   position: relative;
 }
-/* line 1442, ../scss/style.scss */
+/* line 1487, ../scss/style.scss */
 .law-sermon .ls-box .pic, .edu-observe .ls-box .pic {
   width: 90px;
   height: 95px;
@@ -2487,7 +2547,7 @@ i.sscp {
   left: 0;
   top: 0;
 }
-/* line 1450, ../scss/style.scss */
+/* line 1495, ../scss/style.scss */
 .law-sermon .ls-box h2, .edu-observe .ls-box h2 {
   width: 100%;
   line-height: 1;
@@ -2497,59 +2557,59 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1455, ../scss/style.scss */
+/* line 1500, ../scss/style.scss */
 .law-sermon .ls-box h2 a, .edu-observe .ls-box h2 a {
   color: #000;
   font-weight: bold;
 }
-/* line 1460, ../scss/style.scss */
+/* line 1505, ../scss/style.scss */
 .law-sermon .ls-box p, .edu-observe .ls-box p {
   color: #585858;
   line-height: 25px;
 }
 
-/* line 1466, ../scss/style.scss */
+/* line 1511, ../scss/style.scss */
 .edu-observe {
   height: 196px;
 }
-/* line 1468, ../scss/style.scss */
+/* line 1513, ../scss/style.scss */
 .edu-observe .ls-box {
   height: 77px;
   margin: 12px 0 0;
   padding: 0 0 0 87px;
 }
-/* line 1472, ../scss/style.scss */
+/* line 1517, ../scss/style.scss */
 .edu-observe .ls-box .pic {
   width: 77px;
   height: 76px;
   overflow: hidden;
 }
-/* line 1477, ../scss/style.scss */
+/* line 1522, ../scss/style.scss */
 .edu-observe .ls-box h2 {
   margin: 0 0 6px;
 }
-/* line 1480, ../scss/style.scss */
+/* line 1525, ../scss/style.scss */
 .edu-observe .ls-box p {
   font-size: 13px;
   line-height: 20px;
   text-indent: 2em;
 }
-/* line 1484, ../scss/style.scss */
+/* line 1529, ../scss/style.scss */
 .edu-observe .ls-box p a {
   color: #585858;
 }
 
-/* line 1491, ../scss/style.scss */
+/* line 1536, ../scss/style.scss */
 .colligate-box {
   height: 228px;
   overflow: hidden;
   position: relative;
 }
-/* line 1495, ../scss/style.scss */
+/* line 1540, ../scss/style.scss */
 .colligate-box .law-list {
   padding-left: 98px;
 }
-/* line 1498, ../scss/style.scss */
+/* line 1543, ../scss/style.scss */
 .colligate-box .corpus_author {
   color: #155f82;
   cursor: pointer;
@@ -2560,7 +2620,7 @@ i.sscp {
   top: 14px;
   left: 0;
 }
-/* line 1507, ../scss/style.scss */
+/* line 1552, ../scss/style.scss */
 .colligate-box .corpus_author span {
   font-weight: bold;
   display: block;
@@ -2570,13 +2630,13 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1514, ../scss/style.scss */
+/* line 1559, ../scss/style.scss */
 .colligate-box .corpus {
   width: 330px;
   line-height: 20px;
   margin: 7px 0 0;
 }
-/* line 1518, ../scss/style.scss */
+/* line 1563, ../scss/style.scss */
 .colligate-box .corpus a {
   font-size: 12px;
   float: left;
@@ -2589,11 +2649,11 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1526, ../scss/style.scss */
+/* line 1571, ../scss/style.scss */
 .colligate-box .corpus a:hover {
   font-weight: bold;
 }
-/* line 1531, ../scss/style.scss */
+/* line 1576, ../scss/style.scss */
 .colligate-box h3 {
   width: 100%;
   overflow: hidden;
@@ -2601,21 +2661,21 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1534, ../scss/style.scss */
+/* line 1579, ../scss/style.scss */
 .colligate-box h3 a {
   font-size: 16px;
   font-weight: bold;
   font-family: "\5B8B\4F53";
 }
-/* line 1538, ../scss/style.scss */
+/* line 1583, ../scss/style.scss */
 .colligate-box h3 a:hover {
   color: #96001e;
 }
-/* line 1543, ../scss/style.scss */
+/* line 1588, ../scss/style.scss */
 .colligate-box .cb-a {
   line-height: 28px;
 }
-/* line 1545, ../scss/style.scss */
+/* line 1590, ../scss/style.scss */
 .colligate-box .cb-a dd {
   width: 100%;
   overflow: hidden;
@@ -2623,48 +2683,48 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1549, ../scss/style.scss */
+/* line 1594, ../scss/style.scss */
 .colligate-box .cb-a dd a:hover {
   color: #96001e;
 }
 
-/* line 1557, ../scss/style.scss */
+/* line 1602, ../scss/style.scss */
 .edu-col2 .colligate-box h3 a {
   color: #000;
 }
 
-/* line 1558, ../scss/style.scss */
+/* line 1603, ../scss/style.scss */
 .edu-col2 .colligate-box h3 a:hover {
   color: #006f63;
 }
 
-/* line 1559, ../scss/style.scss */
+/* line 1604, ../scss/style.scss */
 .edu-col2 .colligate-box .cb-a dd a:hover {
   color: #006f69;
 }
 
 /* edu-list */
-/* line 1563, ../scss/style.scss */
+/* line 1608, ../scss/style.scss */
 .edu-list-s dd {
   background: url(../images/edu/6px_dot_green.jpg) 0 12px no-repeat !important;
 }
-/* line 1565, ../scss/style.scss */
+/* line 1610, ../scss/style.scss */
 .edu-list-s dd a {
   padding-left: 13px !important;
 }
 
-/* line 1570, ../scss/style.scss */
+/* line 1615, ../scss/style.scss */
 .edu-list {
   margin: 5px 0 0;
 }
 
 /* footer set */
-/* line 1575, ../scss/style.scss */
+/* line 1620, ../scss/style.scss */
 .footer {
   width: 1000px;
   margin: 6px 0 0;
 }
-/* line 1578, ../scss/style.scss */
+/* line 1623, ../scss/style.scss */
 .footer .ft-gap {
   font-size: 0;
   width: 100%;
@@ -2674,13 +2734,13 @@ i.sscp {
   border-width: 2px 0 6px;
   background: #fff;
 }
-/* line 1587, ../scss/style.scss */
+/* line 1632, ../scss/style.scss */
 .footer .rel-link {
   padding: 3px 0 3px 5px;
   border: 1px solid #ddd;
   border-color: #f2f2f2 #ddd;
 }
-/* line 1591, ../scss/style.scss */
+/* line 1636, ../scss/style.scss */
 .footer .rel-link h3 {
   font-size: 17px;
   font-weight: bold;
@@ -2688,31 +2748,31 @@ i.sscp {
   font-family: "\5FAE\8F6F\96C5\9ED1";
   width: 100%;
 }
-/* line 1598, ../scss/style.scss */
+/* line 1643, ../scss/style.scss */
 .footer .rel-link div {
   width: 100%;
   line-height: 22px;
 }
-/* line 1602, ../scss/style.scss */
+/* line 1647, ../scss/style.scss */
 .footer .rel-link a {
   color: #595757;
   float: left;
   margin-right: 15px;
   white-space: nowrap;
 }
-/* line 1609, ../scss/style.scss */
+/* line 1654, ../scss/style.scss */
 .footer .ft-link {
   color: #3b3b3b;
   padding: 10px 0 10px 6px;
   border-bottom: 1px solid #f2f2f2;
 }
-/* line 1614, ../scss/style.scss */
+/* line 1659, ../scss/style.scss */
 .footer .copyright {
   color: #393939;
   text-align: center;
   padding: 5px 0 15px;
 }
-/* line 1618, ../scss/style.scss */
+/* line 1663, ../scss/style.scss */
 .footer .copyright .statement {
   display: inline-block;
   height: 44px;
@@ -2720,13 +2780,13 @@ i.sscp {
   padding: 0 0 0 40px;
   position: relative;
 }
-/* line 1624, ../scss/style.scss */
+/* line 1669, ../scss/style.scss */
 .footer .copyright .statement i {
   position: absolute;
   left: 0;
   top: 0;
 }
-/* line 1629, ../scss/style.scss */
+/* line 1674, ../scss/style.scss */
 .footer .copyright .statement .st {
   color: #015daa;
   display: block;
@@ -2735,62 +2795,62 @@ i.sscp {
 }
 
 /* global cascading style */
-/* line 1640, ../scss/style.scss */
+/* line 1685, ../scss/style.scss */
 .gl-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1641, ../scss/style.scss */
+/* line 1686, ../scss/style.scss */
 .gl-wrapper .footer .rel-link a:hover {
   color: #005dab;
 }
 
-/* line 1642, ../scss/style.scss */
+/* line 1687, ../scss/style.scss */
 .law-wrapper .footer .rel-link h3 {
   color: #2f3942;
 }
 
-/* line 1645, ../scss/style.scss */
+/* line 1690, ../scss/style.scss */
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15 {
   color: #96001e !important;
 }
 
-/* line 1646, ../scss/style.scss */
+/* line 1691, ../scss/style.scss */
 .law-wrapper .law-sermon p a {
   color: #585858;
 }
 
-/* line 1647, ../scss/style.scss */
+/* line 1692, ../scss/style.scss */
 .edu-wrapper .footer .rel-link h3 {
   color: #006069;
 }
 
-/* line 1650, ../scss/style.scss */
+/* line 1695, ../scss/style.scss */
 .edu-wrapper .footer .rel-link a:hover,
 .edu-wrapper .edu-observe h2 a:hover,
 .edu-wrapper .edu-observe a:hover .c15 {
   color: #006f63 !important;
 }
 
-/* line 1651, ../scss/style.scss */
+/* line 1696, ../scss/style.scss */
 .phi-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1652, ../scss/style.scss */
+/* line 1697, ../scss/style.scss */
 .phi-wrapper .footer .rel-link a:hover {
   color: #2670a6;
   text-decoration: none;
 }
 
-/* line 1653, ../scss/style.scss */
+/* line 1698, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div {
   line-height: 24px;
   padding-left: 5px;
 }
-/* line 1653, ../scss/style.scss */
+/* line 1698, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div a {
   margin-right: 8px;
 }

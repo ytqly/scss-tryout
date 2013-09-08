@@ -663,6 +663,35 @@
 	}
 }
 
+.phi-head{
+	height: 33px;
+	background: url(../images/philosophy/phi_h2_bg.jpg) left bottom repeat-x;
+	a.more{
+		color: #8e8e8e;
+		float: right;
+		font-family: Arial, sans-serif;
+		font-size: 18px;
+		&:hover{
+			color: #014d67;
+			text-decoration: none;
+		}
+	}
+	span{
+		float: left;
+		font-size: 18px;
+		font-family: $msyh;
+		font-weight: bold;
+		text-indent: 3px;
+		a{
+			color: #014d67;
+			&:hover{
+				color: #00fff0;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
 /* pictures slide */
 .gl-slide,.phi-slide{
 	height: 292px;
@@ -1410,6 +1439,22 @@
 }
 .phi-list{
 	line-height: 30px;
+	dt{
+		color: #608f9f;
+		font-size: 16px;
+		font-family: $msyh;
+		padding: 0 0 8px 9px;
+		a{
+			color: #608f9f;
+			&:hover,&.on{
+				font-weight: bold;
+				text-decoration: underline;
+			}
+		}
+		span{
+			margin: 0 5px;
+		}
+	}
 	dd{
 		height: 30px;
 		width: 100%;
