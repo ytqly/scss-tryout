@@ -25,18 +25,13 @@ $(function(){
 	  $('#box-scrolling').trigger('forward');
 	});
 
-	//教育学tabs切换
+	//教育(哲)学tabs切换
 	$('.edu-head3-switcher a.item').click(function() {
 		$(this).parent().find('.on').removeClass('on');
 		$(this).addClass('on');
 		return false;
 	});
-	$('.eh2 a').click(function() {
-		$(this).parent().find('.on').removeClass('on');
-		$(this).addClass('on');
-		return false;
-	});
-	$('.eh4 a').click(function() {
+	$('.eh2 a, eh2 a, .sub-head a').click(function() {
 		$(this).parent().find('.on').removeClass('on');
 		$(this).addClass('on');
 		return false;

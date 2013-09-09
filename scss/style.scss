@@ -663,7 +663,7 @@
 	}
 }
 
-.phi-head{
+.phi-head,.phi-head2{
 	height: 33px;
 	background: url(../images/philosophy/phi_h2_bg.jpg) left bottom repeat-x;
 	a.more{
@@ -689,6 +689,24 @@
 				text-decoration: none;
 			}
 		}
+	}
+}
+.phi-head2{
+	height: 32px;
+	overflow: visible;
+	background: url(../images/philosophy/phi_h2_bg_sidebar_blue.jpg) left bottom repeat-x;
+	a.more{
+		margin-right: 5px;
+	}
+	span{
+		text-indent: 0;
+		height: 27px;
+		line-height: 30px;
+		padding: 0 8px;
+		overflow: hidden;
+		border-bottom: 5px solid #608f9f;
+		position: relative;
+		bottom: -1px;
 	}
 }
 
@@ -1439,7 +1457,7 @@
 }
 .phi-list{
 	line-height: 30px;
-	dt{
+	dt.sub-head{
 		color: #608f9f;
 		font-size: 16px;
 		font-family: $msyh;
@@ -1457,15 +1475,84 @@
 	}
 	dd{
 		height: 30px;
-		width: 100%;
-		@include crop;
+		padding-left: 23px;
 		background: url(../images/philosophy/6px_dot_yellow.jpg) 10px 13px no-repeat;
 		a{
-			margin-left: 23px;
+			float: left;
+			width: 100%;
+			@include crop;
 			&:hover{
 				color: #2670a6;
 				text-decoration: none;
 			}
+		}
+	}
+}
+.phi-list2{
+	line-height: 24px;
+	dd{
+		height: 24px;
+		padding-left: 12px;
+		background: url(../images/2px_dot_gray.jpg) 5px 11px no-repeat;
+		a{
+			float: left;
+			width: 100%;
+			@include crop;
+			&:hover{
+				color: #2670a6;
+				text-decoration: none;
+			}
+		}
+	}
+}
+.phi-box{
+	border: 1px solid #e1e1e1;
+	.special-column{
+		font-size: 12px;
+		font-family: $st;
+		line-height: 24px;
+		padding: 6px 3px 10px;
+		a{
+			&:hover{
+				color: #2670a6;
+				text-decoration: none;
+			}
+		}
+		.figure{
+			float: left;
+			width: 138px;
+			height: 106px;
+			margin-right: 5px;
+			position: relative;
+		}
+		.sec{
+			height: 115px;
+			line-height: 21px;
+		}
+	}
+	h3.title{
+		margin: 10px 10px 0;
+		text-align: center;
+		a{
+			font-weight: bold;
+			&:hover{
+				color: #246ba3;
+				text-decoration: none;
+			}
+		}
+	}
+	.detail{
+		color: #7e7e7e;
+		font-size: 12px;
+		font-family: $st;
+		line-height: 24px;
+		margin: 0 20px;
+		text-indent: 2em;
+		.readMore{
+			&:hover{
+				color: #246ba3;
+				text-decoration: none;
+			}	
 		}
 	}
 }
