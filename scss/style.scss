@@ -662,7 +662,71 @@
 		}
 	}
 }
-
+.phi-head-top{
+	height: 26px;
+	border-bottom: 1px solid #e2e2e2;
+	position: relative;
+	span{
+		display: block;
+		height: 25px;
+		border-bottom: 1px solid #f5f5f5;
+		a.more{
+			float: right;
+			font-size: 14px;
+			font-family: $msyh;
+			margin: 5px 0 0;
+			&:hover{
+				color: #2672a6;
+				text-decoration: none;
+			}
+		}
+		a.title{
+			color: #fff;
+			font-size: 16px;
+			font-family: $msyh;
+			display: block;
+			height: 26px;
+			line-height: 26px;
+			padding: 0 5px;
+			background: #9a0000;
+			position: absolute;
+			top: 0;
+			left: 0;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+}
+.hot-detail{
+	margin: 0 0 8px;
+	.phi-sub-title{
+		height: 24px;
+		margin: 15px 0 2px;
+		text-align: center;
+		@include crop;
+		a{
+			color: #18405d;
+			font-size: 16px;
+			font-family: $msyh;
+			&:hover{
+				color: #2670a6;
+				text-decoration: none;
+			}
+		}
+	}
+	p{
+		color: #7e7e7e;
+		line-height: 30px;
+		text-indent: 2em;
+		.read-all{
+			&:hover{
+				color: #fb7217;
+				text-decoration: none;
+			}
+		}
+	}
+}
 .phi-head,.phi-head2{
 	height: 33px;
 	background: url(../images/philosophy/phi_h2_bg.jpg) left bottom repeat-x;
@@ -694,11 +758,12 @@
 .phi-head2{
 	height: 32px;
 	overflow: visible;
-	background: url(../images/philosophy/phi_h2_bg_sidebar_blue.jpg) left bottom repeat-x;
+	background: url(../images/philosophy/phi_h2_bg_sidebar_blue.jpg) 0 30px repeat-x;
 	a.more{
 		margin-right: 5px;
 	}
 	span{
+		font-size: 16px;
 		text-indent: 0;
 		height: 27px;
 		line-height: 30px;
@@ -707,6 +772,46 @@
 		border-bottom: 5px solid #608f9f;
 		position: relative;
 		bottom: -1px;
+	}
+}
+.phi-head3{
+	height: 26px;
+	background: url(../images/philosophy/phi_h2_bg_sidebar_gray.jpg) left bottom repeat-x;
+	span{
+		float: left;
+		font-size: 16px;
+		font-family: $msyh;
+		height: 26px;
+		line-height: 22px;
+		padding: 0 2px 0 11px;
+		background: url(../images/philosophy/phi_h2_bg_sidebar_blue.jpg) left bottom repeat-x;
+		a{
+			color: #18405d;
+			&:hover{
+				color: #00fff0;
+				text-decoration: none;
+			}
+			b{
+				font-size: 18px;
+				padding-left: 5px;
+			}
+		}
+	}
+}
+.phi-head4{
+	height: 29px;
+	line-height: 29px;
+	padding-left: 5px;
+	background: url(../images/philosophy/phi_h2_lt_bg.jpg) left bottom no-repeat;
+	a{
+		color: #2871a7;
+		font-size: 16px;
+		font-family: $msyh;
+		font-weight: bold;
+		&:hover{
+			color: #00fff0;
+			text-decoration: none;
+		}
 	}
 }
 
@@ -1505,7 +1610,41 @@
 		}
 	}
 }
+.phi-col1{
+	.phi-list2{
+		dd{
+			font-size: 12px;
+		}
+	}
+}
+.phi-list3{
+	line-height: 30px;
+	dd{
+		height: 30px;
+		padding-left: 20px;
+		background: url(../images/philosophy/3px_dot_blue.jpg) 10px 14px no-repeat;
+		&.even{
+			font-weight: bold;
+		}
+		a{
+			float: left;
+			width: 100%;
+			@include crop;
+			&:hover{
+				color: #2670a6;
+				text-decoration: none;
+			}
+		}
+	}
+}
 .phi-box{
+	.phi-list{
+		line-height: 26px;
+		dd{
+			height: 27px;
+			background-position: 10px 10px;
+		}
+	}
 	border: 1px solid #e1e1e1;
 	padding-bottom: 6px;
 	.special-column{
@@ -1526,11 +1665,13 @@
 			margin-right: 5px;
 			position: relative;
 			span{
+				cursor: pointer;
 				color: #fff;
 				width: 100%;
 				height: 21px;
 				@include crop;
 				background: rgba(65,122,141,.67);
+				_background: #325966;
 				position: absolute;
 				left: 0;
 				bottom: 0;
@@ -1545,6 +1686,7 @@
 		margin: 10px 12px 0;
 		text-align: center;
 		a{
+			color: #111;
 			font-weight: bold;
 			&:hover{
 				color: #246ba3;
@@ -1572,6 +1714,7 @@
 		a{
 			float: left;
 			margin: 0 4px;
+			white-space: nowrap;
 			&:hover{
 				color: #2670a6;
 				text-decoration: none;
@@ -1630,7 +1773,7 @@
 	}
 }
 .phi-books{
-	margin-right: -10px;
+	width: 110%;
 	padding-top: 13px;
 	a{
 		font-size: 14px;
@@ -1646,6 +1789,7 @@
 			padding: 1px;
 			border: 1px solid #fff;
 			margin-bottom: -6px;
+			_margin-bottom: 0;
 		}
 		&:hover{
 			color: #3171b9;
