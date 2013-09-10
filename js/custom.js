@@ -24,6 +24,13 @@ $(function(){
 	$('#backward').click(function () {
 	  $('#box-scrolling').trigger('forward');
 	});
+	$('#bl').scrollbox({
+		direction: 'h',
+		switchItems: 3,
+		distance: 339,
+		linear: true,
+		delay: 0
+	});
 
 	//教育(哲)学tabs切换
 	$('.edu-head3-switcher a.item').click(function() {
@@ -31,7 +38,7 @@ $(function(){
 		$(this).addClass('on');
 		return false;
 	});
-	$('.eh2 a, eh2 a, .sub-head a').click(function() {
+	$('.eh2 a, .eh4 a, .sub-head a').click(function() {
 		$(this).parent().find('.on').removeClass('on');
 		$(this).addClass('on');
 		return false;

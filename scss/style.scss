@@ -213,7 +213,7 @@
 	.mn{
 		height: 24px;
 		line-height: 24px;
-		padding: 6px 15px 0 10px;
+		padding: 6px 0 0 10px;
 		span{
 			margin: 0 5px;
 		}
@@ -391,6 +391,14 @@
 			top: -2px;
 			right: -2px;
 		}
+		&:hover{
+			color: #fff;
+			border-color: $c-96;
+			background: $c-96;
+			.r{
+				background-position: 0 -60px;
+			}
+		}
 	}
 }
 .law-head-switcher,.law-head2-switcher{
@@ -558,13 +566,18 @@
 	border-top: 1px solid #96c84f;
 	border-bottom: 1px solid #d0cfcf;
 	span{
-		color: $c-00;
 		float: left;
 		font-size: 16px;
 		font-family: $msyh;
 		font-weight: bold;
 		padding: 2px 3px 0 2px;
 		border-top: 2px solid #96c84f;
+		a{
+			color: $c-00;
+			&:hover{
+				text-decoration: none;
+			}
+		}
 	}
 	em{
 		color: #96c84f;
@@ -691,6 +704,7 @@
 			background: #9a0000;
 			position: absolute;
 			top: 0;
+			_top: 1px;
 			left: 0;
 			&:hover{
 				text-decoration: none;
@@ -987,6 +1001,7 @@
 			height: 286px;
 			li{
 				height: 286px;
+				text-align: center;
 			}
 			a{
 				color: #555;
@@ -1187,12 +1202,10 @@
 		}
 	}
 	p{
+		color: #686868;
 		font-size: 12px;
 		line-height: 27px;
 		text-indent: 1em;
-		a{
-			color: #686868;
-		}
 	}
 }
 
@@ -1316,21 +1329,33 @@
 
 .gl-list-col3{
 	&.xh{
-		background: url(../images/ccma.png) 176px 7px no-repeat;
+		background: url(../images/ccma.jpg) 176px 7px no-repeat;
+		position: relative;
+		.ccma{
+			display: block;
+			width: 97px;
+			height: 97px;
+			position: absolute;
+			top: 7px;
+			right: 7px;
+			z-index: 10000;
+		}
 	}
 	.access{
 		display: block;
-		height: 23px;
+		height: 57px;
 		line-height: 23px;
 		margin: 20px 0 0;
-		padding: 35px 0 0 0;
 		background: url(../images/gl/click_to_access.jpg) no-repeat;
 		a{
 			color: #fff;
+			display: block;
+			cursor: pointer;
 			font-weight: bold;
 			font-size: 12px;
-			float: left;
-			margin-left: 8px;
+			padding: 35px 0 0 8px;
+			_margin-left: 0;
+			_width: 272px;
 			b{
 				color: #ef9117;
 			}
@@ -1408,8 +1433,9 @@
 		}
 	}
 	.bl{
-		width: 500px;
-		margin-left: -52px;
+		width: 355px;
+		height: 140px;
+		overflow: hidden;
 	}
 	.books{
 		height: 140px;
@@ -1432,9 +1458,18 @@
 	border-color: #85a3c4;
 	background: #dadada;
 	.books{
+		width: 2000px;
 		background: #fff;
-		img{
-			margin-left: 15px;
+		li{
+			float: left;
+			display: inline;
+			a{
+				float: left;
+				margin-left: 16px;
+				img{
+					margin-left: 0;
+				}
+			}
 		}
 	}
 }
