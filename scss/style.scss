@@ -272,6 +272,36 @@
 	}
 }
 
+.plan-main-nav{
+	height: 27px;
+	line-height: 27px;
+	margin: 8px 0 16px;
+	border: 1px solid #4d505d;
+	background: url(../images/plan/plan_main_nav_bg.jpg) 0 0 repeat-x;
+	.lt{
+		float: left;
+		width: 30px;
+		height: 27px;
+		background: url(../images/plan/plan_main_nav_lt_bg.jpg) 0 0 no-repeat;
+	}
+	.mn{
+		float: right;
+		margin-right: 30px;
+		a{
+			float: left;
+			margin-right: 10px;
+			padding: 0 5px;
+			color: #fff;
+			font-size: 14px;
+			font-family: $msyh;
+			&:hover{
+				text-decoration: none;
+				background: url(../images/plan/plan_main_nav_bg.jpg) 0 -27px repeat-x;
+			}
+		}
+	}
+}
+
 /* title set */
 .gl-head,.gl-head2{
     height: 25px;
