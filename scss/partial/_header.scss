@@ -1,0 +1,138 @@
+/* top header */
+.header{
+	height: 72px;
+	padding: 2px;
+	border: 1px solid #ddd;
+	.top-nav{
+		color: #fff;
+		font-size: 12px;
+		height: 24px;
+		padding: 0 7px;
+		background: #005dab;
+		a{
+			color: #fff;
+			display: inline-block;
+		}
+		span{
+			margin: 3px 0 0;
+			&.fr{
+				a{
+					float: left;
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+	.sub-nav{
+		float: left;
+		width: 650px;
+		padding: 5px 0 0 5px;
+		a,span{
+			float: left;
+			color: #595757;
+			font-family: $msyh;
+		}
+		a{
+			text-decoration: none;
+			&:hover{
+				color: #005dab;
+				font-weight: bold;
+			}
+		}
+		span{
+			margin: 0 9px;
+		}
+	}
+	.access-sets{
+		float: right;
+		width: 336px;
+		height: 44px;
+		padding: 6px 2px 0 0;
+		font-family: $msyh;
+		text-align: right;
+		position: relative;
+		i{
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 8px;
+			background: url(../images/sprites.jpg) no-repeat;
+			&.Sa{
+				width: 32px;
+				height: 24px;
+				background-position: -40px -2px;
+				position: absolute;
+				top: 4px;
+				left: 36px;
+			}
+			&.data{
+				width: 14px;
+				height: 17px;
+				background-position: -36px -35px;
+			}
+			&.pictures{
+				width: 17px;
+				height: 17px;
+				background-position: -51px -35px;
+			}
+			&.rss{
+				width: 19px;
+				height: 17px;
+				background-position: -69px -35px;
+			}
+			&.book{
+				width: 18px;
+				height: 17px;
+				background-position: -88px -35px;
+			}
+		}
+		p{
+			a{
+				color: $c-1e;
+			}
+			span{
+				display: inline-block;
+				margin: 0 10px;
+			}
+		}
+	}
+}
+
+.logo-search{
+	height: 58px;
+	margin: 12px 0 0;
+	.logo{
+		float: left;
+		height: 54px;
+		margin: 3px 40px 0 0;
+		span{
+			display: none;
+			visibility: hidden;
+		}
+	}
+	.top-banner{
+		float: left;
+	}
+	form{
+		float: right;
+		width: 262px;
+		height: 22px;
+		padding: 36px 0 0;
+		.enter-keyword{
+			float: right;
+			width: 210px;
+			height: 14px;
+			font-size: 14px;
+			padding: 3px;
+			border: 1px solid #ddd;
+		}
+		.submit-btn{
+			float: right;
+			cursor: pointer;
+			width: 22px;
+			height: 22px;
+			margin-left: 8px;
+			border: none;
+			background: url(../images/sprites.jpg) -74px -3px no-repeat;
+		}
+	}
+}

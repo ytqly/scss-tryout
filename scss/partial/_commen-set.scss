@@ -65,11 +65,14 @@ i.sprites{display: inline-block; text-indent: -9999px; background: url(../images
 i.sscp{width: 34px; height: 44px; background-position: 0 0;}
 
 /* layout */
+.wrapper{width: 1000px; margin: 0 auto; word-break: break-all;}
 .row,.ad-banner{width: 1000px; clear: both;}
 .ad-banner{margin: 22px 0;a{display: block;}}
-.gl-col1,.gl-col2,.law-col1,.law-col2,.law-col1-2,.edu-col1,.edu-col2,.phi-col1,.phi-col2,.phi-col1-2{float: left; overflow: hidden;}
-.gl-col3,.law-col3,.edu-col3,.phi-col3{float: right; overflow: hidden;}
+.g-box{border: 1px solid #d7d7d7;}
+.gl-col1,.gl-col2,.law-col1,.law-col2,.law-col1-2,.edu-col1,.edu-col2,.phi-col1,.phi-col2,.phi-col1-2,.plan-col1{float: left; overflow: hidden;}
+.gl-col3,.law-col3,.edu-col3,.phi-col3,.plan-col3{float: right; overflow: hidden;}
 .gl-col1{width: 317px;}.gl-col2{width: 357px; margin-left: 22px;}.gl-col3{width: 282px;}
 .law-col1{width: 305px;}.law-col2{width: 370px; margin-left: 25px;}.law-col3{width: 275px;}.law-col1-2{width: 700px;}
 .edu-col1{width: 295px;}.edu-col2{width: 415px; margin-left: 25px;}.edu-col3{width: 240px;}
 .phi-col1{width: 306px;}.phi-col2{width: 366px; margin-left: 20px;}.phi-col3{width: 288px;}.phi-col1-2{width: 692px; zoom: 1;}
+.plan-col1{width: 665px;}.plan-col3{width: 320px;}

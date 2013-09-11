@@ -1,0 +1,285 @@
+/* pictures slide */
+.gl-slide,.phi-slide{
+	height: 292px;
+	.flexslider{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		.flex-viewport{
+			width: 318px;
+			height: 252px;
+			li{
+				height: 252px;
+				position: relative;
+				span{
+					display: block;
+					height: 45px;
+					width: 100%;
+					background: #0c2e55;
+					opacity: .43;
+					filter:alpha(opacity=43);
+					position: absolute;
+					left: 0;
+					bottom: 0;
+				}
+				a{
+					color: #fff;
+					font-size: 12px;
+					display: block;
+					width: 96%;
+					padding: 0 2%;
+					height: 16px;
+					line-height: 16px;
+					text-align: center;
+					@include crop;
+					position: absolute;
+					left: 0;
+					bottom: 14px;
+				}
+			}
+		}
+		.flex-control-nav{
+			font-size: 0;
+			height: 6px;
+			margin: 24px 0 0;
+			padding-left: 128px;
+			li{
+				list-style: none;
+				float: left;
+				zoom: 1;
+				width: 6px;
+				height: 6px;
+				margin: 0 5px;
+				a{
+					color: #bcbcbc;
+					cursor: pointer;
+					display: block;
+					width: 100%;
+					height: 100%;
+					background: #bcbcbc;
+					&.flex-active,&:hover{
+						color: #a00000;
+						background: #a00000;
+					}
+				}
+			}
+		}
+		.flex-direction-nav{
+			display: none;
+		}
+	}
+}
+
+.phi-slide{
+	height: 236px;
+	.flexslider{
+		.flex-viewport{
+			width: 306px;
+			height: 204px;
+			li{
+				height: 204px;
+				span{
+					height: 27px;
+				}
+				a{
+					font-size: 16px;
+					font-family: $msyh;
+					height: 18px;
+					bottom: 3px;
+					_bottom: 5px;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		.flex-control-nav{
+			padding-left: 115px;
+			li{
+				a{
+					color: #939393;
+					background: #939393;
+					&.flex-active,&:hover{
+						color: #82adcb;
+						background: #82adcb;
+					}
+				}
+			}
+		}
+	}
+}
+
+.law-slide{
+	height: 309px;
+	.flexslider{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+	.flex-viewport{
+		width: 370px;
+		height: 309px;
+		li{
+			height: 309px;
+		}
+	}
+	.flex-control-nav{
+		width: 97%;
+		height: 33px;
+		line-height: 33px;
+		text-align: right;
+		padding-right: 3%;
+		text-align: right;
+		background: url(../images/law/law_slide_num_bg.png) 100% 0 no-repeat;
+		_background: #11455d;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		z-index: 10000;
+		li{
+			display: inline;
+			padding-right: 5px;
+			a{
+				color: #c6c6c6;
+				cursor: pointer;
+				font-size: 14px;
+				font-family: $msyh;
+				padding: 0 5px;
+				&.flex-active{
+					font-size: 20px;
+					color: #ff0;
+				}
+				&:hover{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.flex-direction-nav{
+		display: none;
+	}
+}
+
+/* law scroll box */
+.scroll-box{
+	position: relative;
+	margin: 12px 0 0;
+	.x-ward{
+		display: block;
+		width: 14px;
+		height: 26px;
+		background: url(../images/law/sprites_law.jpg) 0 0 no-repeat;
+		position: absolute;
+		top: 55px;
+	}
+	.forward{
+		left: 0;
+		_left: -20px;
+		background-position: 0 -112px;
+		&:hover{
+			background-position: 0 -138px;
+		}
+	}
+	.backward{
+		right: 0;
+		background-position: 0 -164px;
+		&:hover{
+			background-position: 0 -190px;
+		}
+	}
+	.scroll-img{
+		width: 655px;
+		height: 166px;
+		margin-left: 22px;
+		overflow: hidden;
+		font-size: 18px;
+		ul{
+			width: 1000px;
+			height: 166px;
+			line-height: 1;
+			li{
+				float: left;
+				display: inline;
+				width: 105px;
+				height: 100%;
+				margin: 0 13px;
+				a{
+					cursor: pointer;
+					&:hover{
+						color: $c-96;
+					}
+					span{
+						font-size: 12px;
+						display: block;
+						padding: 5px 0;
+						width: 100%;
+						@include crop;
+					}
+				}
+			}
+		}
+	}
+}
+
+.edu-slide{
+	height: 286px;
+	.flexslider{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+		.flex-viewport{
+			width: 295px;
+			height: 286px;
+			li{
+				height: 286px;
+				text-align: center;
+			}
+			a{
+				color: #555;
+				font-size: 12px;
+				font-weight: bold;
+				letter-spacing: 1px;
+				display: block;
+				width: 100%;
+				@include crop;
+			}	
+		}
+	}
+	.flex-control-nav{
+		width: 97%;
+		height: 29px;
+		line-height: 29px;
+		text-align: right;
+		padding-right: 3%;
+		text-align: right;
+		background: url(../images/edu/edu_slide_num_bg.png) 100% 0 no-repeat;
+		_background: #0d380d;
+		position: absolute;
+		left: 0;
+		bottom: 41px;
+		z-index: 10000;
+		li{
+			display: inline;
+			padding-right: 5px;
+			a{
+				color: #000;
+				cursor: pointer;
+				font-size: 14px;
+				font-family: $msyh;
+				padding: 0 5px;
+				&.flex-active{
+					font-size: 20px;
+					color: #ff0;
+				}
+				&:hover{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.flex-direction-nav{
+		display: none;
+	}
+}
