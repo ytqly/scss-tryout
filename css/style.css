@@ -1073,6 +1073,41 @@ i.sscp {
   background: url(../images/plan/plan_main_nav_bg.jpg) 0 -27px repeat-x;
 }
 
+/* line 155, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.social-main-nav {
+  height: 31px;
+  margin: 13px 0 14px;
+  background: url(../images/social/main_nav_bg.jpg) 0 0 no-repeat;
+}
+/* line 159, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.social-main-nav .mn {
+  float: left;
+  padding-left: 35px;
+}
+/* line 162, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.social-main-nav .mn a {
+  float: left;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 12px;
+  height: 31px;
+  line-height: 30px;
+}
+/* line 169, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.social-main-nav .mn a:hover {
+  text-decoration: none;
+  background: url(../images/social/main_nav_hover_bg.jpg) 0 0 repeat-x;
+}
+/* line 174, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.social-main-nav .mn span {
+  float: left;
+  margin: 8px 0 0;
+  font-size: 0;
+  width: 1px;
+  height: 14px;
+  background: #fff;
+}
+
 /* title set */
 /* line 2, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .gl-head, .gl-head2 {
@@ -3591,6 +3626,13 @@ i.sscp {
   border-top: 1px dotted #d7d7d7;
 }
 
+/* social page */
+/* line 1176, ../scss/style.scss */
+.social-bottom-gap {
+  height: 22px;
+  background: url(../images/social/bottom_bg.jpg) repeat-x;
+}
+
 /* footer set */
 /* line 2, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
 .footer {
@@ -3668,62 +3710,62 @@ i.sscp {
 }
 
 /* global cascading style */
-/* line 1178, ../scss/style.scss */
+/* line 1184, ../scss/style.scss */
 .gl-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1179, ../scss/style.scss */
+/* line 1185, ../scss/style.scss */
 .gl-wrapper .footer .rel-link a:hover {
   color: #005dab;
 }
 
-/* line 1180, ../scss/style.scss */
+/* line 1186, ../scss/style.scss */
 .law-wrapper .footer .rel-link h3 {
   color: #2f3942;
 }
 
-/* line 1183, ../scss/style.scss */
+/* line 1189, ../scss/style.scss */
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15 {
   color: #96001e !important;
 }
 
-/* line 1184, ../scss/style.scss */
+/* line 1190, ../scss/style.scss */
 .law-wrapper .law-sermon p a {
   color: #585858;
 }
 
-/* line 1185, ../scss/style.scss */
+/* line 1191, ../scss/style.scss */
 .edu-wrapper .footer .rel-link h3 {
   color: #006069;
 }
 
-/* line 1188, ../scss/style.scss */
+/* line 1194, ../scss/style.scss */
 .edu-wrapper .footer .rel-link a:hover,
 .edu-wrapper .edu-observe h2 a:hover,
 .edu-wrapper .edu-observe a:hover .c15 {
   color: #006f63 !important;
 }
 
-/* line 1189, ../scss/style.scss */
+/* line 1195, ../scss/style.scss */
 .phi-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1190, ../scss/style.scss */
+/* line 1196, ../scss/style.scss */
 .phi-wrapper .footer .rel-link a:hover {
   color: #2670a6;
   text-decoration: none;
 }
 
-/* line 1191, ../scss/style.scss */
+/* line 1197, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div {
   line-height: 24px;
   padding-left: 5px;
 }
-/* line 1191, ../scss/style.scss */
+/* line 1197, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div a {
   margin-right: 8px;
 }

@@ -151,3 +151,33 @@
 		}
 	}
 }
+
+.social-main-nav{
+	height: 31px;
+	margin: 13px 0 14px;
+	background: url(../images/social/main_nav_bg.jpg) 0 0 no-repeat;
+	.mn{
+		float: left;
+		padding-left: 35px;
+		a{
+			float: left;
+			color: #fff;
+			font-weight: bold;
+			padding: 0 12px;
+			height: 31px;
+			line-height: 30px;
+			&:hover{
+				text-decoration: none;
+				background: url(../images/social/main_nav_hover_bg.jpg) 0 0 repeat-x;
+			}
+		}
+		span{
+			float: left;
+			margin: 8px 0 0;
+			font-size: 0;
+			width: 1px;
+			height: 14px;
+			background: #fff;
+		}
+	}
+}

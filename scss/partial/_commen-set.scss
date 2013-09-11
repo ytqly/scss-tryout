@@ -31,7 +31,7 @@ html[xmlns] .clearfix {display: block;}
 }
 
 $c-1e:#1e4d81; $c-96:#96001e; $c-15:#155f82; $c-00:#006069;
-$st: "\5B8B\4F53"; $msyh: "\5FAE\8F6F\96C5\9ED1";
+$st: "\5B8B\4F53"; $ht: "\9ED1\4F53"; $msyh: "\5FAE\8F6F\96C5\9ED1";
 @mixin crop{
     overflow: hidden;
     text-overflow: ellipsis;
