@@ -1208,7 +1208,6 @@
 		}
 	}
 }
-
 .social-provinces{
 	height: 109px;
 	padding: 20px 0 0;
@@ -1226,7 +1225,6 @@
 		}
 	}
 }
-
 .social-news-brief{
 	margin: 0 0 10px;
 	padding: 0 0 15px;
@@ -1263,11 +1261,10 @@
 		}
 	}
 }
-
 .social-custom{
 	height: 93px;
 	.rel-text{
-		padding-left: 134px;
+		padding: 0 10px 0 134px;
 		h3{
 			height: 24px;
 			line-height: 24px;
@@ -1298,6 +1295,46 @@
 				}
 			}
 		}
+	}
+}
+.social-mw{
+	height: 279px;
+	padding-right: 10px;
+	h3{
+		height: 24px;
+		line-height: 24px;
+		text-align: center;
+		margin: 0 0 5px;
+		a{
+			color: #3560b0;
+			&:hover{
+				color: #0f8a91;
+				text-decoration: none;
+			}
+		}
+	}
+	p{
+		font-size: 12px;
+		text-indent: 2em;
+		a{
+			color: #515151;
+			span{
+				color: #EE8325;
+			}
+			&:hover{
+				color: #000;
+				text-decoration: none;
+				span{
+					color: #CD3622;
+				}
+			}
+		}
+	}
+}
+.social-food{
+	height: 132px;
+	dl{
+		padding-left: 141px;
 	}
 }
 

@@ -3864,13 +3864,13 @@ i.sscp {
   color: #6d6d6d;
 }
 
-/* line 1212, ../scss/style.scss */
+/* line 1211, ../scss/style.scss */
 .social-provinces {
   height: 109px;
   padding: 20px 0 0;
   line-height: 30px;
 }
-/* line 1216, ../scss/style.scss */
+/* line 1215, ../scss/style.scss */
 .social-provinces a {
   float: left;
   color: #000;
@@ -3878,20 +3878,20 @@ i.sscp {
   padding-left: 8px;
   background: url(../images/2px_dot_black.jpg) 0 50% no-repeat;
 }
-/* line 1222, ../scss/style.scss */
+/* line 1221, ../scss/style.scss */
 .social-provinces a:hover {
   color: #0f8a91 !important;
   text-decoration: none;
   background: url(../images/2px_dot_green.jpg) 0 50% no-repeat;
 }
 
-/* line 1230, ../scss/style.scss */
+/* line 1228, ../scss/style.scss */
 .social-news-brief {
   margin: 0 0 10px;
   padding: 0 0 15px;
   border-bottom: 1px dotted #d7d7d7;
 }
-/* line 1234, ../scss/style.scss */
+/* line 1232, ../scss/style.scss */
 .social-news-brief h3 {
   width: 100%;
   overflow: hidden;
@@ -3900,46 +3900,46 @@ i.sscp {
   word-wrap: normal;
   text-align: center;
 }
-/* line 1238, ../scss/style.scss */
+/* line 1236, ../scss/style.scss */
 .social-news-brief h3 a {
   color: #0f8a91;
   font-size: 16px;
   font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1";
 }
-/* line 1242, ../scss/style.scss */
+/* line 1240, ../scss/style.scss */
 .social-news-brief h3 a:hover {
   color: #000;
   text-decoration: none;
 }
-/* line 1248, ../scss/style.scss */
+/* line 1246, ../scss/style.scss */
 .social-news-brief p {
   font-size: 12px;
   margin: 10px 15px;
   text-indent: 2em;
   line-height: 24px;
 }
-/* line 1253, ../scss/style.scss */
+/* line 1251, ../scss/style.scss */
 .social-news-brief p a {
   color: #464646;
 }
-/* line 1255, ../scss/style.scss */
+/* line 1253, ../scss/style.scss */
 .social-news-brief p a span {
   color: #EE8325;
 }
-/* line 1259, ../scss/style.scss */
+/* line 1257, ../scss/style.scss */
 .social-news-brief p a:hover span {
   color: #CD3622;
 }
 
-/* line 1267, ../scss/style.scss */
+/* line 1264, ../scss/style.scss */
 .social-custom {
   height: 93px;
 }
-/* line 1269, ../scss/style.scss */
+/* line 1266, ../scss/style.scss */
 .social-custom .rel-text {
-  padding-left: 134px;
+  padding: 0 10px 0 134px;
 }
-/* line 1271, ../scss/style.scss */
+/* line 1268, ../scss/style.scss */
 .social-custom .rel-text h3 {
   height: 24px;
   line-height: 24px;
@@ -3949,39 +3949,92 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1276, ../scss/style.scss */
+/* line 1273, ../scss/style.scss */
 .social-custom .rel-text h3 a {
   color: #1868a9;
 }
-/* line 1278, ../scss/style.scss */
+/* line 1275, ../scss/style.scss */
 .social-custom .rel-text h3 a:hover {
   color: #0f8a91;
   text-decoration: none;
 }
-/* line 1284, ../scss/style.scss */
+/* line 1281, ../scss/style.scss */
 .social-custom .rel-text p {
   font-size: 12px;
   text-indent: 2em;
 }
-/* line 1287, ../scss/style.scss */
+/* line 1284, ../scss/style.scss */
 .social-custom .rel-text p a {
   color: #878686;
 }
-/* line 1289, ../scss/style.scss */
+/* line 1286, ../scss/style.scss */
 .social-custom .rel-text p a span {
   color: #EE8325;
 }
-/* line 1292, ../scss/style.scss */
+/* line 1289, ../scss/style.scss */
 .social-custom .rel-text p a:hover {
   color: #000;
   text-decoration: none;
 }
-/* line 1295, ../scss/style.scss */
+/* line 1292, ../scss/style.scss */
 .social-custom .rel-text p a:hover span {
   color: #CD3622;
 }
 
-/* line 1304, ../scss/style.scss */
+/* line 1300, ../scss/style.scss */
+.social-mw {
+  height: 279px;
+  padding-right: 10px;
+}
+/* line 1303, ../scss/style.scss */
+.social-mw h3 {
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 0 5px;
+}
+/* line 1308, ../scss/style.scss */
+.social-mw h3 a {
+  color: #3560b0;
+}
+/* line 1310, ../scss/style.scss */
+.social-mw h3 a:hover {
+  color: #0f8a91;
+  text-decoration: none;
+}
+/* line 1316, ../scss/style.scss */
+.social-mw p {
+  font-size: 12px;
+  text-indent: 2em;
+}
+/* line 1319, ../scss/style.scss */
+.social-mw p a {
+  color: #515151;
+}
+/* line 1321, ../scss/style.scss */
+.social-mw p a span {
+  color: #EE8325;
+}
+/* line 1324, ../scss/style.scss */
+.social-mw p a:hover {
+  color: #000;
+  text-decoration: none;
+}
+/* line 1327, ../scss/style.scss */
+.social-mw p a:hover span {
+  color: #CD3622;
+}
+
+/* line 1334, ../scss/style.scss */
+.social-food {
+  height: 132px;
+}
+/* line 1336, ../scss/style.scss */
+.social-food dl {
+  padding-left: 141px;
+}
+
+/* line 1341, ../scss/style.scss */
 .social-bottom-gap {
   height: 22px;
   background: url(../images/social/bottom_bg.jpg) repeat-x;
@@ -4064,62 +4117,62 @@ i.sscp {
 }
 
 /* global cascading style */
-/* line 1312, ../scss/style.scss */
+/* line 1349, ../scss/style.scss */
 .gl-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1313, ../scss/style.scss */
+/* line 1350, ../scss/style.scss */
 .gl-wrapper .footer .rel-link a:hover {
   color: #005dab;
 }
 
-/* line 1314, ../scss/style.scss */
+/* line 1351, ../scss/style.scss */
 .law-wrapper .footer .rel-link h3 {
   color: #2f3942;
 }
 
-/* line 1317, ../scss/style.scss */
+/* line 1354, ../scss/style.scss */
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15 {
   color: #96001e !important;
 }
 
-/* line 1318, ../scss/style.scss */
+/* line 1355, ../scss/style.scss */
 .law-wrapper .law-sermon p a {
   color: #585858;
 }
 
-/* line 1319, ../scss/style.scss */
+/* line 1356, ../scss/style.scss */
 .edu-wrapper .footer .rel-link h3 {
   color: #006069;
 }
 
-/* line 1322, ../scss/style.scss */
+/* line 1359, ../scss/style.scss */
 .edu-wrapper .footer .rel-link a:hover,
 .edu-wrapper .edu-observe h2 a:hover,
 .edu-wrapper .edu-observe a:hover .c15 {
   color: #006f63 !important;
 }
 
-/* line 1323, ../scss/style.scss */
+/* line 1360, ../scss/style.scss */
 .phi-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1324, ../scss/style.scss */
+/* line 1361, ../scss/style.scss */
 .phi-wrapper .footer .rel-link a:hover {
   color: #2670a6;
   text-decoration: none;
 }
 
-/* line 1325, ../scss/style.scss */
+/* line 1362, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div {
   line-height: 24px;
   padding-left: 5px;
 }
-/* line 1325, ../scss/style.scss */
+/* line 1362, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div a {
   margin-right: 8px;
 }
