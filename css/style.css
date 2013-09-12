@@ -487,6 +487,11 @@ html[xmlns] .clearfix {
   float: right !important;
 }
 
+/* line 50, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.bt-none {
+  border-top: none !important;
+}
+
 /* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .mt5 {
   margin-top: 5px !important;
@@ -518,90 +523,121 @@ html[xmlns] .clearfix {
 }
 
 /* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.pb5 {
+  padding-bottom: 5px !important;
+}
+
+/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.pb10 {
+  padding-bottom: 10px !important;
+}
+
+/* line 54, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.pb15 {
+  padding-bottom: 15px !important;
+}
+
+/* line 54, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.pb20 {
+  padding-bottom: 20px !important;
+}
+
+/* line 55, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a {
   color: #3b3b3b;
   text-decoration: none;
 }
 
-/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 55, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .phi-wrapper a {
   color: #454545;
 }
 
-/* line 54, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 56, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 54, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 56, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a:focus {
   outline: none;
 }
 
-/* line 55, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 57, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.gl-more {
   margin-top: 5px;
   font-size: 12px !important;
 }
 
-/* line 56, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 58, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.gl-more b {
   color: #a10000;
   font-family: "\5B8B\4F53";
 }
 
-/* line 57, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 59, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.edu-more, a.edu-more2 {
   margin-top: 8px;
   font-size: 12px !important;
 }
 
-/* line 58, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 60, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.edu-more {
   color: #ff9a00;
 }
 
-/* line 58, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 60, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.edu-more b {
   color: #ff9a00;
   font-family: "\5B8B\4F53";
 }
 
-/* line 59, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 61, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.edu-more2 {
   color: #00875a;
 }
 
-/* line 59, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 61, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.edu-more2 b {
   color: #00875a;
   font-family: "\5B8B\4F53";
 }
 
-/* line 60, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 62, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+a.s-detail {
+  color: #ee8325;
+  font-size: 12px;
+}
+/* line 62, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+a.s-detail:hover {
+  color: #cd3622;
+  text-decoration: none;
+}
+
+/* line 63, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 h1, h2, h3, h4, h5, h6, b, strong {
   font-weight: normal;
 }
 
-/* line 60, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 63, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 li {
   list-style: none;
 }
 
-/* line 61, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 64, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 body {
   font: 14px/1.5 "\5B8B\4F53", Arial, sans-serif;
 }
 
 /* sprites */
-/* line 64, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 67, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 i.sprites {
   display: inline-block;
   text-indent: -9999px;
   background: url(../images/sprites.jpg) no-repeat;
 }
 
-/* line 65, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 68, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 i.sscp {
   width: 34px;
   height: 44px;
@@ -609,128 +645,149 @@ i.sscp {
 }
 
 /* layout */
-/* line 68, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 71, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .wrapper {
   width: 1000px;
   margin: 0 auto;
   word-break: break-all;
 }
 
-/* line 69, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 72, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .row, .ad-banner {
   width: 1000px;
   clear: both;
 }
 
-/* line 70, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 73, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .ad-banner {
   margin: 22px 0;
 }
-/* line 70, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 73, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .ad-banner a {
   display: block;
 }
 
-/* line 71, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .g-box {
   border: 1px solid #d7d7d7;
 }
 
-/* line 72, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
-.gl-col1, .gl-col2, .law-col1, .law-col2, .law-col1-2, .edu-col1, .edu-col2, .phi-col1, .phi-col2, .phi-col1-2, .plan-col1 {
+/* line 76, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.gl-col1, .gl-col2, .law-col1, .law-col2, .law-col1-2, .edu-col1, .edu-col2, .phi-col1, .phi-col2, .phi-col1-2, .plan-col1,
+.social-col1, .social-col1-2 {
   float: left;
   overflow: hidden;
 }
 
-/* line 73, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
-.gl-col3, .law-col3, .edu-col3, .phi-col3, .plan-col3 {
+/* line 77, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.gl-col3, .law-col3, .edu-col3, .phi-col3, .plan-col3, .social-col2, .social-col3 {
   float: right;
   overflow: hidden;
 }
 
-/* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 78, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .gl-col1 {
   width: 317px;
 }
 
-/* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 78, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .gl-col2 {
   width: 357px;
   margin-left: 22px;
 }
 
-/* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 78, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .gl-col3 {
   width: 282px;
 }
 
-/* line 75, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .law-col1 {
   width: 305px;
 }
 
-/* line 75, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .law-col2 {
   width: 370px;
   margin-left: 25px;
 }
 
-/* line 75, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .law-col3 {
   width: 275px;
 }
 
-/* line 75, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .law-col1-2 {
   width: 700px;
 }
 
-/* line 76, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .edu-col1 {
   width: 295px;
 }
 
-/* line 76, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .edu-col2 {
   width: 415px;
   margin-left: 25px;
 }
 
-/* line 76, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .edu-col3 {
   width: 240px;
 }
 
-/* line 77, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .phi-col1 {
   width: 306px;
 }
 
-/* line 77, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .phi-col2 {
   width: 366px;
   margin-left: 20px;
 }
 
-/* line 77, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .phi-col3 {
   width: 288px;
 }
 
-/* line 77, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .phi-col1-2 {
   width: 692px;
   zoom: 1;
 }
 
-/* line 78, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .plan-col1 {
   width: 665px;
 }
 
-/* line 78, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .plan-col3 {
   width: 320px;
+}
+
+/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.social-col1 {
+  width: 376px;
+}
+
+/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.social-col2 {
+  width: 302px;
+}
+
+/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.social-col1-2 {
+  width: 690px;
+}
+
+/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.social-col3 {
+  width: 298px;
 }
 
 /* top header */
@@ -1791,23 +1848,149 @@ i.sscp {
   text-decoration: none;
 }
 
-/* line 546, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 545, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .plan-head {
   height: 56px;
   padding: 0 24px 0 15px;
   border-bottom: 1px solid #d7d7d7;
   background: url(../images/plan/top_bar_bg.jpg) 0 0 no-repeat;
 }
-/* line 551, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 550, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .plan-head a.fl {
   color: #363636;
   font-size: 18px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
   margin: 17px 0 0;
 }
-/* line 557, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 556, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .plan-head a.plan-more {
   margin: 22px 0 0;
+}
+
+/* line 562, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd a {
+  float: left;
+  color: #6d9fc0;
+  font-size: 18px;
+  font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1", sans-serif;
+}
+/* line 567, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd a:hover {
+  color: #0973b9;
+  text-decoration: none;
+}
+/* line 572, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd span {
+  float: left;
+  font-size: 0;
+  width: 1px;
+  height: 17px;
+  background: #f8c6a8;
+}
+
+/* line 580, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd1 {
+  height: 41px;
+  border-bottom: 1px solid #d7d7d7;
+  background: url(../images/social/hd_bg1.jpg) 0 1px no-repeat;
+}
+/* line 584, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd1 a {
+  margin: 12px 0 0 12px;
+}
+/* line 587, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd1 span {
+  margin: 16px 0 0 12px;
+}
+
+/* line 591, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd2 {
+  height: 21px;
+  line-height: 22px;
+  background: url(../images/social/hd_bg2.jpg) 0 0 no-repeat;
+}
+/* line 595, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd2 a {
+  float: left;
+  margin-left: 24px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1", sans-serif;
+}
+/* line 601, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd2 a:hover {
+  color: #f6fba2;
+  text-decoration: none;
+}
+
+/* line 607, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd3 {
+  height: 44px;
+  line-height: 44px;
+  padding-left: 25px;
+  background: url(../images/social/8px_dot_orange.jpg) 10px 50% no-repeat;
+}
+
+/* line 613, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd4 {
+  height: 40px;
+  background: url(../images/social/hd_bg3.jpg) 50% 100% no-repeat;
+}
+/* line 616, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd4 a {
+  margin: 7px 0 0 17px;
+}
+
+/* line 620, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd5 {
+  height: 39px;
+  border-bottom: 1px solid #d7d7d7;
+}
+/* line 623, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd5 i {
+  float: left;
+  width: 19px;
+  height: 18px;
+  margin: 10px 0 0 10px;
+  background: url(../images/social/social_sprites.jpg) -172px 1px no-repeat;
+}
+/* line 630, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd5 a {
+  margin: 8px 0 0 10px;
+}
+/* line 633, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd5 span {
+  margin: 12px 0 0 10px;
+}
+
+/* line 637, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd9 {
+  height: 30px;
+  line-height: 30px;
+}
+/* line 640, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd9 a {
+  padding-left: 20px;
+  background: url(../images/3px_dot_orange.jpg) 10px 50% no-repeat;
+}
+
+/* line 645, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd-line {
+  height: 26px;
+  margin: 0 0 8px;
+  background: url(../images/social/hd_bg5.jpg) no-repeat;
+}
+/* line 649, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd-line a {
+  float: left;
+  width: 88px;
+  height: 26px;
+  margin-left: 23px;
+}
+/* line 654, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.social-hd-line a:hover {
+  text-decoration: none;
+  background: url(../images/social/social_global.jpg) no-repeat;
 }
 
 /* pictures slide */
@@ -2152,6 +2335,11 @@ i.sscp {
 /* line 282, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .edu-slide .flex-direction-nav {
   display: none;
+}
+
+/* line 287, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.social-slide {
+  height: 337px;
 }
 
 /* management page */
@@ -3628,6 +3816,172 @@ i.sscp {
 
 /* social page */
 /* line 1176, ../scss/style.scss */
+.social-list, .social-list2 {
+  line-height: 30px;
+}
+/* line 1178, ../scss/style.scss */
+.social-list dd, .social-list2 dd {
+  height: 30px;
+  padding-left: 25px;
+  background: url(../images/2px_dot_black.jpg) 17px 50% no-repeat;
+}
+/* line 1182, ../scss/style.scss */
+.social-list dd:hover, .social-list2 dd:hover {
+  background: url(../images/2px_dot_green.jpg) 17px 50% no-repeat;
+}
+/* line 1185, ../scss/style.scss */
+.social-list dd a, .social-list2 dd a {
+  float: left;
+  color: #000;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+/* line 1190, ../scss/style.scss */
+.social-list dd a:hover, .social-list2 dd a:hover {
+  color: #0f8a91 !important;
+  text-decoration: none;
+}
+
+/* line 1197, ../scss/style.scss */
+.social-list2 {
+  line-height: 24px;
+}
+/* line 1199, ../scss/style.scss */
+.social-list2 dd {
+  height: 24px;
+  padding-left: 12px;
+  background: url(../images/2px_dot_6d.jpg) 6px 50% no-repeat;
+}
+/* line 1203, ../scss/style.scss */
+.social-list2 dd:hover {
+  background: url(../images/2px_dot_green.jpg) 6px 50% no-repeat;
+}
+/* line 1206, ../scss/style.scss */
+.social-list2 dd a {
+  color: #6d6d6d;
+}
+
+/* line 1212, ../scss/style.scss */
+.social-provinces {
+  height: 109px;
+  padding: 20px 0 0;
+  line-height: 30px;
+}
+/* line 1216, ../scss/style.scss */
+.social-provinces a {
+  float: left;
+  color: #000;
+  margin-left: 12px;
+  padding-left: 8px;
+  background: url(../images/2px_dot_black.jpg) 0 50% no-repeat;
+}
+/* line 1222, ../scss/style.scss */
+.social-provinces a:hover {
+  color: #0f8a91 !important;
+  text-decoration: none;
+  background: url(../images/2px_dot_green.jpg) 0 50% no-repeat;
+}
+
+/* line 1230, ../scss/style.scss */
+.social-news-brief {
+  margin: 0 0 10px;
+  padding: 0 0 15px;
+  border-bottom: 1px dotted #d7d7d7;
+}
+/* line 1234, ../scss/style.scss */
+.social-news-brief h3 {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  text-align: center;
+}
+/* line 1238, ../scss/style.scss */
+.social-news-brief h3 a {
+  color: #0f8a91;
+  font-size: 16px;
+  font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1";
+}
+/* line 1242, ../scss/style.scss */
+.social-news-brief h3 a:hover {
+  color: #000;
+  text-decoration: none;
+}
+/* line 1248, ../scss/style.scss */
+.social-news-brief p {
+  font-size: 12px;
+  margin: 10px 15px;
+  text-indent: 2em;
+  line-height: 24px;
+}
+/* line 1253, ../scss/style.scss */
+.social-news-brief p a {
+  color: #464646;
+}
+/* line 1255, ../scss/style.scss */
+.social-news-brief p a span {
+  color: #EE8325;
+}
+/* line 1259, ../scss/style.scss */
+.social-news-brief p a:hover span {
+  color: #CD3622;
+}
+
+/* line 1267, ../scss/style.scss */
+.social-custom {
+  height: 93px;
+}
+/* line 1269, ../scss/style.scss */
+.social-custom .rel-text {
+  padding-left: 134px;
+}
+/* line 1271, ../scss/style.scss */
+.social-custom .rel-text h3 {
+  height: 24px;
+  line-height: 24px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+/* line 1276, ../scss/style.scss */
+.social-custom .rel-text h3 a {
+  color: #1868a9;
+}
+/* line 1278, ../scss/style.scss */
+.social-custom .rel-text h3 a:hover {
+  color: #0f8a91;
+  text-decoration: none;
+}
+/* line 1284, ../scss/style.scss */
+.social-custom .rel-text p {
+  font-size: 12px;
+  text-indent: 2em;
+}
+/* line 1287, ../scss/style.scss */
+.social-custom .rel-text p a {
+  color: #878686;
+}
+/* line 1289, ../scss/style.scss */
+.social-custom .rel-text p a span {
+  color: #EE8325;
+}
+/* line 1292, ../scss/style.scss */
+.social-custom .rel-text p a:hover {
+  color: #000;
+  text-decoration: none;
+}
+/* line 1295, ../scss/style.scss */
+.social-custom .rel-text p a:hover span {
+  color: #CD3622;
+}
+
+/* line 1304, ../scss/style.scss */
 .social-bottom-gap {
   height: 22px;
   background: url(../images/social/bottom_bg.jpg) repeat-x;
@@ -3710,62 +4064,62 @@ i.sscp {
 }
 
 /* global cascading style */
-/* line 1184, ../scss/style.scss */
+/* line 1312, ../scss/style.scss */
 .gl-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1185, ../scss/style.scss */
+/* line 1313, ../scss/style.scss */
 .gl-wrapper .footer .rel-link a:hover {
   color: #005dab;
 }
 
-/* line 1186, ../scss/style.scss */
+/* line 1314, ../scss/style.scss */
 .law-wrapper .footer .rel-link h3 {
   color: #2f3942;
 }
 
-/* line 1189, ../scss/style.scss */
+/* line 1317, ../scss/style.scss */
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15 {
   color: #96001e !important;
 }
 
-/* line 1190, ../scss/style.scss */
+/* line 1318, ../scss/style.scss */
 .law-wrapper .law-sermon p a {
   color: #585858;
 }
 
-/* line 1191, ../scss/style.scss */
+/* line 1319, ../scss/style.scss */
 .edu-wrapper .footer .rel-link h3 {
   color: #006069;
 }
 
-/* line 1194, ../scss/style.scss */
+/* line 1322, ../scss/style.scss */
 .edu-wrapper .footer .rel-link a:hover,
 .edu-wrapper .edu-observe h2 a:hover,
 .edu-wrapper .edu-observe a:hover .c15 {
   color: #006f63 !important;
 }
 
-/* line 1195, ../scss/style.scss */
+/* line 1323, ../scss/style.scss */
 .phi-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1196, ../scss/style.scss */
+/* line 1324, ../scss/style.scss */
 .phi-wrapper .footer .rel-link a:hover {
   color: #2670a6;
   text-decoration: none;
 }
 
-/* line 1197, ../scss/style.scss */
+/* line 1325, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div {
   line-height: 24px;
   padding-left: 5px;
 }
-/* line 1197, ../scss/style.scss */
+/* line 1325, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div a {
   margin-right: 8px;
 }

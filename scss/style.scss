@@ -1173,6 +1173,134 @@
 }
 
 /* social page */
+.social-list,.social-list2{
+	line-height: 30px;
+	dd{
+		height: 30px;
+		padding-left: 25px;
+		background: url(../images/2px_dot_black.jpg) 17px 50% no-repeat;
+		&:hover{
+			background: url(../images/2px_dot_green.jpg) 17px 50% no-repeat;
+		}
+		a{
+			float: left;
+			color: #000;
+			width: 100%;
+			@include crop;
+			&:hover{
+				color: #0f8a91!important;
+				text-decoration: none;
+			}
+		}
+	}
+}
+.social-list2{
+	line-height: 24px;
+	dd{
+		height: 24px;
+		padding-left: 12px;
+		background: url(../images/2px_dot_6d.jpg) 6px 50% no-repeat;
+		&:hover{
+			background: url(../images/2px_dot_green.jpg) 6px 50% no-repeat;
+		}
+		a{
+			color: #6d6d6d;
+		}
+	}
+}
+
+.social-provinces{
+	height: 109px;
+	padding: 20px 0 0;
+	line-height: 30px;
+	a{
+		float: left;
+		color: #000;
+		margin-left: 12px;
+		padding-left: 8px;
+		background: url(../images/2px_dot_black.jpg) 0 50% no-repeat;
+		&:hover{
+			color: #0f8a91!important;
+			text-decoration: none;
+			background: url(../images/2px_dot_green.jpg) 0 50% no-repeat;
+		}
+	}
+}
+
+.social-news-brief{
+	margin: 0 0 10px;
+	padding: 0 0 15px;
+	border-bottom: 1px dotted #d7d7d7;
+	h3{
+		width: 100%;
+		@include crop;
+		text-align: center;
+		a{
+			color: #0f8a91;
+			font-size: 16px;
+			font-family: $ht, $msyh;
+			&:hover{
+				color: #000;
+				text-decoration: none;
+			}
+		}
+	}
+	p{
+		font-size: 12px;
+		margin: 10px 15px;
+		text-indent: 2em;
+		line-height: 24px;
+		a{
+			color: #464646;
+			span{
+				color: #EE8325;
+			}
+			&:hover{
+				span{
+					color: #CD3622;
+				}
+			}
+		}
+	}
+}
+
+.social-custom{
+	height: 93px;
+	.rel-text{
+		padding-left: 134px;
+		h3{
+			height: 24px;
+			line-height: 24px;
+			width: 100%;
+			@include crop;
+			a{
+				color: #1868a9;
+				&:hover{
+					color: #0f8a91;
+					text-decoration: none;
+				}
+			}
+		}
+		p{
+			font-size: 12px;
+			text-indent: 2em;
+			a{
+				color: #878686;
+				span{
+					color: #EE8325;
+				}
+				&:hover{
+					color: #000;
+					text-decoration: none;
+					span{
+						color: #CD3622;
+					}
+				}
+			}
+		}
+	}
+}
+
 .social-bottom-gap{
 	height: 22px;
 	background: url(../images/social/bottom_bg.jpg) repeat-x;
