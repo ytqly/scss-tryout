@@ -3934,12 +3934,13 @@ i.sscp {
 /* line 1264, ../scss/style.scss */
 .social-custom {
   height: 93px;
+  overflow: hidden;
 }
-/* line 1266, ../scss/style.scss */
+/* line 1267, ../scss/style.scss */
 .social-custom .rel-text {
   padding: 0 10px 0 134px;
 }
-/* line 1268, ../scss/style.scss */
+/* line 1269, ../scss/style.scss */
 .social-custom .rel-text h3 {
   height: 24px;
   line-height: 24px;
@@ -3949,92 +3950,92 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 1273, ../scss/style.scss */
+/* line 1274, ../scss/style.scss */
 .social-custom .rel-text h3 a {
   color: #1868a9;
 }
-/* line 1275, ../scss/style.scss */
+/* line 1276, ../scss/style.scss */
 .social-custom .rel-text h3 a:hover {
   color: #0f8a91;
   text-decoration: none;
 }
-/* line 1281, ../scss/style.scss */
+/* line 1282, ../scss/style.scss */
 .social-custom .rel-text p {
   font-size: 12px;
   text-indent: 2em;
 }
-/* line 1284, ../scss/style.scss */
+/* line 1285, ../scss/style.scss */
 .social-custom .rel-text p a {
   color: #878686;
 }
-/* line 1286, ../scss/style.scss */
+/* line 1287, ../scss/style.scss */
 .social-custom .rel-text p a span {
   color: #EE8325;
 }
-/* line 1289, ../scss/style.scss */
+/* line 1290, ../scss/style.scss */
 .social-custom .rel-text p a:hover {
   color: #000;
   text-decoration: none;
 }
-/* line 1292, ../scss/style.scss */
+/* line 1293, ../scss/style.scss */
 .social-custom .rel-text p a:hover span {
   color: #CD3622;
 }
 
-/* line 1300, ../scss/style.scss */
+/* line 1301, ../scss/style.scss */
 .social-mw {
   height: 279px;
   padding-right: 10px;
 }
-/* line 1303, ../scss/style.scss */
+/* line 1304, ../scss/style.scss */
 .social-mw h3 {
   height: 24px;
   line-height: 24px;
   text-align: center;
   margin: 0 0 5px;
 }
-/* line 1308, ../scss/style.scss */
+/* line 1309, ../scss/style.scss */
 .social-mw h3 a {
   color: #3560b0;
 }
-/* line 1310, ../scss/style.scss */
+/* line 1311, ../scss/style.scss */
 .social-mw h3 a:hover {
   color: #0f8a91;
   text-decoration: none;
 }
-/* line 1316, ../scss/style.scss */
+/* line 1317, ../scss/style.scss */
 .social-mw p {
   font-size: 12px;
   text-indent: 2em;
 }
-/* line 1319, ../scss/style.scss */
+/* line 1320, ../scss/style.scss */
 .social-mw p a {
   color: #515151;
 }
-/* line 1321, ../scss/style.scss */
+/* line 1322, ../scss/style.scss */
 .social-mw p a span {
   color: #EE8325;
 }
-/* line 1324, ../scss/style.scss */
+/* line 1325, ../scss/style.scss */
 .social-mw p a:hover {
   color: #000;
   text-decoration: none;
 }
-/* line 1327, ../scss/style.scss */
+/* line 1328, ../scss/style.scss */
 .social-mw p a:hover span {
   color: #CD3622;
 }
 
-/* line 1334, ../scss/style.scss */
+/* line 1335, ../scss/style.scss */
 .social-food {
   height: 132px;
 }
-/* line 1336, ../scss/style.scss */
+/* line 1337, ../scss/style.scss */
 .social-food dl {
   padding-left: 141px;
 }
 
-/* line 1341, ../scss/style.scss */
+/* line 1342, ../scss/style.scss */
 .social-bottom-gap {
   height: 22px;
   background: url(../images/social/bottom_bg.jpg) repeat-x;
@@ -4117,62 +4118,62 @@ i.sscp {
 }
 
 /* global cascading style */
-/* line 1349, ../scss/style.scss */
+/* line 1350, ../scss/style.scss */
 .gl-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1350, ../scss/style.scss */
+/* line 1351, ../scss/style.scss */
 .gl-wrapper .footer .rel-link a:hover {
   color: #005dab;
 }
 
-/* line 1351, ../scss/style.scss */
+/* line 1352, ../scss/style.scss */
 .law-wrapper .footer .rel-link h3 {
   color: #2f3942;
 }
 
-/* line 1354, ../scss/style.scss */
+/* line 1355, ../scss/style.scss */
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15 {
   color: #96001e !important;
 }
 
-/* line 1355, ../scss/style.scss */
+/* line 1356, ../scss/style.scss */
 .law-wrapper .law-sermon p a {
   color: #585858;
 }
 
-/* line 1356, ../scss/style.scss */
+/* line 1357, ../scss/style.scss */
 .edu-wrapper .footer .rel-link h3 {
   color: #006069;
 }
 
-/* line 1359, ../scss/style.scss */
+/* line 1360, ../scss/style.scss */
 .edu-wrapper .footer .rel-link a:hover,
 .edu-wrapper .edu-observe h2 a:hover,
 .edu-wrapper .edu-observe a:hover .c15 {
   color: #006f63 !important;
 }
 
-/* line 1360, ../scss/style.scss */
+/* line 1361, ../scss/style.scss */
 .phi-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1361, ../scss/style.scss */
+/* line 1362, ../scss/style.scss */
 .phi-wrapper .footer .rel-link a:hover {
   color: #2670a6;
   text-decoration: none;
 }
 
-/* line 1362, ../scss/style.scss */
+/* line 1363, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div {
   line-height: 24px;
   padding-left: 5px;
 }
-/* line 1362, ../scss/style.scss */
+/* line 1363, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div a {
   margin-right: 8px;
 }
