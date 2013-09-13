@@ -478,166 +478,176 @@ html[xmlns] .clearfix {
 }
 
 /* line 50, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.e6 {
+  color: #e6aa6c !important;
+}
+
+/* line 50, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.b2 {
+  color: #b24540 !important;
+}
+
+/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .fl {
   float: left !important;
 }
 
-/* line 50, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .fr {
   float: right !important;
 }
 
-/* line 50, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .bt-none {
   border-top: none !important;
 }
 
-/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .mt5 {
   margin-top: 5px !important;
 }
 
-/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .mt7 {
   margin-top: 7px !important;
 }
 
-/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .mt10 {
   margin-top: 10px !important;
 }
 
-/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .mt15 {
   margin-top: 15px !important;
 }
 
-/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .mt20 {
   margin-top: 20px !important;
 }
 
-/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .mt22 {
   margin-top: 22px !important;
 }
 
-/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 54, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .pb5 {
   padding-bottom: 5px !important;
 }
 
-/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 54, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .pb10 {
   padding-bottom: 10px !important;
 }
 
-/* line 54, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 55, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .pb15 {
   padding-bottom: 15px !important;
 }
 
-/* line 54, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 55, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .pb20 {
   padding-bottom: 20px !important;
 }
 
-/* line 55, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 56, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a {
   color: #3b3b3b;
   text-decoration: none;
 }
 
-/* line 55, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 56, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .phi-wrapper a {
   color: #454545;
 }
 
-/* line 56, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 57, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 56, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 57, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a:focus {
   outline: none;
 }
 
-/* line 57, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 58, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.gl-more {
   margin-top: 5px;
   font-size: 12px !important;
 }
 
-/* line 58, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 59, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.gl-more b {
   color: #a10000;
   font-family: "\5B8B\4F53";
 }
 
-/* line 59, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 60, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.edu-more, a.edu-more2 {
   margin-top: 8px;
   font-size: 12px !important;
 }
 
-/* line 60, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 61, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.edu-more {
   color: #ff9a00;
 }
 
-/* line 60, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 61, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.edu-more b {
   color: #ff9a00;
   font-family: "\5B8B\4F53";
 }
 
-/* line 61, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 62, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.edu-more2 {
   color: #00875a;
 }
 
-/* line 61, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 62, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.edu-more2 b {
   color: #00875a;
   font-family: "\5B8B\4F53";
 }
 
-/* line 62, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 63, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.s-detail {
   color: #ee8325;
   font-size: 12px;
 }
-/* line 62, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 63, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 a.s-detail:hover {
   color: #cd3622;
   text-decoration: none;
 }
 
-/* line 63, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 64, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 h1, h2, h3, h4, h5, h6, b, strong {
   font-weight: normal;
 }
 
-/* line 63, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 64, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 li {
   list-style: none;
 }
 
-/* line 64, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 65, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 body {
   font: 14px/1.5 "\5B8B\4F53", Arial, sans-serif;
 }
 
 /* sprites */
-/* line 67, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 68, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 i.sprites {
   display: inline-block;
   text-indent: -9999px;
   background: url(../images/sprites.jpg) no-repeat;
 }
 
-/* line 68, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 69, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 i.sscp {
   width: 34px;
   height: 44px;
@@ -645,149 +655,174 @@ i.sscp {
 }
 
 /* layout */
-/* line 71, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 72, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .wrapper {
   width: 1000px;
   margin: 0 auto;
   word-break: break-all;
 }
 
-/* line 72, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 73, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .row, .ad-banner {
   width: 1000px;
   clear: both;
 }
 
-/* line 73, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .ad-banner {
   margin: 22px 0;
 }
-/* line 73, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .ad-banner a {
   display: block;
 }
 
-/* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 75, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .g-box {
   border: 1px solid #d7d7d7;
 }
 
-/* line 76, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 75, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.g-bg {
+  background: #fffcf8;
+}
+
+/* line 77, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .gl-col1, .gl-col2, .law-col1, .law-col2, .law-col1-2, .edu-col1, .edu-col2, .phi-col1, .phi-col2, .phi-col1-2, .plan-col1,
-.social-col1, .social-col1-2 {
+.social-col1, .social-col1-2, .book-col1, .book-col1-2 {
   float: left;
   overflow: hidden;
 }
 
-/* line 77, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
-.gl-col3, .law-col3, .edu-col3, .phi-col3, .plan-col3, .social-col2, .social-col3 {
+/* line 78, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.gl-col3, .law-col3, .edu-col3, .phi-col3, .plan-col3, .social-col2, .social-col3, .book-col2, .book-col2-3 {
   float: right;
   overflow: hidden;
 }
 
-/* line 78, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .gl-col1 {
   width: 317px;
 }
 
-/* line 78, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .gl-col2 {
   width: 357px;
   margin-left: 22px;
 }
 
-/* line 78, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .gl-col3 {
   width: 282px;
 }
 
-/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .law-col1 {
   width: 305px;
 }
 
-/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .law-col2 {
   width: 370px;
   margin-left: 25px;
 }
 
-/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .law-col3 {
   width: 275px;
 }
 
-/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .law-col1-2 {
   width: 700px;
 }
 
-/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .edu-col1 {
   width: 295px;
 }
 
-/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .edu-col2 {
   width: 415px;
   margin-left: 25px;
 }
 
-/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .edu-col3 {
   width: 240px;
 }
 
-/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .phi-col1 {
   width: 306px;
 }
 
-/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .phi-col2 {
   width: 366px;
   margin-left: 20px;
 }
 
-/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .phi-col3 {
   width: 288px;
 }
 
-/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .phi-col1-2 {
   width: 692px;
   zoom: 1;
 }
 
-/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .plan-col1 {
   width: 665px;
 }
 
-/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .plan-col3 {
   width: 320px;
 }
 
-/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 84, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .social-col1 {
   width: 376px;
 }
 
-/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 84, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .social-col2 {
   width: 302px;
 }
 
-/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 84, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .social-col1-2 {
   width: 690px;
 }
 
-/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 84, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .social-col3 {
   width: 298px;
+}
+
+/* line 85, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.book-col1 {
+  width: 278px;
+}
+
+/* line 85, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.book-col2, .book-col3 {
+  width: 348px;
+}
+
+/* line 85, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.book-col1-2 {
+  width: 639px;
+}
+
+/* line 85, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.book-col2-3 {
+  width: 709px;
 }
 
 /* top header */
@@ -1163,6 +1198,41 @@ i.sscp {
   width: 1px;
   height: 14px;
   background: #fff;
+}
+
+/* line 185, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.book-main-nav {
+  height: 32px;
+  line-height: 32px;
+  margin: 11px 0 14px;
+  background: #e6aa6c;
+}
+/* line 190, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.book-main-nav .mn {
+  float: left;
+}
+/* line 192, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.book-main-nav .mn a {
+  float: left;
+  color: #fff;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  font-weight: bold;
+  padding: 0 7px;
+  background: url(../images/book/main_nav_bg.jpg) 100% 2px no-repeat;
+}
+/* line 199, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.book-main-nav .mn a.first {
+  padding-left: 15px;
+}
+/* line 202, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.book-main-nav .mn a.last {
+  padding-right: 19px;
+  background-image: none;
+}
+/* line 206, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.book-main-nav .mn a:hover {
+  text-decoration: none;
+  background: #b24540;
 }
 
 /* title set */
@@ -2071,6 +2141,73 @@ i.sscp {
   background: url(../images/social/social_global.jpg) no-repeat;
 }
 
+/* line 723, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd a {
+  float: left;
+  color: #b24540;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1", sans-serif;
+}
+/* line 729, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd a:hover {
+  text-decoration: none;
+}
+/* line 732, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd a.fr {
+  font-size: 14px;
+  font-family: "\5B8B\4F53", Arial, sans-serif;
+  font-weight: normal;
+  margin-right: 10px;
+}
+/* line 737, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd a.fr:hover {
+  text-decoration: underline;
+}
+
+/* line 743, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd1 {
+  height: 36px;
+  line-height: 37px;
+  border: solid #d7d7d7;
+  border-width: 1px 0;
+}
+/* line 748, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd1 i {
+  float: left;
+  width: 22px;
+  height: 17px;
+  margin: 10px 8px 0 9px;
+  background: url(../images/book/two_book.jpg) no-repeat;
+}
+
+/* line 756, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd2 {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 3px solid #ffe779;
+}
+/* line 760, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd2 .title {
+  float: left;
+  padding: 0 8px;
+  color: #b24540;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1", sans-serif;
+  border-bottom: 3px solid #e6aa6c;
+  position: relative;
+  bottom: -3px;
+}
+/* line 770, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd2 .title:hover {
+  text-decoration: none;
+}
+/* line 774, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd2 a.fr {
+  margin-right: 10px;
+}
+
 /* pictures slide */
 /* line 2, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .gl-slide, .phi-slide {
@@ -2454,26 +2591,27 @@ i.sscp {
 /* line 313, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .bg {
   width: 100%;
-  height: 18px;
-  background: #323f4f;
+  height: 19px;
+  background: #0d0d0d;
   filter: alpha(opacity=73);
   background: rgba(11, 11, 11, 0.73);
+  _background: #2b3036;
   position: absolute;
   left: 0;
-  top: 250px;
+  top: 249px;
   z-index: 0;
 }
-/* line 324, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 325, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .link {
-  width: 366px;
+  width: 361px;
   height: 65px;
-  padding: 5px 5px 0;
+  padding: 5px 5px 0 10px;
   background: #ececec;
   position: absolute;
   left: 0;
   bottom: 0;
 }
-/* line 332, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 333, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .link .title {
   color: #14436f;
   font-family: "\5FAE\8F6F\96C5\9ED1";
@@ -2484,12 +2622,12 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 338, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 339, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .link .title:hover {
   color: #3d75bb;
   text-decoration: none;
 }
-/* line 343, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 344, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .link .desc {
   color: #959595;
   font-size: 12px;
@@ -2497,12 +2635,12 @@ i.sscp {
   display: block;
   line-height: 16px;
 }
-/* line 349, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 350, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .link .desc:hover {
   color: #464646;
   text-decoration: none;
 }
-/* line 358, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 359, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flex-control-nav {
   width: 91%;
   height: 18px;
@@ -2514,15 +2652,15 @@ i.sscp {
   background: none;
   position: absolute;
   left: 0;
-  bottom: 69px;
+  bottom: 70px;
   z-index: 10000000;
 }
-/* line 371, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 372, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flex-control-nav li {
   display: inline;
   padding-right: 5px;
 }
-/* line 374, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 375, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flex-control-nav li a {
   color: #fff;
   cursor: pointer;
@@ -2531,15 +2669,15 @@ i.sscp {
   padding: 0 5px;
   height: 100%;
 }
-/* line 381, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 382, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flex-control-nav li a.flex-active {
   background: #f08220;
 }
-/* line 384, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 385, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flex-control-nav li a:hover {
   text-decoration: none;
 }
-/* line 390, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 391, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flex-direction-nav {
   display: none;
 }
@@ -4398,10 +4536,121 @@ i.sscp {
   padding-left: 141px;
 }
 
-/* line 1479, ../scss/style.scss */
+/* line 1478, ../scss/style.scss */
 .social-bottom-gap {
   height: 22px;
   background: url(../images/social/bottom_bg.jpg) repeat-x;
+}
+
+/* book page */
+/* line 1484, ../scss/style.scss */
+.books-list {
+  line-height: 30px;
+}
+/* line 1486, ../scss/style.scss */
+.books-list dd {
+  height: 30px;
+  padding-left: 22px;
+  background: url(../images/2px_dot_black.jpg) 13px 50% no-repeat;
+}
+/* line 1490, ../scss/style.scss */
+.books-list dd a {
+  float: left;
+  color: #000;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+/* line 1495, ../scss/style.scss */
+.books-list dd a:hover {
+  text-decoration: underline;
+}
+
+/* line 1501, ../scss/style.scss */
+.books-a {
+  height: 95px;
+  line-height: 30px;
+}
+/* line 1504, ../scss/style.scss */
+.books-a a {
+  float: left;
+  width: 320px;
+  height: 30px;
+  margin-left: 15px;
+  padding-left: 18px;
+  background: url(../images/book/book_arrow.jpg) 0 50% no-repeat;
+}
+
+/* line 1514, ../scss/style.scss */
+.books-hero .headline {
+  line-height: 1;
+  text-align: center;
+}
+/* line 1517, ../scss/style.scss */
+.books-hero .headline a {
+  color: #b24540;
+  font-size: 38px;
+  font-family: "\5FAE\8F6F\96C5\9ED1", sans-serif;
+}
+/* line 1523, ../scss/style.scss */
+.books-hero .sub-desc {
+  font-size: 12px;
+  margin: 15px;
+}
+
+/* line 1528, ../scss/style.scss */
+.books-lib {
+  height: 225px;
+  background: #fdf5f2 url(../images/book/book_lib.jpg) no-repeat;
+}
+/* line 1531, ../scss/style.scss */
+.books-lib .books-show {
+  float: left;
+  width: 890px;
+  height: 210px;
+  padding: 7px 0 0 105px;
+}
+/* line 1536, ../scss/style.scss */
+.books-lib .books-show ul {
+  width: 870px;
+  height: 200px;
+  padding: 8px 0 0 8px;
+  background: #fff;
+}
+/* line 1541, ../scss/style.scss */
+.books-lib .books-show ul li {
+  float: left;
+  width: 118px;
+  text-align: center;
+  margin-right: 6px;
+}
+/* line 1546, ../scss/style.scss */
+.books-lib .books-show ul li img {
+  display: inline-block;
+}
+/* line 1549, ../scss/style.scss */
+.books-lib .books-show ul li a {
+  display: inline-block;
+}
+/* line 1551, ../scss/style.scss */
+.books-lib .books-show ul li a.book {
+  float: left;
+  width: 118px;
+  height: 166px;
+  overflow: hidden;
+  margin: 0 0 6px;
+}
+/* line 1559, ../scss/style.scss */
+.books-lib .books-show ul li span {
+  display: block;
+}
+/* line 1561, ../scss/style.scss */
+.books-lib .books-show ul li span a {
+  width: 81px;
+  height: 21px;
+  background: url(../images/book/btn_buy_bg.jpg) no-repeat;
 }
 
 /* footer set */
@@ -4422,11 +4671,12 @@ i.sscp {
 }
 /* line 14, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
 .footer .rel-link {
+  color: #595757;
   padding: 3px 0 3px 5px;
   border: 1px solid #ddd;
   border-color: #f2f2f2 #ddd;
 }
-/* line 18, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 19, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
 .footer .rel-link h3 {
   font-size: 17px;
   font-weight: bold;
@@ -4434,31 +4684,35 @@ i.sscp {
   font-family: "\5FAE\8F6F\96C5\9ED1";
   width: 100%;
 }
-/* line 25, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 26, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+.footer .rel-link h4 {
+  font-weight: bold;
+}
+/* line 29, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
 .footer .rel-link div {
   width: 100%;
   line-height: 22px;
 }
-/* line 29, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 33, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
 .footer .rel-link a {
   color: #595757;
   float: left;
   margin-right: 15px;
   white-space: nowrap;
 }
-/* line 36, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 40, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
 .footer .ft-link {
   color: #3b3b3b;
   padding: 10px 0 10px 6px;
   border-bottom: 1px solid #f2f2f2;
 }
-/* line 41, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 45, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
 .footer .copyright {
   color: #393939;
   text-align: center;
   padding: 5px 0 15px;
 }
-/* line 45, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 49, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
 .footer .copyright .statement {
   display: inline-block;
   height: 44px;
@@ -4466,13 +4720,13 @@ i.sscp {
   padding: 0 0 0 40px;
   position: relative;
 }
-/* line 51, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 55, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
 .footer .copyright .statement i {
   position: absolute;
   left: 0;
   top: 0;
 }
-/* line 56, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 60, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
 .footer .copyright .statement .st {
   color: #015daa;
   display: block;
@@ -4481,62 +4735,89 @@ i.sscp {
 }
 
 /* global cascading style */
-/* line 1487, ../scss/style.scss */
+/* line 1575, ../scss/style.scss */
 .gl-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1488, ../scss/style.scss */
+/* line 1576, ../scss/style.scss */
 .gl-wrapper .footer .rel-link a:hover {
   color: #005dab;
 }
 
-/* line 1489, ../scss/style.scss */
+/* line 1577, ../scss/style.scss */
 .law-wrapper .footer .rel-link h3 {
   color: #2f3942;
 }
 
-/* line 1492, ../scss/style.scss */
+/* line 1580, ../scss/style.scss */
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15 {
   color: #96001e !important;
 }
 
-/* line 1493, ../scss/style.scss */
+/* line 1581, ../scss/style.scss */
 .law-wrapper .law-sermon p a {
   color: #585858;
 }
 
-/* line 1494, ../scss/style.scss */
+/* line 1582, ../scss/style.scss */
 .edu-wrapper .footer .rel-link h3 {
   color: #006069;
 }
 
-/* line 1497, ../scss/style.scss */
+/* line 1585, ../scss/style.scss */
 .edu-wrapper .footer .rel-link a:hover,
 .edu-wrapper .edu-observe h2 a:hover,
 .edu-wrapper .edu-observe a:hover .c15 {
   color: #006f63 !important;
 }
 
-/* line 1498, ../scss/style.scss */
+/* line 1586, ../scss/style.scss */
 .phi-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1499, ../scss/style.scss */
+/* line 1587, ../scss/style.scss */
 .phi-wrapper .footer .rel-link a:hover {
   color: #2670a6;
   text-decoration: none;
 }
 
-/* line 1500, ../scss/style.scss */
+/* line 1588, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div {
   line-height: 24px;
   padding-left: 5px;
 }
-/* line 1500, ../scss/style.scss */
+/* line 1588, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div a {
   margin-right: 8px;
+}
+
+/* line 1589, ../scss/style.scss */
+.book-wrapper .header .top-nav {
+  background: #e6aa6c;
+}
+
+/* line 1591, ../scss/style.scss */
+.book-wrapper .footer .rel-link h3,
+.book-wrapper .header .sub-nav a:hover {
+  color: #e6aa6c;
+}
+
+/* line 1592, ../scss/style.scss */
+.book-wrapper .footer {
+  border-top: 4px solid #e6aa6c;
+}
+
+/* line 1593, ../scss/style.scss */
+.book-wrapper .footer .rel-link {
+  border: none;
+}
+
+/* line 1594, ../scss/style.scss */
+.book-wrapper .footer .ft-link {
+  border-top: 2px solid #e6aa6c;
+  border-bottom: none;
 }

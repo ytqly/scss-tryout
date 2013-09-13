@@ -181,3 +181,32 @@
 		}
 	}
 }
+
+.book-main-nav{
+	height: 32px;
+	line-height: 32px;
+	margin: 11px 0 14px;
+	background: #e6aa6c;
+	.mn{
+		float: left;
+		a{
+			float: left;
+			color: #fff;
+			font-family: $msyh;
+			font-weight: bold;
+			padding: 0 7px;
+			background: url(../images/book/main_nav_bg.jpg) 100% 2px no-repeat;
+			&.first{
+				padding-left: 15px;
+			}
+			&.last{
+				padding-right: 19px;
+				background-image: none;
+			}
+			&:hover{
+				text-decoration: none;
+				background: #b24540;
+			}
+		}
+	}
+}

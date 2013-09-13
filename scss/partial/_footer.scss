@@ -12,6 +12,7 @@
 		background: #fff;
 	}
 	.rel-link{
+		color: #595757;
 		padding: 3px 0 3px 5px;
 		border: 1px solid #ddd;
 		border-color: #f2f2f2 #ddd;
@@ -21,6 +22,9 @@
 			letter-spacing: 3px;
 			font-family: $msyh;
 			width: 100%;
+		}
+		h4{
+			font-weight: bold;
 		}
 		div{
 			width: 100%;

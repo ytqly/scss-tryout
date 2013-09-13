@@ -718,3 +718,58 @@
 		}
 	}
 }
+
+.book-hd{
+	a{
+		float: left;
+		color: #b24540;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: $ht, $msyh,sans-serif;
+		&:hover{
+			text-decoration: none;
+		}
+		&.fr{
+			font-size: 14px;
+			font-family: $st, Arial, sans-serif;
+			font-weight: normal;
+			margin-right: 10px;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
+.book-hd1{
+	height: 36px;
+	line-height: 37px;
+	border: solid #d7d7d7;
+	border-width: 1px 0;
+	i{
+		float: left;
+		width: 22px;
+		height: 17px;
+		margin: 10px 8px 0 9px;
+		background: url(../images/book/two_book.jpg) no-repeat;
+	}
+}
+.book-hd2{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 3px solid #ffe779;
+	.title{
+		float: left;
+		padding: 0 8px;
+		color: $c-b2;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: $ht, $msyh, sans-serif;
+		border-bottom: 3px solid #e6aa6c;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	a.fr{
+		margin-right: 10px;
+	}
+}

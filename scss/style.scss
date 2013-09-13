@@ -1475,10 +1475,98 @@
 		padding-left: 141px;
 	}
 }
-
 .social-bottom-gap{
 	height: 22px;
 	background: url(../images/social/bottom_bg.jpg) repeat-x;
+}
+
+/* book page */
+.books-list{
+	line-height: 30px;
+	dd{
+		height: 30px;
+		padding-left: 22px;
+		background: url(../images/2px_dot_black.jpg) 13px 50% no-repeat;
+		a{
+			float: left;
+			color: #000;
+			width: 100%;
+			@include crop;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
+.books-a{
+	height: 95px;
+	line-height: 30px;
+	a{
+		float: left;
+		width: 320px;
+		height: 30px;
+		margin-left: 15px;
+		padding-left: 18px;
+		background: url(../images/book/book_arrow.jpg) 0 50% no-repeat;
+	}
+}
+.books-hero{
+	.headline{
+		line-height: 1;
+		text-align: center;
+		a{
+			color: $c-b2;
+			font-size: 38px;
+			font-family: $msyh, sans-serif;
+		}
+	}
+	.sub-desc{
+		font-size: 12px;
+		margin: 15px;
+	}
+}
+.books-lib{
+	height: 225px;
+	background: #fdf5f2 url(../images/book/book_lib.jpg) no-repeat;
+	.books-show{
+		float: left;
+		width: 890px;
+		height: 210px;
+		padding: 7px 0 0 105px;
+		ul{
+			width: 870px;
+			height: 200px;
+			padding: 8px 0 0 8px;
+			background: #fff;
+			li{
+				float: left;
+				width: 118px;
+				text-align: center;
+				margin-right: 6px;
+				img{
+					display: inline-block;
+				}
+				a{
+					display: inline-block;
+					&.book{
+						float: left;
+						width: 118px;
+						height: 166px;
+						overflow: hidden;
+						margin: 0 0 6px;
+					}
+				}
+				span{
+					display: block;
+					a{
+						width: 81px;
+						height: 21px;
+						background: url(../images/book/btn_buy_bg.jpg) no-repeat;
+					}
+				}
+			}
+		}
+	}
 }
 
 @import "partial/footer";
@@ -1498,3 +1586,9 @@
 .phi-wrapper .footer .rel-link h3{color: #3171b9;}
 .phi-wrapper .footer .rel-link a:hover{color: #2670a6; text-decoration: none;}
 .phi-wrapper .footer .rel-link div{line-height: 24px; padding-left: 5px;a{margin-right: 8px;}}
+.book-wrapper .header .top-nav{background: #e6aa6c;}
+.book-wrapper .footer .rel-link h3,
+.book-wrapper .header .sub-nav a:hover{color: #e6aa6c;}
+.book-wrapper .footer{border-top: 4px solid #e6aa6c;}
+.book-wrapper .footer .rel-link{border: none;}
+.book-wrapper .footer .ft-link{border-top: 2px solid #e6aa6c; border-bottom: none;}
