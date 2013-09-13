@@ -12,6 +12,9 @@ $(function(){
 	$('.phi-slide .flexslider').flexslider({
 		animation: "slide"
 	});
+	$('.social-slide .flexslider').flexslider({
+		animation: "slide"
+	});
 	
 	//书籍轮播
 	$('#box-scrolling').scrollbox({

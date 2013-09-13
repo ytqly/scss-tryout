@@ -1208,6 +1208,20 @@
 		}
 	}
 }
+.un-list-style{
+	dd{
+		padding: 0;
+		background: none;
+		&:hover{
+			background: none;
+		}
+	}
+}
+.g-box{
+	.un-list-style{
+		margin: 0 10px;
+	}
+}
 .social-provinces{
 	height: 109px;
 	padding: 20px 0 0;
@@ -1261,9 +1275,132 @@
 		}
 	}
 }
+.social-culture-area{
+	.ca-con{
+		height: 195px;
+		margin: 10px 0 0;
+		padding-left: 12px;
+		.presentation{
+			float: left;
+			width: 350px;
+			h3{
+				height: 22px;
+				line-height: 22px;
+				text-align: center;
+				a{
+					color: #0d0d0d;
+					&:hover{
+						color: #f08220;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		.social-list{
+			float: left;
+			width: 300px;
+			margin: 8px 0 0 20px;
+			dd{
+				a{
+					&:hover{
+						color: #000!important;
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+}
+.social-people{
+	padding: 22px 0 25px 11px;
+	.social-p{
+		height: 107px;
+		.con{
+			float: left;
+			width: 518px;
+			height: 100px;
+			padding-left: 10px;
+			.p-desc{
+				float: left;
+				width: 205px;
+				margin: 15px 0 0;
+				h3{
+					text-indent: 2em;
+					a{
+						color: #0d0d0d;
+						font-weight: bold;
+						&:hover{
+							color: #cd3622;
+							text-decoration: none;
+						}
+					}
+				}
+				p{
+					font-size: 12px;
+					text-indent: 2em;
+					a{
+						color: #515151;
+						span{
+							color: #EE8325;
+						}
+						&:hover{
+							color: #000;
+							span{
+								color: #CD3622;
+							}
+						}
+					}
+				}
+			}
+			.social-list{
+				float: left;
+				width: 295px;
+				margin: 5px 0 0 15px;
+				dd{
+					a{
+						color: #5c5c5c;
+					}
+				}
+			}
+		}
+	}
+}
+.social-grace{
+	.sg{
+		height: 96px;
+		margin: 10px 0 0 5px;
+		h3{
+			margin-left: 120px;
+			a{
+				color: #5f5d5e;
+				&:hover{
+					color: #373636;
+					text-decoration: none;
+				}
+			}
+		}
+		p{
+			font-size: 12px;
+			margin-left: 120px;
+			text-indent: 2em;
+			a{
+				color: #515151;
+				span{
+					color: #EE8325;
+				}
+				&:hover{
+					color: #000;
+					text-decoration: none;
+					span{
+						color: #CD3622;
+					}
+				}
+			}
+		}
+	}
+}
 .social-custom{
 	height: 93px;
-	overflow: hidden;
 	.rel-text{
 		padding: 0 10px 0 134px;
 		h3{

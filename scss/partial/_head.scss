@@ -634,12 +634,73 @@
 		margin: 12px 0 0 10px;
 	}
 }
+.social-hd6{
+	height: 40px;
+	border-bottom: 1px solid #d7d7d7;
+	a{
+		float: left;
+		width: 108px;
+		height: 26px;
+		margin: 8px 0 0 15px;
+		background: url(../images/social/social_sprites.jpg) 0 0 no-repeat;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+.social-hd7{
+	height: 29px;
+	line-height: 29px;
+	span{
+		height: 100%;
+		display: block;
+		background: url(../images/social/social_hd_sprites.jpg) 100% 0 no-repeat;
+		a{
+			float: left;
+			width: 113px;
+			text-indent: -9999px;
+		}
+		&.area{
+			a{
+				width: 95px;
+			}
+			background-position: 100% 100%;
+		}
+	}
+}
+.social-hd8{
+	height: 40px;
+	line-height: 40px;
+	background: url(../images/social/hd_bg4.jpg) no-repeat;
+	a{
+		color: #fff;
+		float: left;
+		margin-left: 28px;
+		font-size: 18px;
+		font-family: $ht, $msyh;
+	}
+}
 .social-hd9{
 	height: 30px;
 	line-height: 30px;
 	a{
 		padding-left: 20px;
 		background: url(../images/3px_dot_orange.jpg) 10px 50% no-repeat;
+	}
+}
+.social-hd10{
+	height: 37px;
+	margin: 0 6px;
+	background: url(../images/social/hd_bg3.jpg) 50% 100% no-repeat;
+	i{
+		float: left;
+		width: 27px;
+		height: 26px;
+		margin: 5px 0 0;
+		background: url(../images/social/social_sprites.jpg) -122px 0 no-repeat;
+	}
+	a{
+		margin: 6px 0 0 6px;
 	}
 }
 .social-hd-line{
