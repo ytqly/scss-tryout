@@ -502,6 +502,11 @@ html[xmlns] .clearfix {
   border-top: none !important;
 }
 
+/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.bd-last {
+  border-right: none !important;
+}
+
 /* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .mt5 {
   margin-top: 5px !important;
@@ -695,7 +700,7 @@ i.sscp {
 }
 
 /* line 78, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
-.gl-col3, .law-col3, .edu-col3, .phi-col3, .plan-col3, .social-col2, .social-col3, .book-col2, .book-col2-3 {
+.gl-col3, .law-col3, .edu-col3, .phi-col3, .plan-col3, .social-col2, .social-col3, .book-col2, .book-col2-3, .book-col3 {
   float: right;
   overflow: hidden;
 }
@@ -2190,21 +2195,61 @@ i.sscp {
 /* line 760, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd2 .title {
   float: left;
+  height: 30px;
+  line-height: 30px;
   padding: 0 8px;
   color: #b24540;
   font-size: 16px;
   font-weight: bold;
   font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1", sans-serif;
   border-bottom: 3px solid #e6aa6c;
-  position: relative;
-  bottom: -3px;
+  _position: relative;
+  _bottom: -3px;
 }
-/* line 770, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 772, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd2 .title:hover {
   text-decoration: none;
 }
-/* line 774, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 776, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd2 a.fr {
+  margin-right: 10px;
+}
+
+/* line 782, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-col1 .book-hd2 .title {
+  line-height: 32px;
+  padding: 0 12px;
+  font-size: 15px;
+  border-color: #b24540;
+}
+
+/* line 790, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd3 {
+  height: 32px;
+  line-height: 32px;
+  background: #f3f3f2;
+}
+/* line 794, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd3 .title {
+  float: left;
+  width: 108px;
+  height: 32px;
+  background: url(../images/book/book_hd_sprites.jpg) no-repeat;
+}
+/* line 798, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd3 .title span {
+  display: none;
+}
+/* line 802, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd3 .title.scenery {
+  background-position: 0 0;
+}
+/* line 805, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd3 .title.nous {
+  background-position: -108px 0;
+}
+/* line 809, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd3 a.fr {
   margin-right: 10px;
 }
 
@@ -2680,6 +2725,74 @@ i.sscp {
 /* line 391, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
 .social-slide .flex-direction-nav {
   display: none;
+}
+
+/* book scroll box */
+/* line 397, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec {
+  padding: 13px 28px;
+  position: relative;
+}
+/* line 400, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .x-ward {
+  display: block;
+  width: 10px;
+  height: 45px;
+  background: url(../images/book/x_ward.jpg) 0 0 no-repeat;
+  position: absolute;
+  top: 45px;
+}
+/* line 408, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .forward {
+  left: 5px;
+  _left: -20px;
+  background-position: 0 0;
+}
+/* line 412, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .forward:hover {
+  background-position: 0 -45px;
+}
+/* line 416, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .backward {
+  right: 5px;
+  background-position: -10px 0;
+}
+/* line 419, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .backward:hover {
+  background-position: -10px -45px;
+}
+/* line 423, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .rec-list {
+  width: 652px;
+  height: 110px;
+  overflow: hidden;
+}
+/* line 427, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .rec-list ul {
+  height: 110px;
+  width: 1000px;
+}
+/* line 430, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .rec-list ul li {
+  float: left;
+  display: inline;
+  margin: 0 5px 0 6px;
+}
+/* line 434, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .rec-list ul li a {
+  float: left;
+  width: 82px;
+  height: 110px;
+}
+/* line 438, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .rec-list ul li a img {
+  width: 80px;
+  height: 106px;
+  border: 1px solid #c7d3f0;
+}
+/* line 444, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+.new-books-rec .rec-list ul li a:hover img {
+  border-color: #f00;
 }
 
 /* management page */
@@ -4575,6 +4688,7 @@ i.sscp {
 }
 /* line 1504, ../scss/style.scss */
 .books-a a {
+  color: #000;
   float: left;
   width: 320px;
   height: 30px;
@@ -4584,57 +4698,77 @@ i.sscp {
 }
 
 /* line 1514, ../scss/style.scss */
+.books-fl {
+  height: 95px;
+  line-height: 30px;
+}
+/* line 1517, ../scss/style.scss */
+.books-fl a {
+  color: #000;
+  float: left;
+  width: 330px;
+  height: 30px;
+  margin-left: 5px;
+  padding-left: 12px;
+  background: url(../images/2px_dot_black.jpg) 5px 50% no-repeat;
+}
+
+/* line 1528, ../scss/style.scss */
 .books-hero .headline {
   line-height: 1;
   text-align: center;
 }
-/* line 1517, ../scss/style.scss */
+/* line 1531, ../scss/style.scss */
 .books-hero .headline a {
   color: #b24540;
   font-size: 38px;
   font-family: "\5FAE\8F6F\96C5\9ED1", sans-serif;
 }
-/* line 1523, ../scss/style.scss */
+/* line 1537, ../scss/style.scss */
 .books-hero .sub-desc {
   font-size: 12px;
   margin: 15px;
 }
+/* line 1540, ../scss/style.scss */
+.books-hero .sub-desc a {
+  color: #000;
+}
 
-/* line 1528, ../scss/style.scss */
+/* line 1545, ../scss/style.scss */
 .books-lib {
   height: 225px;
   background: #fdf5f2 url(../images/book/book_lib.jpg) no-repeat;
 }
-/* line 1531, ../scss/style.scss */
+/* line 1548, ../scss/style.scss */
 .books-lib .books-show {
   float: left;
   width: 890px;
   height: 210px;
   padding: 7px 0 0 105px;
 }
-/* line 1536, ../scss/style.scss */
+/* line 1553, ../scss/style.scss */
 .books-lib .books-show ul {
   width: 870px;
   height: 200px;
   padding: 8px 0 0 8px;
   background: #fff;
 }
-/* line 1541, ../scss/style.scss */
+/* line 1558, ../scss/style.scss */
 .books-lib .books-show ul li {
   float: left;
   width: 118px;
   text-align: center;
   margin-right: 6px;
 }
-/* line 1546, ../scss/style.scss */
+/* line 1563, ../scss/style.scss */
 .books-lib .books-show ul li img {
   display: inline-block;
 }
-/* line 1549, ../scss/style.scss */
+/* line 1566, ../scss/style.scss */
 .books-lib .books-show ul li a {
   display: inline-block;
 }
-/* line 1551, ../scss/style.scss */
+/* line 1568, ../scss/style.scss */
 .books-lib .books-show ul li a.book {
   float: left;
   width: 118px;
@@ -4642,15 +4776,81 @@ i.sscp {
   overflow: hidden;
   margin: 0 0 6px;
 }
-/* line 1559, ../scss/style.scss */
+/* line 1576, ../scss/style.scss */
 .books-lib .books-show ul li span {
   display: block;
 }
-/* line 1561, ../scss/style.scss */
+/* line 1578, ../scss/style.scss */
 .books-lib .books-show ul li span a {
   width: 81px;
   height: 21px;
   background: url(../images/book/btn_buy_bg.jpg) no-repeat;
+}
+
+/* line 1588, ../scss/style.scss */
+.famous-col {
+  height: 125px;
+  _height: 118px;
+  padding: 12px 0 0;
+  overflow: hidden;
+}
+/* line 1593, ../scss/style.scss */
+.famous-col .fc-box {
+  float: left;
+  width: 225px;
+  padding: 0 5px;
+  border-right: 1px solid #e7ac6c;
+}
+/* line 1598, ../scss/style.scss */
+.famous-col .fc-box > a {
+  display: block;
+  height: 38px;
+  margin: 0 0 5px;
+  overflow: hidden;
+}
+/* line 1604, ../scss/style.scss */
+.famous-col .fc-box p {
+  font-size: 12px;
+  line-height: 20px;
+  _line-height: 18px;
+}
+/* line 1608, ../scss/style.scss */
+.famous-col .fc-box p a {
+  color: #000;
+}
+
+/* line 1614, ../scss/style.scss */
+.foreign-rec {
+  margin: 15px 0 0;
+}
+/* line 1616, ../scss/style.scss */
+.foreign-rec h3 {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 1620, ../scss/style.scss */
+.foreign-rec h3 a {
+  color: #b24540;
+}
+/* line 1624, ../scss/style.scss */
+.foreign-rec .fr-con {
+  height: 68px;
+  padding: 8px 13px 0 13px;
+}
+/* line 1627, ../scss/style.scss */
+.foreign-rec .fr-con a.fl {
+  height: 60px;
+}
+/* line 1630, ../scss/style.scss */
+.foreign-rec .fr-con p {
+  padding-left: 85px;
+  font-size: 12px;
+  line-height: 20px;
+}
+/* line 1634, ../scss/style.scss */
+.foreign-rec .fr-con p a {
+  color: #000;
 }
 
 /* footer set */
@@ -4735,88 +4935,88 @@ i.sscp {
 }
 
 /* global cascading style */
-/* line 1575, ../scss/style.scss */
+/* line 1644, ../scss/style.scss */
 .gl-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1576, ../scss/style.scss */
+/* line 1645, ../scss/style.scss */
 .gl-wrapper .footer .rel-link a:hover {
   color: #005dab;
 }
 
-/* line 1577, ../scss/style.scss */
+/* line 1646, ../scss/style.scss */
 .law-wrapper .footer .rel-link h3 {
   color: #2f3942;
 }
 
-/* line 1580, ../scss/style.scss */
+/* line 1649, ../scss/style.scss */
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15 {
   color: #96001e !important;
 }
 
-/* line 1581, ../scss/style.scss */
+/* line 1650, ../scss/style.scss */
 .law-wrapper .law-sermon p a {
   color: #585858;
 }
 
-/* line 1582, ../scss/style.scss */
+/* line 1651, ../scss/style.scss */
 .edu-wrapper .footer .rel-link h3 {
   color: #006069;
 }
 
-/* line 1585, ../scss/style.scss */
+/* line 1654, ../scss/style.scss */
 .edu-wrapper .footer .rel-link a:hover,
 .edu-wrapper .edu-observe h2 a:hover,
 .edu-wrapper .edu-observe a:hover .c15 {
   color: #006f63 !important;
 }
 
-/* line 1586, ../scss/style.scss */
+/* line 1655, ../scss/style.scss */
 .phi-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1587, ../scss/style.scss */
+/* line 1656, ../scss/style.scss */
 .phi-wrapper .footer .rel-link a:hover {
   color: #2670a6;
   text-decoration: none;
 }
 
-/* line 1588, ../scss/style.scss */
+/* line 1657, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div {
   line-height: 24px;
   padding-left: 5px;
 }
-/* line 1588, ../scss/style.scss */
+/* line 1657, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div a {
   margin-right: 8px;
 }
 
-/* line 1589, ../scss/style.scss */
+/* line 1658, ../scss/style.scss */
 .book-wrapper .header .top-nav {
   background: #e6aa6c;
 }
 
-/* line 1591, ../scss/style.scss */
+/* line 1660, ../scss/style.scss */
 .book-wrapper .footer .rel-link h3,
 .book-wrapper .header .sub-nav a:hover {
   color: #e6aa6c;
 }
 
-/* line 1592, ../scss/style.scss */
+/* line 1661, ../scss/style.scss */
 .book-wrapper .footer {
   border-top: 4px solid #e6aa6c;
 }
 
-/* line 1593, ../scss/style.scss */
+/* line 1662, ../scss/style.scss */
 .book-wrapper .footer .rel-link {
   border: none;
 }
 
-/* line 1594, ../scss/style.scss */
+/* line 1663, ../scss/style.scss */
 .book-wrapper .footer .ft-link {
   border-top: 2px solid #e6aa6c;
   border-bottom: none;

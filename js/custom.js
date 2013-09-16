@@ -18,21 +18,33 @@ $(function(){
 	
 	//书籍轮播
 	$('#box-scrolling').scrollbox({
-	  direction: 'h',
-	  distance: 131
+		direction: 'h',
+		distance: 131
 	});
 	$('#forward').click(function () {
-	  $('#box-scrolling').trigger('backward');
+		$('#box-scrolling').trigger('backward');
 	});
 	$('#backward').click(function () {
-	  $('#box-scrolling').trigger('forward');
+		$('#box-scrolling').trigger('forward');
 	});
+
 	$('#bl').scrollbox({
 		direction: 'h',
 		switchItems: 3,
 		distance: 339,
 		linear: true,
 		delay: 0
+	});
+
+	$('#rec-list').scrollbox({
+		direction: 'h',
+		distance: 93
+	});
+	$('#forward').click(function () {
+		$('#rec-list').trigger('backward');
+	});
+	$('#backward').click(function () {
+		$('#rec-list').trigger('forward');
 	});
 
 	//教育(哲)学tabs切换

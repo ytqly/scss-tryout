@@ -759,14 +759,51 @@
 	border-bottom: 3px solid #ffe779;
 	.title{
 		float: left;
+		height: 30px;
+		line-height: 30px;
 		padding: 0 8px;
 		color: $c-b2;
 		font-size: 16px;
 		font-weight: bold;
 		font-family: $ht, $msyh, sans-serif;
 		border-bottom: 3px solid #e6aa6c;
+		_position: relative;
+		_bottom: -3px;
 		&:hover{
 			text-decoration: none;
+		}
+	}
+	a.fr{
+		margin-right: 10px;
+	}
+}
+.book-col1{
+	.book-hd2{
+		.title{
+			line-height: 32px;
+			padding: 0 12px;
+			font-size: 15px;
+			border-color: #b24540;
+		}
+	}
+}
+.book-hd3{
+	height: 32px;
+	line-height: 32px;
+	background: #f3f3f2;
+	.title{
+		float: left;
+		width: 108px;
+		height: 32px;
+		span{
+			display: none;
+		}
+		background: url(../images/book/book_hd_sprites.jpg) no-repeat;
+		&.scenery{
+			background-position: 0 0;
+		}
+		&.nous{
+			background-position: -108px 0;
 		}
 	}
 	a.fr{

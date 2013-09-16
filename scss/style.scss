@@ -1502,12 +1502,26 @@
 	height: 95px;
 	line-height: 30px;
 	a{
+		color: #000;
 		float: left;
 		width: 320px;
 		height: 30px;
 		margin-left: 15px;
 		padding-left: 18px;
 		background: url(../images/book/book_arrow.jpg) 0 50% no-repeat;
+	}
+}
+.books-fl{
+	height: 95px;
+	line-height: 30px;
+	a{
+		color: #000;
+		float: left;
+		width: 330px;
+		height: 30px;
+		margin-left: 5px;
+		padding-left: 12px;
+		background: url(../images/2px_dot_black.jpg) 5px 50% no-repeat;
 	}
 }
 .books-hero{
@@ -1523,6 +1537,9 @@
 	.sub-desc{
 		font-size: 12px;
 		margin: 15px;
+		a{
+			color: #000;
+		}
 	}
 }
 .books-lib{
@@ -1564,6 +1581,58 @@
 						background: url(../images/book/btn_buy_bg.jpg) no-repeat;
 					}
 				}
+			}
+		}
+	}
+}
+.famous-col{
+	height: 125px;
+	_height: 118px;
+	padding: 12px 0 0;
+	overflow: hidden;
+	.fc-box{
+		float: left;
+		width: 225px;
+		padding: 0 5px;
+		border-right: 1px solid #e7ac6c;
+		& > a{
+			display: block;
+			height: 38px;
+			margin: 0 0 5px;
+			overflow: hidden;
+		}
+		p{
+			font-size: 12px;
+			line-height: 20px;
+			_line-height: 18px;
+			a{
+				color: #000;
+			}
+		}
+	}
+}
+.foreign-rec{
+	margin: 15px 0 0;
+	h3{
+		width: 100%;
+		font-weight: bold;
+		text-align: center;
+		a{
+			color: $c-b2;
+		}
+	}
+	.fr-con{
+		height: 68px;
+		padding: 8px 13px 0 13px;
+		a.fl{
+			height: 60px;
+		}
+		p{
+			padding-left: 85px;
+			font-size: 12px;
+			line-height: 20px;
+			a{
+				color: #000;
 			}
 		}
 	}
