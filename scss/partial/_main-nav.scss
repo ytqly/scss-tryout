@@ -37,7 +37,7 @@
 		display: block;
 		width: 12px;
 		height: 34px;
-		background: url(../images/law/sprites_law.jpg) 0 0 no-repeat;
+		background: url(../images/law_sprites_law.jpg) 0 0 no-repeat;
 		position: absolute;
 		top: -3px;
 		right: -3px;
@@ -59,7 +59,7 @@
 	color: #005466;
 	height: 44px;
 	margin: 11px 0 20px;
-	background: url(../images/edu/edu_main_nav_bg.jpg) 0 0 no-repeat;
+	background: url(../images/edu_main_nav_bg.jpg) 0 0 no-repeat;
 	.mn{
 		height: 24px;
 		line-height: 24px;
@@ -81,13 +81,13 @@
 	margin: 11px 0 10px;
 	margin-right: -1px;
 	_margin-right: 0;
-	background: url(../images/philosophy/phi_main_nav_bg.jpg) 0 0 repeat-x;
+	background: url(../images/phi_main_nav_bg.jpg) 0 0 repeat-x;
 	position: relative;
 	span{
 		display: block;
 		width: 4px;
 		height: 52px;
-		background: url(../images/philosophy/phi_main_nav_bg.jpg) no-repeat;
+		background: url(../images/phi_main_nav_bg.jpg) no-repeat;
 		position: absolute;
 		top: 0;
 		&.lt-bd{
@@ -127,12 +127,12 @@
 	line-height: 27px;
 	margin: 8px 0 16px;
 	border: 1px solid #4d505d;
-	background: url(../images/plan/plan_main_nav_bg.jpg) 0 0 repeat-x;
+	background: url(../images/plan_main_nav_bg.jpg) 0 0 repeat-x;
 	.lt{
 		float: left;
 		width: 30px;
 		height: 27px;
-		background: url(../images/plan/plan_main_nav_lt_bg.jpg) 0 0 no-repeat;
+		background: url(../images/plan_main_nav_lt_bg.jpg) 0 0 no-repeat;
 	}
 	.mn{
 		float: right;
@@ -146,7 +146,7 @@
 			font-family: $msyh;
 			&:hover{
 				text-decoration: none;
-				background: url(../images/plan/plan_main_nav_bg.jpg) 0 -27px repeat-x;
+				background: url(../images/plan_main_nav_bg.jpg) 0 -27px repeat-x;
 			}
 		}
 	}
@@ -155,7 +155,7 @@
 .social-main-nav{
 	height: 31px;
 	margin: 13px 0 14px;
-	background: url(../images/social/main_nav_bg.jpg) 0 0 no-repeat;
+	background: url(../images/social_main_nav_bg.jpg) 0 0 no-repeat;
 	.mn{
 		float: left;
 		padding-left: 35px;
@@ -168,7 +168,7 @@
 			line-height: 30px;
 			&:hover{
 				text-decoration: none;
-				background: url(../images/social/main_nav_hover_bg.jpg) 0 0 repeat-x;
+				background: url(../images/social_main_nav_hover_bg.jpg) 0 0 repeat-x;
 			}
 		}
 		span{
@@ -195,7 +195,7 @@
 			font-family: $msyh;
 			font-weight: bold;
 			padding: 0 7px;
-			background: url(../images/book/main_nav_bg.jpg) 100% 2px no-repeat;
+			background: url(../images/book_main_nav_bg.jpg) 100% 2px no-repeat;
 			&.first{
 				padding-left: 15px;
 			}
@@ -207,6 +207,53 @@
 				text-decoration: none;
 				background: #b24540;
 			}
+		}
+	}
+}
+
+.uni-main-nav{
+	height: 43px;
+	line-height: 34px;
+	margin: 23px 0 0;
+	background: url(../images/uni_main_nav_bg_repeat.jpg) repeat-x;
+	.right-arrow{
+		float: right;
+		width: 18px;
+		height: 34px;
+		background: url(../images/uni_main_nav_end_bg.jpg) 100% 0 no-repeat;
+	}
+	a{
+		font-size: 16px;
+		font-family: $msyh;
+		&:hover{
+			text-decoration: none;
+		}
+		&.main-left{
+			color: #0759a0;
+			float: left;
+			width: 98px;
+			height: 34px;
+			padding-left: 18px;
+			background: url(../images/uni_main_nav_end_bg.jpg) 0 0 no-repeat;
+		}
+	}
+	.mn{
+		float: left;
+		padding-left: 30px;
+		a{
+			color: #fff;
+			float: left;
+			width: 80px;
+			height: 43px;
+			text-align: center;
+			&:hover{
+				background: url(../images/uni_main_nav_hover_bg.jpg) 50% 0 no-repeat;
+			}
+		}
+		span{
+			color: #2472b5;
+			float: left;
+			margin: 0 2px;
 		}
 	}
 }

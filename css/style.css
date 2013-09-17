@@ -518,6 +518,11 @@ html[xmlns] .clearfix {
 }
 
 /* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+.mt9 {
+  margin-top: 9px !important;
+}
+
+/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .mt10 {
   margin-top: 10px !important;
 }
@@ -675,7 +680,7 @@ i.sscp {
 
 /* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .ad-banner {
-  margin: 22px 0;
+  margin: 15px 0;
 }
 /* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
 .ad-banner a {
@@ -1038,7 +1043,7 @@ i.sscp {
   display: block;
   width: 12px;
   height: 34px;
-  background: url(../images/law/sprites_law.jpg) 0 0 no-repeat;
+  background: url(../images/law_sprites_law.jpg) 0 0 no-repeat;
   position: absolute;
   top: -3px;
   right: -3px;
@@ -1061,7 +1066,7 @@ i.sscp {
   color: #005466;
   height: 44px;
   margin: 11px 0 20px;
-  background: url(../images/edu/edu_main_nav_bg.jpg) 0 0 no-repeat;
+  background: url(../images/edu_main_nav_bg.jpg) 0 0 no-repeat;
 }
 /* line 63, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
 .edu-main-nav .mn {
@@ -1088,7 +1093,7 @@ i.sscp {
   margin: 11px 0 10px;
   margin-right: -1px;
   _margin-right: 0;
-  background: url(../images/philosophy/phi_main_nav_bg.jpg) 0 0 repeat-x;
+  background: url(../images/phi_main_nav_bg.jpg) 0 0 repeat-x;
   position: relative;
 }
 /* line 86, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
@@ -1096,7 +1101,7 @@ i.sscp {
   display: block;
   width: 4px;
   height: 52px;
-  background: url(../images/philosophy/phi_main_nav_bg.jpg) no-repeat;
+  background: url(../images/phi_main_nav_bg.jpg) no-repeat;
   position: absolute;
   top: 0;
 }
@@ -1141,14 +1146,14 @@ i.sscp {
   line-height: 27px;
   margin: 8px 0 16px;
   border: 1px solid #4d505d;
-  background: url(../images/plan/plan_main_nav_bg.jpg) 0 0 repeat-x;
+  background: url(../images/plan_main_nav_bg.jpg) 0 0 repeat-x;
 }
 /* line 131, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
 .plan-main-nav .lt {
   float: left;
   width: 30px;
   height: 27px;
-  background: url(../images/plan/plan_main_nav_lt_bg.jpg) 0 0 no-repeat;
+  background: url(../images/plan_main_nav_lt_bg.jpg) 0 0 no-repeat;
 }
 /* line 137, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
 .plan-main-nav .mn {
@@ -1167,14 +1172,14 @@ i.sscp {
 /* line 147, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
 .plan-main-nav .mn a:hover {
   text-decoration: none;
-  background: url(../images/plan/plan_main_nav_bg.jpg) 0 -27px repeat-x;
+  background: url(../images/plan_main_nav_bg.jpg) 0 -27px repeat-x;
 }
 
 /* line 155, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
 .social-main-nav {
   height: 31px;
   margin: 13px 0 14px;
-  background: url(../images/social/main_nav_bg.jpg) 0 0 no-repeat;
+  background: url(../images/social_main_nav_bg.jpg) 0 0 no-repeat;
 }
 /* line 159, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
 .social-main-nav .mn {
@@ -1193,7 +1198,7 @@ i.sscp {
 /* line 169, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
 .social-main-nav .mn a:hover {
   text-decoration: none;
-  background: url(../images/social/main_nav_hover_bg.jpg) 0 0 repeat-x;
+  background: url(../images/social_main_nav_hover_bg.jpg) 0 0 repeat-x;
 }
 /* line 174, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
 .social-main-nav .mn span {
@@ -1223,7 +1228,7 @@ i.sscp {
   font-family: "\5FAE\8F6F\96C5\9ED1";
   font-weight: bold;
   padding: 0 7px;
-  background: url(../images/book/main_nav_bg.jpg) 100% 2px no-repeat;
+  background: url(../images/book_main_nav_bg.jpg) 100% 2px no-repeat;
 }
 /* line 199, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
 .book-main-nav .mn a.first {
@@ -1238,6 +1243,62 @@ i.sscp {
 .book-main-nav .mn a:hover {
   text-decoration: none;
   background: #b24540;
+}
+
+/* line 214, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.uni-main-nav {
+  height: 43px;
+  line-height: 34px;
+  margin: 23px 0 0;
+  background: url(../images/uni_main_nav_bg_repeat.jpg) repeat-x;
+}
+/* line 219, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.uni-main-nav .right-arrow {
+  float: right;
+  width: 18px;
+  height: 34px;
+  background: url(../images/uni_main_nav_end_bg.jpg) 100% 0 no-repeat;
+}
+/* line 225, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.uni-main-nav a {
+  font-size: 16px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+/* line 228, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.uni-main-nav a:hover {
+  text-decoration: none;
+}
+/* line 231, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.uni-main-nav a.main-left {
+  color: #0759a0;
+  float: left;
+  width: 98px;
+  height: 34px;
+  padding-left: 18px;
+  background: url(../images/uni_main_nav_end_bg.jpg) 0 0 no-repeat;
+}
+/* line 240, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.uni-main-nav .mn {
+  float: left;
+  padding-left: 30px;
+}
+/* line 243, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.uni-main-nav .mn a {
+  color: #fff;
+  float: left;
+  width: 80px;
+  height: 43px;
+  text-align: center;
+}
+/* line 249, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.uni-main-nav .mn a:hover {
+  background: url(../images/uni_main_nav_hover_bg.jpg) 50% 0 no-repeat;
+}
+/* line 253, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+.uni-main-nav .mn span {
+  color: #2472b5;
+  float: left;
+  margin: 0 2px;
 }
 
 /* title set */
@@ -1296,7 +1357,7 @@ i.sscp {
 .ft-head {
   height: 25px;
   margin: 0 0 5px;
-  background: url(../images/gl/feature_bg.jpg) no-repeat;
+  background: url(../images/gl_feature_bg.jpg) no-repeat;
 }
 /* line 47, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .ft-head em {
@@ -1336,7 +1397,7 @@ i.sscp {
   display: block;
   width: 9px;
   height: 26px;
-  background: url(../images/law/sprites_law.jpg) no-repeat;
+  background: url(../images/law_sprites_law.jpg) no-repeat;
   position: absolute;
 }
 
@@ -1441,7 +1502,7 @@ i.sscp {
 
 /* line 161, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .law-head-switcher {
-  background: #efeff1 url(../images/law/law_head_switcher_bg.jpg) no-repeat;
+  background: #efeff1 url(../images/law_head_switcher_bg.jpg) no-repeat;
 }
 /* line 163, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .law-head-switcher a {
@@ -1474,7 +1535,7 @@ i.sscp {
 
 /* line 185, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .law-head2-switcher {
-  background: #efeff1 url(../images/law/law_head_switcher2_bg.jpg) no-repeat;
+  background: #efeff1 url(../images/law_head_switcher2_bg.jpg) no-repeat;
 }
 /* line 187, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .law-head2-switcher a {
@@ -1519,7 +1580,7 @@ i.sscp {
   height: 29px;
   line-height: 22px;
   padding: 0 0 0 7px;
-  background: url(../images/edu/sprites_edu.jpg) 0 0 no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 0 0 no-repeat;
   _position: relative;
   _bottom: -1px;
 }
@@ -1528,7 +1589,7 @@ i.sscp {
   float: left;
   padding: 2px 12px 5px 0;
   _padding: 3px 12px 4px 0;
-  background: url(../images/edu/sprites_edu.jpg) 100% 0 no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 100% 0 no-repeat;
 }
 
 /* line 232, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
@@ -1544,13 +1605,13 @@ i.sscp {
   height: 25px;
   line-height: 20px;
   padding: 0 0 0 7px;
-  background: url(../images/edu/sprites_edu.jpg) 0 -29px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 0 -29px no-repeat;
 }
 /* line 243, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head2 .eh span, .edu-head4 .eh span {
   float: left;
   padding: 2px 12px 2px 0;
-  background: url(../images/edu/sprites_edu.jpg) 100% -29px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 100% -29px no-repeat;
 }
 /* line 249, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head2 .edu-more, .edu-head4 .edu-more {
@@ -1583,7 +1644,7 @@ i.sscp {
 .edu-head2 .eh2 a.alpha, .edu-head2 .eh2 a.beta {
   color: #b5b5b6;
   font-family: "\5FAE\8F6F\96C5\9ED1", "方正大黑简体";
-  background: url(../images/edu/sprites_edu.jpg) 0 -104px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 0 -104px no-repeat;
 }
 /* line 274, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head2 .eh2 a.alpha span, .edu-head2 .eh2 a.beta span {
@@ -1593,32 +1654,32 @@ i.sscp {
 .edu-head2 .eh2 a.alpha.on, .edu-head2 .eh2 a.beta.on {
   color: #006069;
   font-family: "方正大黑简体", "\5FAE\8F6F\96C5\9ED1";
-  background: url(../images/edu/sprites_edu.jpg) 0 -29px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 0 -29px no-repeat;
 }
 /* line 281, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head2 .eh2 a.alpha.on span, .edu-head2 .eh2 a.beta.on span {
-  background: url(../images/edu/sprites_edu.jpg) 97% -29px no-repeat !important;
+  background: url(../images/edu_sprites_edu.jpg) 97% -29px no-repeat !important;
 }
 /* line 286, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head2 .eh2 a.omega {
   color: #b5b5b6;
   font-family: "\5FAE\8F6F\96C5\9ED1", "方正大黑简体";
-  background: url(../images/edu/sprites_edu.jpg) 0 -104px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 0 -104px no-repeat;
 }
 /* line 290, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head2 .eh2 a.omega span {
   padding: 2px 12px 3px 0;
-  background: url(../images/edu/sprites_edu.jpg) 100% -104px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 100% -104px no-repeat;
 }
 /* line 294, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head2 .eh2 a.omega.on {
   color: #006069;
   font-family: "方正大黑简体", "\5FAE\8F6F\96C5\9ED1";
-  background: url(../images/edu/sprites_edu.jpg) 0 -29px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 0 -29px no-repeat;
 }
 /* line 298, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head2 .eh2 a.omega.on span {
-  background: url(../images/edu/sprites_edu.jpg) 100% -29px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 100% -29px no-repeat;
 }
 
 /* line 306, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
@@ -1654,12 +1715,12 @@ i.sscp {
 
 /* line 331, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .eh-bb1 {
-  background: url(../images/edu/edu_head_bg1.jpg) 0 100% no-repeat;
+  background: url(../images/edu_head_bg1.jpg) 0 100% no-repeat;
 }
 
 /* line 332, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .eh-bb2 {
-  background: url(../images/edu/edu_head_bg2.jpg) 0 100% no-repeat;
+  background: url(../images/edu_head_bg2.jpg) 0 100% no-repeat;
 }
 
 /* line 333, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
@@ -1732,7 +1793,7 @@ i.sscp {
 /* line 387, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head4 .eh4 a.alpha, .edu-head4 .eh4 a.beta {
   font-family: "\5FAE\8F6F\96C5\9ED1", "方正大黑简体";
-  background: url(../images/edu/sprites_edu.jpg) 0 -79px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 0 -79px no-repeat;
 }
 /* line 390, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head4 .eh4 a.alpha span, .edu-head4 .eh4 a.beta span {
@@ -1741,11 +1802,11 @@ i.sscp {
 /* line 393, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head4 .eh4 a.alpha.on, .edu-head4 .eh4 a.beta.on {
   font-family: "方正大黑简体", "\5FAE\8F6F\96C5\9ED1";
-  background: url(../images/edu/sprites_edu.jpg) 0 -54px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 0 -54px no-repeat;
 }
 /* line 396, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head4 .eh4 a.alpha.on span, .edu-head4 .eh4 a.beta.on span {
-  background: url(../images/edu/sprites_edu.jpg) -7px -54px no-repeat !important;
+  background: url(../images/edu_sprites_edu.jpg) -7px -54px no-repeat !important;
 }
 /* line 401, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head4 .eh4 a.beta, .edu-head4 .eh4 a.omega {
@@ -1754,21 +1815,21 @@ i.sscp {
 /* line 402, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head4 .eh4 a.omega {
   font-family: "\5FAE\8F6F\96C5\9ED1", "方正大黑简体";
-  background: url(../images/edu/sprites_edu.jpg) 0 -79px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 0 -79px no-repeat;
 }
 /* line 405, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head4 .eh4 a.omega span {
   padding: 2px 12px 3px 0;
-  background: url(../images/edu/sprites_edu.jpg) 100% -79px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 100% -79px no-repeat;
 }
 /* line 409, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head4 .eh4 a.omega.on {
   font-family: "方正大黑简体", "\5FAE\8F6F\96C5\9ED1";
-  background: url(../images/edu/sprites_edu.jpg) 0 -54px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 0 -54px no-repeat;
 }
 /* line 412, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .edu-head4 .eh4 a.omega.on span {
-  background: url(../images/edu/sprites_edu.jpg) 100% -54px no-repeat;
+  background: url(../images/edu_sprites_edu.jpg) 100% -54px no-repeat;
 }
 
 /* line 421, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
@@ -1818,7 +1879,7 @@ i.sscp {
 /* line 458, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .phi-head, .phi-head2 {
   height: 33px;
-  background: url(../images/philosophy/phi_h2_bg.jpg) left bottom repeat-x;
+  background: url(../images/phi_h2_bg.jpg) left bottom repeat-x;
 }
 /* line 461, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .phi-head a.more, .phi-head2 a.more {
@@ -1854,7 +1915,7 @@ i.sscp {
 .phi-head2 {
   height: 32px;
   overflow: visible;
-  background: url(../images/philosophy/phi_h2_bg_sidebar_blue.jpg) 0 30px repeat-x;
+  background: url(../images/phi_h2_bg_sidebar_blue.jpg) 0 30px repeat-x;
 }
 /* line 490, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .phi-head2 a.more {
@@ -1876,7 +1937,7 @@ i.sscp {
 /* line 505, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .phi-head3 {
   height: 26px;
-  background: url(../images/philosophy/phi_h2_bg_sidebar_gray.jpg) left bottom repeat-x;
+  background: url(../images/phi_h2_bg_sidebar_gray.jpg) left bottom repeat-x;
 }
 /* line 508, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .phi-head3 span {
@@ -1886,7 +1947,7 @@ i.sscp {
   height: 26px;
   line-height: 22px;
   padding: 0 2px 0 11px;
-  background: url(../images/philosophy/phi_h2_bg_sidebar_blue.jpg) left bottom repeat-x;
+  background: url(../images/phi_h2_bg_sidebar_blue.jpg) left bottom repeat-x;
 }
 /* line 516, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .phi-head3 span a {
@@ -1908,7 +1969,7 @@ i.sscp {
   height: 29px;
   line-height: 29px;
   padding-left: 5px;
-  background: url(../images/philosophy/phi_h2_lt_bg.jpg) left bottom no-repeat;
+  background: url(../images/phi_h2_lt_bg.jpg) left bottom no-repeat;
 }
 /* line 534, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .phi-head4 a {
@@ -1928,7 +1989,7 @@ i.sscp {
   height: 56px;
   padding: 0 24px 0 15px;
   border-bottom: 1px solid #d7d7d7;
-  background: url(../images/plan/top_bar_bg.jpg) 0 0 no-repeat;
+  background: url(../images/plan_top_bar_bg.jpg) 0 0 no-repeat;
 }
 /* line 550, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .plan-head a.fl {
@@ -1967,7 +2028,7 @@ i.sscp {
 .social-hd1 {
   height: 41px;
   border-bottom: 1px solid #d7d7d7;
-  background: url(../images/social/hd_bg1.jpg) 0 1px no-repeat;
+  background: url(../images/social_hd_bg1.jpg) 0 1px no-repeat;
 }
 /* line 584, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd1 a {
@@ -1982,7 +2043,7 @@ i.sscp {
 .social-hd2 {
   height: 21px;
   line-height: 22px;
-  background: url(../images/social/hd_bg2.jpg) 0 0 no-repeat;
+  background: url(../images/social_hd_bg2.jpg) 0 0 no-repeat;
 }
 /* line 595, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd2 a {
@@ -2003,13 +2064,13 @@ i.sscp {
   height: 44px;
   line-height: 44px;
   padding-left: 25px;
-  background: url(../images/social/8px_dot_orange.jpg) 10px 50% no-repeat;
+  background: url(../images/8px_dot_orange.jpg) 10px 50% no-repeat;
 }
 
 /* line 613, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd4 {
   height: 40px;
-  background: url(../images/social/hd_bg3.jpg) 50% 100% no-repeat;
+  background: url(../images/social_hd_bg3.jpg) 50% 100% no-repeat;
 }
 /* line 616, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd4 a {
@@ -2027,7 +2088,7 @@ i.sscp {
   width: 19px;
   height: 18px;
   margin: 10px 0 0 10px;
-  background: url(../images/social/social_sprites.jpg) -172px 1px no-repeat;
+  background: url(../images/social_sprites.jpg) -172px 1px no-repeat;
 }
 /* line 630, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd5 a {
@@ -2049,7 +2110,7 @@ i.sscp {
   width: 108px;
   height: 26px;
   margin: 8px 0 0 15px;
-  background: url(../images/social/social_sprites.jpg) 0 0 no-repeat;
+  background: url(../images/social_sprites.jpg) 0 0 no-repeat;
 }
 /* line 646, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd6 a:hover {
@@ -2065,7 +2126,7 @@ i.sscp {
 .social-hd7 span {
   height: 100%;
   display: block;
-  background: url(../images/social/social_hd_sprites.jpg) 100% 0 no-repeat;
+  background: url(../images/social_hd_sprites.jpg) 100% 0 no-repeat;
 }
 /* line 658, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd7 span a {
@@ -2086,7 +2147,7 @@ i.sscp {
 .social-hd8 {
   height: 40px;
   line-height: 40px;
-  background: url(../images/social/hd_bg4.jpg) no-repeat;
+  background: url(../images/social_hd_bg4.jpg) no-repeat;
 }
 /* line 675, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd8 a {
@@ -2112,7 +2173,7 @@ i.sscp {
 .social-hd10 {
   height: 37px;
   margin: 0 6px;
-  background: url(../images/social/hd_bg3.jpg) 50% 100% no-repeat;
+  background: url(../images/social_hd_bg3.jpg) 50% 100% no-repeat;
 }
 /* line 695, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd10 i {
@@ -2120,7 +2181,7 @@ i.sscp {
   width: 27px;
   height: 26px;
   margin: 5px 0 0;
-  background: url(../images/social/social_sprites.jpg) -122px 0 no-repeat;
+  background: url(../images/social_sprites.jpg) -122px 0 no-repeat;
 }
 /* line 702, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd10 a {
@@ -2131,7 +2192,7 @@ i.sscp {
 .social-hd-line {
   height: 26px;
   margin: 0 0 8px;
-  background: url(../images/social/hd_bg5.jpg) no-repeat;
+  background: url(../images/social_hd_bg5.jpg) no-repeat;
 }
 /* line 710, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd-line a {
@@ -2143,7 +2204,7 @@ i.sscp {
 /* line 715, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .social-hd-line a:hover {
   text-decoration: none;
-  background: url(../images/social/social_global.jpg) no-repeat;
+  background: url(../images/social_global.jpg) no-repeat;
 }
 
 /* line 723, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
@@ -2178,21 +2239,29 @@ i.sscp {
   border-width: 1px 0;
 }
 /* line 748, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
-.book-hd1 i {
+.book-hd1 i.one {
+  float: left;
+  width: 20px;
+  height: 18px;
+  margin: 9px 8px 0 9px;
+  background: url(../images/book_one_book.jpg) no-repeat;
+}
+/* line 756, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd1 i.two {
   float: left;
   width: 22px;
   height: 17px;
   margin: 10px 8px 0 9px;
-  background: url(../images/book/two_book.jpg) no-repeat;
+  background: url(../images/book_two_book.jpg) no-repeat;
 }
 
-/* line 756, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 764, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd2 {
-  height: 30px;
+  height: 33px;
   line-height: 30px;
-  border-bottom: 3px solid #ffe779;
+  background: url(../images/book_hd_bg.jpg) 0 30px repeat-x;
 }
-/* line 760, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 768, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd2 .title {
   float: left;
   height: 30px;
@@ -2203,52 +2272,87 @@ i.sscp {
   font-weight: bold;
   font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1", sans-serif;
   border-bottom: 3px solid #e6aa6c;
-  _position: relative;
-  _bottom: -3px;
 }
-/* line 772, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 778, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd2 .title:hover {
   text-decoration: none;
 }
-/* line 776, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 782, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd2 a.fr {
   margin-right: 10px;
 }
 
-/* line 782, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 788, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-col1 .book-hd2 .title {
-  line-height: 32px;
+  line-height: 30px;
   padding: 0 12px;
   font-size: 15px;
   border-color: #b24540;
 }
 
-/* line 790, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 797, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-col2 .book-hd2, .book-col3 .book-hd2 {
+  height: 32px;
+  line-height: 28px;
+  background: url(../images/book_hd_bg.jpg) 0 28px repeat-x;
+}
+/* line 801, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-col2 .book-hd2 .title, .book-col3 .book-hd2 .title {
+  height: 28px;
+  line-height: 28px;
+  padding: 0 1px;
+  font-size: 18px;
+  border-bottom-width: 4px;
+}
+/* line 807, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-col2 .book-hd2 .title span, .book-col3 .book-hd2 .title span {
+  color: #e6aa6c;
+  _font-size: 16px;
+  font-family: "\534E\6587\6977\4F53", sans-serif;
+}
+
+/* line 815, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd3 {
   height: 32px;
   line-height: 32px;
   background: #f3f3f2;
 }
-/* line 794, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 819, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd3 .title {
   float: left;
   width: 108px;
   height: 32px;
-  background: url(../images/book/book_hd_sprites.jpg) no-repeat;
+  background: url(../images/book_hd_sprites.jpg) no-repeat;
 }
-/* line 798, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 823, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd3 .title span {
   display: none;
 }
-/* line 802, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 827, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd3 .title.scenery {
   background-position: 0 0;
 }
-/* line 805, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 830, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd3 .title.interview {
+  background-position: 0 -32px;
+}
+/* line 833, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd3 .title.bk-list {
+  background-position: 0 -64px;
+}
+/* line 836, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd3 .title.nous {
   background-position: -108px 0;
 }
-/* line 809, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 839, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd3 .title.bk-lib {
+  background-position: -108px -32px;
+}
+/* line 842, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+.book-hd3 .title.bl-talk {
+  background-position: -108px -64px;
+}
+/* line 846, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
 .book-hd3 a.fr {
   margin-right: 10px;
 }
@@ -2411,7 +2515,7 @@ i.sscp {
   text-align: right;
   padding-right: 3%;
   text-align: right;
-  background: url(../images/law/law_slide_num_bg.png) 100% 0 no-repeat;
+  background: url(../images/law_slide_num_bg.png) 100% 0 no-repeat;
   _background: #11455d;
   position: absolute;
   left: 0;
@@ -2456,7 +2560,7 @@ i.sscp {
   display: block;
   width: 14px;
   height: 26px;
-  background: url(../images/law/sprites_law.jpg) 0 0 no-repeat;
+  background: url(../images/law_sprites_law.jpg) 0 0 no-repeat;
   position: absolute;
   top: 55px;
 }
@@ -2563,7 +2667,7 @@ i.sscp {
   text-align: right;
   padding-right: 3%;
   text-align: right;
-  background: url(../images/edu/edu_slide_num_bg.png) 100% 0 no-repeat;
+  background: url(../images/edu_slide_num_bg.png) 100% 0 no-repeat;
   _background: #0d380d;
   position: absolute;
   left: 0;
@@ -2738,7 +2842,7 @@ i.sscp {
   display: block;
   width: 10px;
   height: 45px;
-  background: url(../images/book/x_ward.jpg) 0 0 no-repeat;
+  background: url(../images/book_x_ward.jpg) 0 0 no-repeat;
   position: absolute;
   top: 45px;
 }
@@ -2870,7 +2974,7 @@ i.sscp {
 .gl-list-col2 dd, .gl-list dd {
   height: 27px;
   width: 100%;
-  background: url(../images/gl/6px_dot.jpg) 0 11px no-repeat;
+  background: url(../images/6px_dot.jpg) 0 11px no-repeat;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -3018,7 +3122,7 @@ i.sscp {
 
 /* line 186, ../scss/style.scss */
 .gl-list-col3.xh {
-  background: url(../images/ccma.jpg) 176px 7px no-repeat;
+  background: url(../images/gl_ccma.jpg) 176px 7px no-repeat;
   position: relative;
 }
 /* line 189, ../scss/style.scss */
@@ -3037,7 +3141,7 @@ i.sscp {
   height: 57px;
   line-height: 23px;
   margin: 20px 0 0;
-  background: url(../images/gl/click_to_access.jpg) no-repeat;
+  background: url(../images/gl_click_to_access.jpg) no-repeat;
 }
 /* line 205, ../scss/style.scss */
 .gl-list-col3 .access a {
@@ -3337,7 +3441,7 @@ i.sscp {
   font-size: 0;
   width: 25px;
   height: 25px;
-  background: url(../images/law/sprites_nums.jpg) no-repeat;
+  background: url(../images/law_sprites_nums.jpg) no-repeat;
   position: absolute;
   left: 8px;
   _left: -31px;
@@ -3555,7 +3659,7 @@ i.sscp {
 
 /* line 599, ../scss/style.scss */
 .edu-list-s dd {
-  background: url(../images/edu/6px_dot_green.jpg) 0 12px no-repeat !important;
+  background: url(../images/6px_dot_green.jpg) 0 12px no-repeat !important;
 }
 /* line 601, ../scss/style.scss */
 .edu-list-s dd a {
@@ -3596,7 +3700,7 @@ i.sscp {
 .phi-list dd {
   height: 30px;
   padding-left: 23px;
-  background: url(../images/philosophy/6px_dot_yellow.jpg) 10px 13px no-repeat;
+  background: url(../images/6px_dot_yellow.jpg) 10px 13px no-repeat;
 }
 /* line 633, ../scss/style.scss */
 .phi-list dd a {
@@ -3651,7 +3755,7 @@ i.sscp {
 .phi-list3 dd {
   height: 30px;
   padding-left: 20px;
-  background: url(../images/philosophy/3px_dot_blue.jpg) 10px 14px no-repeat;
+  background: url(../images/3px_dot_blue.jpg) 10px 14px no-repeat;
 }
 /* line 674, ../scss/style.scss */
 .phi-list3 dd.even {
@@ -3831,7 +3935,7 @@ i.sscp {
   height: 12px;
   font-size: 0;
   width: 100%;
-  background: url(../images/philosophy/master_gap_bg.jpg) left center repeat-x;
+  background: url(../images/phi_master_gap_bg.jpg) left center repeat-x;
 }
 
 /* line 823, ../scss/style.scss */
@@ -3930,7 +4034,7 @@ i.sscp {
   height: 100%;
   line-height: 37px;
   padding-left: 202px;
-  background: url(../images/plan/look_this.jpg) 0 0 no-repeat;
+  background: url(../images/plan_look_this.jpg) 0 0 no-repeat;
 }
 /* line 902, ../scss/style.scss */
 .plan-view-point a:hover {
@@ -4016,7 +4120,7 @@ i.sscp {
   color: #fff;
   font-size: 16px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
-  background: url(../images/plan/plan_sprites.jpg) 0 -30px no-repeat;
+  background: url(../images/plan_sprites.jpg) 0 -30px no-repeat;
 }
 /* line 971, ../scss/style.scss */
 .editor-words p {
@@ -4050,7 +4154,7 @@ i.sscp {
   color: #000;
   font-size: 16px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
-  background: url(../images/plan/nuber_one_plan.jpg) 0 0 no-repeat;
+  background: url(../images/plan_nuber_one_plan.jpg) 0 0 no-repeat;
 }
 /* line 999, ../scss/style.scss */
 .plan-number-one a.review:hover {
@@ -4068,7 +4172,7 @@ i.sscp {
   margin: 20px 0 0;
   padding-left: 73px;
   text-align: center;
-  background: url(../images/plan/plan_sprites.jpg) 0 0 no-repeat;
+  background: url(../images/plan_sprites.jpg) 0 0 no-repeat;
 }
 /* line 1015, ../scss/style.scss */
 .plan-number-one a.more:hover {
@@ -4218,7 +4322,7 @@ i.sscp {
   width: 85px;
   height: 23px;
   text-indent: -9999px;
-  background: url(../images/plan/plan_sprites.jpg) 0 -60px no-repeat;
+  background: url(../images/plan_sprites.jpg) 0 -60px no-repeat;
 }
 /* line 1134, ../scss/style.scss */
 .plan-act h3 a:hover {
@@ -4233,7 +4337,7 @@ i.sscp {
   margin-left: 12px;
   padding-left: 10px;
   font-weight: bold;
-  background: url(../images/plan/4px_dot_blue.jpg) 0 9px no-repeat;
+  background: url(../images/4px_dot_blue.jpg) 0 9px no-repeat;
 }
 /* line 1146, ../scss/style.scss */
 .plan-act .usr .name a {
@@ -4652,7 +4756,7 @@ i.sscp {
 /* line 1478, ../scss/style.scss */
 .social-bottom-gap {
   height: 22px;
-  background: url(../images/social/bottom_bg.jpg) repeat-x;
+  background: url(../images/social_bottom_bg.jpg) repeat-x;
 }
 
 /* book page */
@@ -4682,27 +4786,51 @@ i.sscp {
 }
 
 /* line 1501, ../scss/style.scss */
-.books-a {
+.books-a, .books-b {
   height: 95px;
   line-height: 30px;
 }
 /* line 1504, ../scss/style.scss */
-.books-a a {
+.books-a a, .books-b a {
   color: #000;
   float: left;
   width: 320px;
   height: 30px;
   margin-left: 15px;
   padding-left: 18px;
-  background: url(../images/book/book_arrow.jpg) 0 50% no-repeat;
+  background: url(../images/book_arrow.jpg) 0 50% no-repeat;
 }
 
-/* line 1514, ../scss/style.scss */
+/* line 1515, ../scss/style.scss */
+.books-series .books-a {
+  height: auto;
+}
+/* line 1517, ../scss/style.scss */
+.books-series .books-a a {
+  float: none;
+  display: block;
+  margin-left: 6px;
+}
+
+/* line 1524, ../scss/style.scss */
+.books-b {
+  height: auto;
+}
+/* line 1526, ../scss/style.scss */
+.books-b a {
+  float: none;
+  display: block;
+  width: auto;
+  margin-left: 10px;
+  background: url(../images/5px_dot_black.jpg) 0 50% no-repeat;
+}
+
+/* line 1534, ../scss/style.scss */
 .books-fl {
   height: 95px;
   line-height: 30px;
 }
-/* line 1517, ../scss/style.scss */
+/* line 1537, ../scss/style.scss */
 .books-fl a {
   color: #000;
   float: left;
@@ -4713,62 +4841,62 @@ i.sscp {
   background: url(../images/2px_dot_black.jpg) 5px 50% no-repeat;
 }
 
-/* line 1528, ../scss/style.scss */
+/* line 1548, ../scss/style.scss */
 .books-hero .headline {
   line-height: 1;
   text-align: center;
 }
-/* line 1531, ../scss/style.scss */
+/* line 1551, ../scss/style.scss */
 .books-hero .headline a {
   color: #b24540;
   font-size: 38px;
   font-family: "\5FAE\8F6F\96C5\9ED1", sans-serif;
 }
-/* line 1537, ../scss/style.scss */
+/* line 1557, ../scss/style.scss */
 .books-hero .sub-desc {
   font-size: 12px;
   margin: 15px;
 }
-/* line 1540, ../scss/style.scss */
+/* line 1560, ../scss/style.scss */
 .books-hero .sub-desc a {
   color: #000;
 }
 
-/* line 1545, ../scss/style.scss */
+/* line 1565, ../scss/style.scss */
 .books-lib {
   height: 225px;
-  background: #fdf5f2 url(../images/book/book_lib.jpg) no-repeat;
+  background: #fdf5f2 url(../images/book_lib.jpg) no-repeat;
 }
-/* line 1548, ../scss/style.scss */
+/* line 1568, ../scss/style.scss */
 .books-lib .books-show {
   float: left;
   width: 890px;
   height: 210px;
   padding: 7px 0 0 105px;
 }
-/* line 1553, ../scss/style.scss */
+/* line 1573, ../scss/style.scss */
 .books-lib .books-show ul {
   width: 870px;
   height: 200px;
   padding: 8px 0 0 8px;
   background: #fff;
 }
-/* line 1558, ../scss/style.scss */
+/* line 1578, ../scss/style.scss */
 .books-lib .books-show ul li {
   float: left;
   width: 118px;
   text-align: center;
   margin-right: 6px;
 }
-/* line 1563, ../scss/style.scss */
+/* line 1583, ../scss/style.scss */
 .books-lib .books-show ul li img {
   display: inline-block;
 }
-/* line 1566, ../scss/style.scss */
+/* line 1586, ../scss/style.scss */
 .books-lib .books-show ul li a {
   display: inline-block;
 }
-/* line 1568, ../scss/style.scss */
+/* line 1588, ../scss/style.scss */
 .books-lib .books-show ul li a.book {
   float: left;
   width: 118px;
@@ -4776,79 +4904,79 @@ i.sscp {
   overflow: hidden;
   margin: 0 0 6px;
 }
-/* line 1576, ../scss/style.scss */
+/* line 1596, ../scss/style.scss */
 .books-lib .books-show ul li span {
   display: block;
 }
-/* line 1578, ../scss/style.scss */
+/* line 1598, ../scss/style.scss */
 .books-lib .books-show ul li span a {
   width: 81px;
   height: 21px;
-  background: url(../images/book/btn_buy_bg.jpg) no-repeat;
+  background: url(../images/book_btn_buy_bg.jpg) no-repeat;
 }
 
-/* line 1588, ../scss/style.scss */
+/* line 1608, ../scss/style.scss */
 .famous-col {
   height: 125px;
   _height: 118px;
   padding: 12px 0 0;
   overflow: hidden;
 }
-/* line 1593, ../scss/style.scss */
+/* line 1613, ../scss/style.scss */
 .famous-col .fc-box {
   float: left;
   width: 225px;
   padding: 0 5px;
   border-right: 1px solid #e7ac6c;
 }
-/* line 1598, ../scss/style.scss */
+/* line 1618, ../scss/style.scss */
 .famous-col .fc-box > a {
   display: block;
   height: 38px;
   margin: 0 0 5px;
   overflow: hidden;
 }
-/* line 1604, ../scss/style.scss */
+/* line 1624, ../scss/style.scss */
 .famous-col .fc-box p {
   font-size: 12px;
   line-height: 20px;
   _line-height: 18px;
 }
-/* line 1608, ../scss/style.scss */
+/* line 1628, ../scss/style.scss */
 .famous-col .fc-box p a {
   color: #000;
 }
 
-/* line 1614, ../scss/style.scss */
+/* line 1634, ../scss/style.scss */
 .foreign-rec {
   margin: 15px 0 0;
 }
-/* line 1616, ../scss/style.scss */
+/* line 1636, ../scss/style.scss */
 .foreign-rec h3 {
   width: 100%;
   font-weight: bold;
   text-align: center;
 }
-/* line 1620, ../scss/style.scss */
+/* line 1640, ../scss/style.scss */
 .foreign-rec h3 a {
   color: #b24540;
 }
-/* line 1624, ../scss/style.scss */
+/* line 1644, ../scss/style.scss */
 .foreign-rec .fr-con {
   height: 68px;
   padding: 8px 13px 0 13px;
 }
-/* line 1627, ../scss/style.scss */
+/* line 1647, ../scss/style.scss */
 .foreign-rec .fr-con a.fl {
   height: 60px;
 }
-/* line 1630, ../scss/style.scss */
+/* line 1650, ../scss/style.scss */
 .foreign-rec .fr-con p {
   padding-left: 85px;
   font-size: 12px;
   line-height: 20px;
 }
-/* line 1634, ../scss/style.scss */
+/* line 1654, ../scss/style.scss */
 .foreign-rec .fr-con p a {
   color: #000;
 }
@@ -4935,88 +5063,99 @@ i.sscp {
 }
 
 /* global cascading style */
-/* line 1644, ../scss/style.scss */
+/* line 1664, ../scss/style.scss */
 .gl-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1645, ../scss/style.scss */
+/* line 1665, ../scss/style.scss */
 .gl-wrapper .footer .rel-link a:hover {
   color: #005dab;
 }
 
-/* line 1646, ../scss/style.scss */
+/* line 1666, ../scss/style.scss */
 .law-wrapper .footer .rel-link h3 {
   color: #2f3942;
 }
 
-/* line 1649, ../scss/style.scss */
+/* line 1669, ../scss/style.scss */
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15 {
   color: #96001e !important;
 }
 
-/* line 1650, ../scss/style.scss */
+/* line 1670, ../scss/style.scss */
 .law-wrapper .law-sermon p a {
   color: #585858;
 }
 
-/* line 1651, ../scss/style.scss */
+/* line 1671, ../scss/style.scss */
 .edu-wrapper .footer .rel-link h3 {
   color: #006069;
 }
 
-/* line 1654, ../scss/style.scss */
+/* line 1674, ../scss/style.scss */
 .edu-wrapper .footer .rel-link a:hover,
 .edu-wrapper .edu-observe h2 a:hover,
 .edu-wrapper .edu-observe a:hover .c15 {
   color: #006f63 !important;
 }
 
-/* line 1655, ../scss/style.scss */
+/* line 1675, ../scss/style.scss */
 .phi-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
 
-/* line 1656, ../scss/style.scss */
+/* line 1676, ../scss/style.scss */
 .phi-wrapper .footer .rel-link a:hover {
   color: #2670a6;
   text-decoration: none;
 }
 
-/* line 1657, ../scss/style.scss */
+/* line 1677, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div {
   line-height: 24px;
   padding-left: 5px;
 }
-/* line 1657, ../scss/style.scss */
+/* line 1677, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div a {
   margin-right: 8px;
 }
 
-/* line 1658, ../scss/style.scss */
+/* line 1678, ../scss/style.scss */
 .book-wrapper .header .top-nav {
   background: #e6aa6c;
 }
 
-/* line 1660, ../scss/style.scss */
+/* line 1680, ../scss/style.scss */
 .book-wrapper .footer .rel-link h3,
 .book-wrapper .header .sub-nav a:hover {
   color: #e6aa6c;
 }
 
-/* line 1661, ../scss/style.scss */
+/* line 1681, ../scss/style.scss */
 .book-wrapper .footer {
   border-top: 4px solid #e6aa6c;
 }
 
-/* line 1662, ../scss/style.scss */
+/* line 1682, ../scss/style.scss */
 .book-wrapper .footer .rel-link {
   border: none;
 }
 
-/* line 1663, ../scss/style.scss */
+/* line 1683, ../scss/style.scss */
+.book-wrapper .footer .rel-link div span {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 1684, ../scss/style.scss */
+.book-wrapper .footer .rel-link div a {
+  margin-right: 10px;
+}
+
+/* line 1685, ../scss/style.scss */
 .book-wrapper .footer .ft-link {
   border-top: 2px solid #e6aa6c;
   border-bottom: none;

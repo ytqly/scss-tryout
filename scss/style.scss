@@ -70,7 +70,7 @@
 	dd{
 		height: 27px;
 		width: 100%;
-		background: url(../images/gl/6px_dot.jpg) 0 11px no-repeat;
+		background: url(../images/6px_dot.jpg) 0 11px no-repeat;
 		@include crop;
 		a{
 			margin-left: 14px;
@@ -184,7 +184,7 @@
 
 .gl-list-col3{
 	&.xh{
-		background: url(../images/ccma.jpg) 176px 7px no-repeat;
+		background: url(../images/gl_ccma.jpg) 176px 7px no-repeat;
 		position: relative;
 		.ccma{
 			display: block;
@@ -201,7 +201,7 @@
 		height: 57px;
 		line-height: 23px;
 		margin: 20px 0 0;
-		background: url(../images/gl/click_to_access.jpg) no-repeat;
+		background: url(../images/gl_click_to_access.jpg) no-repeat;
 		a{
 			color: #fff;
 			display: block;
@@ -443,7 +443,7 @@
 				font-size: 0;
 				width: 25px;
 				height: 25px;
-				background: url(../images/law/sprites_nums.jpg) no-repeat;
+				background: url(../images/law_sprites_nums.jpg) no-repeat;
 				position: absolute;
 				left: 8px;
 				_left: -31px;
@@ -597,7 +597,7 @@
 
 .edu-list-s{
 	dd{
-		background: url(../images/edu/6px_dot_green.jpg) 0 12px no-repeat!important;
+		background: url(../images/6px_dot_green.jpg) 0 12px no-repeat!important;
 		a{
 			padding-left: 13px!important;
 		}
@@ -629,7 +629,7 @@
 	dd{
 		height: 30px;
 		padding-left: 23px;
-		background: url(../images/philosophy/6px_dot_yellow.jpg) 10px 13px no-repeat;
+		background: url(../images/6px_dot_yellow.jpg) 10px 13px no-repeat;
 		a{
 			float: left;
 			width: 100%;
@@ -670,7 +670,7 @@
 	dd{
 		height: 30px;
 		padding-left: 20px;
-		background: url(../images/philosophy/3px_dot_blue.jpg) 10px 14px no-repeat;
+		background: url(../images/3px_dot_blue.jpg) 10px 14px no-repeat;
 		&.even{
 			font-weight: bold;
 		}
@@ -817,7 +817,7 @@
 		height: 12px;
 		font-size: 0;
 		width: 100%;
-		background: url(../images/philosophy/master_gap_bg.jpg) left center repeat-x;
+		background: url(../images/phi_master_gap_bg.jpg) left center repeat-x;
 	}
 }
 .phi-books{
@@ -898,7 +898,7 @@
 		height: 100%;
 		line-height: 37px;
 		padding-left: 202px;
-		background: url(../images/plan/look_this.jpg) 0 0 no-repeat;
+		background: url(../images/plan_look_this.jpg) 0 0 no-repeat;
 		&:hover{
 			color: #595757;
 			text-decoration: none;
@@ -965,7 +965,7 @@
 			color: #fff;
 			font-size: 16px;
 			font-family: $msyh;
-			background: url(../images/plan/plan_sprites.jpg) 0 -30px no-repeat;
+			background: url(../images/plan_sprites.jpg) 0 -30px no-repeat;
 		}
 	}
 	p{
@@ -995,7 +995,7 @@
 		color: #000;
 		font-size: 16px;
 		font-family: $msyh;
-		background: url(../images/plan/nuber_one_plan.jpg) 0 0 no-repeat;
+		background: url(../images/plan_nuber_one_plan.jpg) 0 0 no-repeat;
 		&:hover{
 			color: #d51519;
 			text-decoration: none;
@@ -1011,7 +1011,7 @@
 		margin: 20px 0 0;
 		padding-left: 73px;
 		text-align: center;
-		background: url(../images/plan/plan_sprites.jpg) 0 0 no-repeat;
+		background: url(../images/plan_sprites.jpg) 0 0 no-repeat;
 		&:hover{
 			text-decoration: none;
 			background-position: 0 -15px;
@@ -1130,7 +1130,7 @@
 			width: 85px;
 			height: 23px;
 			text-indent: -9999px;
-			background: url(../images/plan/plan_sprites.jpg) 0 -60px no-repeat;
+			background: url(../images/plan_sprites.jpg) 0 -60px no-repeat;
 			&:hover{
 				background-position: 0 -84px;
 			}
@@ -1142,7 +1142,7 @@
 			margin-left: 12px;
 			padding-left: 10px;
 			font-weight: bold;
-			background: url(../images/plan/4px_dot_blue.jpg) 0 9px no-repeat;
+			background: url(../images/4px_dot_blue.jpg) 0 9px no-repeat;
 			a{
 				color: #313030;
 				&:hover{
@@ -1477,7 +1477,7 @@
 }
 .social-bottom-gap{
 	height: 22px;
-	background: url(../images/social/bottom_bg.jpg) repeat-x;
+	background: url(../images/social_bottom_bg.jpg) repeat-x;
 }
 
 /* book page */
@@ -1498,7 +1498,7 @@
 		}
 	}
 }
-.books-a{
+.books-a,.books-b{
 	height: 95px;
 	line-height: 30px;
 	a{
@@ -1508,7 +1508,27 @@
 		height: 30px;
 		margin-left: 15px;
 		padding-left: 18px;
-		background: url(../images/book/book_arrow.jpg) 0 50% no-repeat;
+		background: url(../images/book_arrow.jpg) 0 50% no-repeat;
+	}
+}
+.books-series{
+	.books-a{
+		height: auto;
+		a{
+			float: none;
+			display: block;
+			margin-left: 6px;
+		}
+	}
+}
+.books-b{
+	height: auto;
+	a{
+		float: none;
+		display: block;
+		width: auto;
+		margin-left: 10px;
+		background: url(../images/5px_dot_black.jpg) 0 50% no-repeat;
 	}
 }
 .books-fl{
@@ -1544,7 +1564,7 @@
 }
 .books-lib{
 	height: 225px;
-	background: #fdf5f2 url(../images/book/book_lib.jpg) no-repeat;
+	background: #fdf5f2 url(../images/book_lib.jpg) no-repeat;
 	.books-show{
 		float: left;
 		width: 890px;
@@ -1578,7 +1598,7 @@
 					a{
 						width: 81px;
 						height: 21px;
-						background: url(../images/book/btn_buy_bg.jpg) no-repeat;
+						background: url(../images/book_btn_buy_bg.jpg) no-repeat;
 					}
 				}
 			}
@@ -1660,4 +1680,6 @@
 .book-wrapper .header .sub-nav a:hover{color: #e6aa6c;}
 .book-wrapper .footer{border-top: 4px solid #e6aa6c;}
 .book-wrapper .footer .rel-link{border: none;}
-.book-wrapper .footer .ft-link{border-top: 2px solid #e6aa6c; border-bottom: none;}
+.book-wrapper .footer .rel-link div span{float: left; margin-right: 10px;}
+.book-wrapper .footer .rel-link div a{margin-right: 10px;}
+.book-wrapper .footer .ft-link{border-top: 2px solid #e6aa6c; border-bottom: none;} 
