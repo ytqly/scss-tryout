@@ -1707,7 +1707,6 @@
 			font-size: 16px;
 			font-weight: bold;
 			&:hover{
-				color: $c-73;
 				text-decoration: none;
 			}
 		}
@@ -1756,6 +1755,42 @@
 		height: 1px;
 		margin: 10px 0;
 		background: url(../images/uni_gap_bg_repeat.jpg) 50% 50% repeat-x;
+	}
+}
+.uni-bulletin{
+	padding: 15px 0 0;
+	.bulletin-box{
+		margin: 0 0 15px;
+		padding-left: 45px;
+		position: relative;
+		.lable{
+			position: absolute;
+			left: 5px;
+			a{
+				margin-right: 3px;
+				&:hover{
+					text-decoration: none;
+				}
+			}
+		}
+		p{
+			a{
+				&:hover{
+					color: $c-73;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+.uni-alumni{
+	height: 360px;
+	line-height: 30px;
+	padding: 6px 0;
+	a{
+		float: left;
+		white-space: nowrap;
+		margin-left: 17px;
 	}
 }
 
