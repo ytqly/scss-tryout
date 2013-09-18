@@ -1658,23 +1658,125 @@
 	}
 }
 
+/* uni (is short for university) page */
+.uni-list,.uni-list2{
+	line-height: 30px;
+	dd{
+		height: 30px;
+		padding: 0 5px 0 12px;
+		a{
+			display: block;
+			color: #464545;
+			width: 100%;
+			@include crop;
+			&:hover{
+				color: $c-73;
+				text-decoration: none;
+			}
+		}
+	}
+}
+.uni-col2{
+	.uni-list{
+		dd{
+			padding-left: 0;
+		}
+	}
+	.uni-indent{
+		.uni-list{
+			dd{
+				padding-left: 12px;
+			}
+		}
+	}
+}
+.uni-list2{
+	line-height: 28px;
+	dd{
+		height: 28px;
+		padding: 0 0 0 13px;
+		background: url(../images/5px_dot_green_circle.jpg) 0 50% no-repeat;
+	}
+}
+.uni-news{
+	h3{
+		letter-spacing: 3px;
+		margin: 10px 0 5px;
+		a{
+			color: $c-07;
+			font-size: 16px;
+			font-weight: bold;
+			&:hover{
+				color: $c-73;
+				text-decoration: none;
+			}
+		}
+	}
+}
+.uni-dao{
+	color: #696868;
+	padding: 10px 0 0;
+	letter-spacing: 2px;
+	.dao-box{
+		height: 85px;
+		overflow: hidden;
+		h3{
+			font-size: 16px;
+			font-weight: bold;
+			margin: 0 0 3px;
+			a{
+				color: #696868;
+				&:hover{
+					color: $c-07;
+					text-decoration: none;
+				}
+			}
+		}
+		p{
+			font-size: 13px;
+			line-height: 20px;
+			a{
+				color: $c-73;
+				&:hover{
+					color: $c-07;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.dao-box2{
+		height: 118px;
+		a.fl{
+			height: 84px;
+			margin-right: 10px;
+		}
+	}
+	.dao-gap{
+		font-size: 0;
+		height: 1px;
+		margin: 10px 0;
+		background: url(../images/uni_gap_bg_repeat.jpg) 50% 50% repeat-x;
+	}
+}
+
 @import "partial/footer";
 
 /* global cascading style */
-.gl-wrapper .footer .rel-link h3{color: #3171b9;}
-.gl-wrapper .footer .rel-link a:hover{color: #005dab;}
+.gl-wrapper .footer .rel-link{h3{color: #3171b9;} a:hover{color: #005dab;}} 
+
 .law-wrapper .footer .rel-link h3{color: #2f3942;}
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15{color: $c-96!important;}
 .law-wrapper .law-sermon p a{color: #585858;}
+
 .edu-wrapper .footer .rel-link h3{color: #006069;}
 .edu-wrapper .footer .rel-link a:hover,
 .edu-wrapper .edu-observe h2 a:hover,
 .edu-wrapper .edu-observe a:hover .c15{color: #006f63!important;}
-.phi-wrapper .footer .rel-link h3{color: #3171b9;}
-.phi-wrapper .footer .rel-link a:hover{color: #2670a6; text-decoration: none;}
-.phi-wrapper .footer .rel-link div{line-height: 24px; padding-left: 5px;a{margin-right: 8px;}}
+
+.phi-wrapper .footer .rel-link{h3{color: #3171b9;} a:hover{color: #2670a6; text-decoration: none;} div{padding-left: 5px;a{margin-right: 8px;}}}
+
 .book-wrapper .header .top-nav{background: #e6aa6c;}
 .book-wrapper .footer .rel-link h3,
 .book-wrapper .header .sub-nav a:hover{color: #e6aa6c;}
@@ -1682,4 +1784,7 @@
 .book-wrapper .footer .rel-link{border: none;}
 .book-wrapper .footer .rel-link div span{float: left; margin-right: 10px;}
 .book-wrapper .footer .rel-link div a{margin-right: 10px;}
-.book-wrapper .footer .ft-link{border-top: 2px solid #e6aa6c; border-bottom: none;} 
+.book-wrapper .footer .ft-link{border-top: 2px solid #e6aa6c; border-bottom: none;}
+
+.uni-wrapper .header .top-nav{color: #f0edce; background: #bebebe; a{color: #f0edce;}}
+.uni-wrapper .footer .rel-link{padding: 8px 6px 6px; border: 1px solid #ddf0ff; border-top: 2px solid #9ac5e9; h3{background: #f9f9f9; font-weight: normal; span{display: inline-block; padding: 3px 9px; color: #0759a0; background: #dbefff;}} div{padding: 8px; width: 972px; background: #f9f9f9;} a:hover{color: #73a7d0; text-decoration: none;}}

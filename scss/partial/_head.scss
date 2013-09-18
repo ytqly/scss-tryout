@@ -847,3 +847,152 @@
 		margin-right: 10px;
 	}
 }
+
+.uni-hd{
+	span{
+		float: left;
+		font-size: 17px;
+		font-family: $msyh;
+		font-weight: bold;
+		a{
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+	a.fr{
+		margin-right: 10px;
+		font-size: 12px;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+.uni-hd1,.uni-hd2,.uni-hd3{
+	height: 30px;
+	line-height: 30px;
+	background: #dbefff;
+	span{
+		margin-left: 13px;
+		a{
+			color: $c-07;
+		}
+	}
+}
+.uni-hd2{
+	background: url(../images/uni_hd_bg_sprites.jpg) no-repeat;
+	&.bg1{
+		background-position: 0 0;
+	}
+	&.bg2{
+		background-position: 0 -30px;
+	}
+	&.bg3{
+		background-position: 0 -60px;
+	}
+	span{
+		a{
+			color: #fff;
+		}
+	}
+}
+.uni-hd3{
+	background: #9bb43b;
+	span{
+		a{
+			color: #fff;
+		}
+		&.project-tabs{
+			margin-left: 0;
+			a{
+				float: left;
+				padding: 0 13px;
+				background: url(../images/uni_project_tabs_bg.jpg) 100% 50% no-repeat;
+				&.last{
+					background: none;
+				}
+				&.on{
+					background: #657e04;
+				}
+			}
+		}
+	}
+	a.fr{
+		color: #fff;
+		text-decoration: none;
+	}
+}
+.uni-hd4{
+	height: 32px;
+	border-bottom: 1px solid $c-07;
+	span{
+		margin: 3px 0 0 2px;
+		a{
+			color: $c-07;
+		}
+	}
+	a.fr{
+		margin: 11px 5px 0 0;
+	}
+}
+.uni-hd5{
+	height: 30px;
+	overflow: hidden;
+	background: url(../images/1px_dot_green.jpg) 0 25px repeat-x;
+	span{
+		float: left;
+		font-family: $msyh;
+		padding-right: 13px;
+		background: #fff url(../images/uni_hd5_bg.jpg) 100% 11px no-repeat;
+		a{
+			float: left;
+			font-weight: bold;
+			i{
+				font-style: normal;
+				&.tt1{
+					color: $c-07;
+					font-size: 22px;
+				}
+				&.tt2{
+					color: $c-73;
+					font-size: 18px;
+				}
+			}
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+	a.fr{
+		margin: 7px 5px 0 0;
+		font-size: 12px;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+.uni-hd6{
+	height: 37px;
+	border-bottom: 1px solid #c4db6a;
+	span{
+		float: left;
+		padding: 2px 0 0;
+		a{
+			color: $c-73;
+			float: left;
+			width: 87px;
+			margin-right: -4px;
+			padding: 3px 4px 0;
+			height: 32px;
+			line-height: 33px;
+			text-align: center;
+			&.on{
+				color: $c-07;
+				background: url(../images/uni_hd6_bg_on.jpg) 50% 0 no-repeat;
+			}
+		}
+	}
+	a.fr{
+		margin: 19px 5px 0 0;
+	}
+}

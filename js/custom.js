@@ -53,7 +53,7 @@ $(function(){
 		$(this).addClass('on');
 		return false;
 	});
-	$('.eh2 a, .eh4 a, .sub-head a').click(function() {
+	$('.eh2 a, .eh4 a, .sub-head a,.project-tabs a').click(function() {
 		$(this).parent().find('.on').removeClass('on');
 		$(this).addClass('on');
 		return false;
