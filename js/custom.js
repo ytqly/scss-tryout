@@ -24,6 +24,20 @@ $(function(){
 	$('.uni-slide .flexslider img').each(function(i){
 		$('.uni-slide .flex-control-nav img').eq(i-1).attr('src',$(this).attr('src'));
 	});
+	$('#back-top').hide();
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			$('#back-top').fadeIn();
+		} else {
+			$('#back-top').fadeOut();
+		}
+	});
+	$('#back-top').click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 800);
+		return false;
+	});
 	
 	//书籍轮播
 	$('#box-scrolling').scrollbox({

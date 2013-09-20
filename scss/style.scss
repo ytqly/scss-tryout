@@ -1913,6 +1913,18 @@
 		}
 	}
 }
+.uni-click-to-top{
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url(../images/uni_to_top.jpg) 0 -35px no-repeat;
+	margin-left: 1050px;
+	position: fixed;
+	bottom: 200px;
+	span{
+		display: none;
+	}
+}
 
 @import "partial/footer";
 
