@@ -15,6 +15,15 @@ $(function(){
 	$('.social-slide .flexslider').flexslider({
 		animation: "slide"
 	});
+	$('.uni-slide .flexslider').flexslider({
+		animation: "slide"
+	});
+	$('.uni-slide .flex-control-nav li a').each(function(){
+		$(this).text('').append('<img>');
+	});
+	$('.uni-slide .flexslider img').each(function(i){
+		$('.uni-slide .flex-control-nav img').eq(i-1).attr('src',$(this).attr('src'));
+	});
 	
 	//书籍轮播
 	$('#box-scrolling').scrollbox({

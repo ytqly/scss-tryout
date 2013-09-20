@@ -213,7 +213,8 @@
 	.eh{
 		color: $c-00;
 		font-size: 18px;
-		font-family: "方正大黑简体",$msyh;
+		font-family: $msyh;
+		font-weight: bold;
 		float: left;
 		height: 29px;
 		line-height: 22px;
@@ -234,7 +235,8 @@
 	.eh{
 		color: $c-00;
 		font-size: 16px;
-		font-family: "方正大黑简体",$msyh;
+		font-family: $msyh;
+		font-weight: bold;
 		float: left;
 		height: 25px;
 		line-height: 20px;
@@ -253,6 +255,7 @@
 .edu-head2{
 	.eh2{
 		float: left;
+		font-weight: bold;
 		a{
 			float: left;
 			cursor: pointer;
@@ -269,14 +272,14 @@
 			}
 			&.alpha,&.beta{
 				color: #b5b5b6;
-				font-family: $msyh, "方正大黑简体";
+				font-family: $msyh;
 				background: url(../images/edu_sprites_edu.jpg) 0 -104px no-repeat;
 				span{
 					padding: 2px 7px 3px 0;
 				}
 				&.on{
 					color: $c-00;
-					font-family: "方正大黑简体", $msyh;
+					font-family: $msyh;
 					background: url(../images/edu_sprites_edu.jpg) 0 -29px no-repeat;
 					span{
 						background: url(../images/edu_sprites_edu.jpg) 97% -29px no-repeat!important;
@@ -285,7 +288,7 @@
 			}
 			&.omega{
 				color: #b5b5b6;
-				font-family: $msyh, "方正大黑简体";
+				font-family: $msyh;
 				background: url(../images/edu_sprites_edu.jpg) 0 -104px no-repeat;
 				span{
 					padding: 2px 12px 3px 0;
@@ -293,7 +296,7 @@
 				}
 				&.on{
 					color: $c-00;
-					font-family: "方正大黑简体", $msyh;
+					font-family: $msyh;
 					background: url(../images/edu_sprites_edu.jpg) 0 -29px no-repeat;
 					span{
 						background: url(../images/edu_sprites_edu.jpg) 100% -29px no-repeat;
@@ -370,6 +373,7 @@
 	}
 	.eh4{
 		float: left;
+		font-weight: bold;
 		a{
 			float: left;
 			cursor: pointer;
@@ -385,13 +389,13 @@
 				text-decoration: none;
 			}
 			&.alpha,&.beta{
-				font-family: $msyh, "方正大黑简体";
+				font-family: $msyh;
 				background: url(../images/edu_sprites_edu.jpg) 0 -79px no-repeat;
 				span{
 					padding: 2px 7px 3px 0;
 				}
 				&.on{
-					font-family: "方正大黑简体", $msyh;
+					font-family: $msyh;
 					background: url(../images/edu_sprites_edu.jpg) 0 -54px no-repeat;
 					span{
 						background: url(../images/edu_sprites_edu.jpg) -7px -54px no-repeat!important;
@@ -400,14 +404,14 @@
 			}
 			&.beta,&.omega{margin-left: 1px;}
 			&.omega{
-				font-family: $msyh, "方正大黑简体";
+				font-family: $msyh;
 				background: url(../images/edu_sprites_edu.jpg) 0 -79px no-repeat;
 				span{
 					padding: 2px 12px 3px 0;
 					background: url(../images/edu_sprites_edu.jpg) 100% -79px no-repeat;
 				}
 				&.on{
-					font-family: "方正大黑简体", $msyh;
+					font-family: $msyh;
 					background: url(../images/edu_sprites_edu.jpg) 0 -54px no-repeat;
 					span{
 						background: url(../images/edu_sprites_edu.jpg) 100% -54px no-repeat;
@@ -996,7 +1000,7 @@
 		margin: 19px 5px 0 0;
 	}
 }
-.uni-hd7{
+.uni-hd7,.uni-hd8{
 	height: 32px;
 	border-bottom: 1px solid #d7d7d7;
 	background: #f9f9f9;
@@ -1009,6 +1013,10 @@
 	a.fr{
 		margin-top: 8px;
 	}
+}
+.uni-hd8{
+	height: 33px;
+	background: url(../images/uni_hd8_bg.jpg) 0 0 repeat-x;
 }
 .uni-hd9{
 	height: 25px;

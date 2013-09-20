@@ -1,5 +1,5 @@
 /* pictures slide */
-.gl-slide,.phi-slide{
+.gl-slide,.phi-slide,.uni-slide{
 	height: 292px;
 	.flexslider{
 		width: 100%;
@@ -453,4 +453,51 @@
 
 .uni-slide{
 	height: 385px;
+	.flexslider{
+		.flex-viewport{
+			width: 358px;
+			height: 300px;
+			li{
+				height: 300px;
+				position: relative;
+				a{
+					color: #fff;
+					font-size: 16px;
+					font-family: $msyh;
+					letter-spacing: 1px;
+					height: 28px;
+					line-height: 28px;
+					background: #7688a5;
+					&:hover{
+						text-decoration: none;
+					}
+					bottom: 0;
+					_bottom: 3px;
+				}
+			}
+		}
+		.flex-control-nav{
+			height: 72px;
+			margin: 5px -20px 0 0!important;
+			padding-left: 0;
+			overflow: hidden;
+			li{
+				width: 112px;
+				height: 64px;
+				margin: 0 10px 0 0!important;
+				_margin: 0 8px 0 0!important;
+				a{
+					display: block;
+					border: 1px solid #a1c9eb;
+					overflow: hidden;
+					&.flex-active,&:hover{
+						border-color: #1965a7;
+					}
+					img{
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
 }

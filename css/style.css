@@ -1,12 +1,11 @@
-@charset "utf-8";
-/* normalize.css v2.1.2 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 21, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 21, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 article,
 aside,
 details,
@@ -24,7 +23,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 31, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 31, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 audio,
 canvas,
 video {
@@ -35,7 +34,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 40, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 40, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -44,7 +43,7 @@ audio:not([controls]) {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 49, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 49, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -57,7 +56,7 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 63, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 63, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -70,7 +69,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 73, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 73, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 body {
   margin: 0;
 }
@@ -81,7 +80,7 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 85, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 85, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -89,7 +88,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 94, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 94, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -102,7 +101,7 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 107, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 107, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -111,7 +110,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 116, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 116, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -119,7 +118,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 125, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 125, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -128,7 +127,7 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 133, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 133, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -136,7 +135,7 @@ dfn {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 141, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 141, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -146,7 +145,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 151, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 151, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -155,7 +154,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 163, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 163, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 code,
 kbd,
 pre,
@@ -167,7 +166,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 172, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 172, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 pre {
   white-space: pre-wrap;
 }
@@ -175,7 +174,7 @@ pre {
 /**
  * Set consistent quote types.
  */
-/* line 180, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 180, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -183,7 +182,7 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 188, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 188, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -191,7 +190,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 197, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 197, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -200,12 +199,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 204, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 204, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 208, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 208, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -216,7 +215,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 220, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 220, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 img {
   border: 0;
 }
@@ -224,7 +223,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 228, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 228, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -235,7 +234,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 240, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 240, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -246,7 +245,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 252, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 252, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -257,7 +256,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 263, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 263, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -270,7 +269,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 277, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 277, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 button,
 input,
 select,
@@ -287,7 +286,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 289, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 289, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -299,7 +298,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 301, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 301, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -312,7 +311,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 316, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 316, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -326,7 +325,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 326, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 326, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -336,7 +335,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-/* line 336, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 336, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -350,7 +349,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 347, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 347, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -364,7 +363,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 360, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 360, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -373,7 +372,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 369, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 369, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -384,7 +383,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 379, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 379, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -398,13 +397,13 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 392, C:/Zaki/yma work/sscp/scss/partial/_normalize.scss */
+/* line 392, D:/Work/coding/scss-tryout/scss/partial/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 12, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 12, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -426,17 +425,17 @@ time, mark, audio, video {
   background: transparent;
 }
 
-/* line 21, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 21, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 html[xmlns] .clearfix {
   display: block;
 }
 
-/* line 22, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 22, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 * html .clearfix {
   height: 1%;
 }
 
-/* line 23, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 23, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .clearfix:after {
   clear: both;
   font-size: 0;
@@ -447,227 +446,227 @@ html[xmlns] .clearfix {
   visibility: hidden;
 }
 
-/* line 48, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 48, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .a1 {
   color: #a10000 !important;
 }
 
-/* line 48, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 48, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .c0 {
   color: #c02076 !important;
 }
 
-/* line 48, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 48, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .c15 {
   color: #155f82 !important;
 }
 
-/* line 49, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 49, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .f3 {
   color: white !important;
 }
 
-/* line 49, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 49, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .c96 {
   color: #96001e !important;
 }
 
-/* line 49, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 49, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .c00 {
   color: #00875a !important;
 }
 
-/* line 50, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 50, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .e6 {
   color: #e6aa6c !important;
 }
 
-/* line 50, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 50, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .b2 {
   color: #b24540 !important;
 }
 
-/* line 50, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 50, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .c07 {
   color: #0759a0 !important;
 }
 
-/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 51, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .fl {
   float: left !important;
 }
 
-/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 51, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .fr {
   float: right !important;
 }
 
-/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 51, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .bt-none {
   border-top: none !important;
 }
 
-/* line 51, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 51, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .bd-last {
   border-right: none !important;
 }
 
-/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 52, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .mt5 {
   margin-top: 5px !important;
 }
 
-/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 52, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .mt7 {
   margin-top: 7px !important;
 }
 
-/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 52, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .mt9 {
   margin-top: 9px !important;
 }
 
-/* line 52, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 52, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .mt10 {
   margin-top: 10px !important;
 }
 
-/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 53, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .mt15 {
   margin-top: 15px !important;
 }
 
-/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 53, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .mt20 {
   margin-top: 20px !important;
 }
 
-/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 53, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .mt22 {
   margin-top: 22px !important;
 }
 
-/* line 53, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 53, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .mt26 {
   margin-top: 26px !important;
 }
 
-/* line 54, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 54, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .pb5 {
   padding-bottom: 5px !important;
 }
 
-/* line 54, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 54, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .pb10 {
   padding-bottom: 10px !important;
 }
 
-/* line 55, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 55, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .pb15 {
   padding-bottom: 15px !important;
 }
 
-/* line 55, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 55, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .pb20 {
   padding-bottom: 20px !important;
 }
 
-/* line 56, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 56, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a {
   color: #3b3b3b;
   text-decoration: none;
 }
 
-/* line 56, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 56, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .phi-wrapper a {
   color: #454545;
 }
 
-/* line 57, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 57, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 57, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 57, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a:focus {
   outline: none;
 }
 
-/* line 58, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 58, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a.gl-more {
   margin-top: 5px;
   font-size: 12px !important;
 }
 
-/* line 59, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 59, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a.gl-more b {
   color: #a10000;
   font-family: "\5B8B\4F53";
 }
 
-/* line 60, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 60, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a.edu-more, a.edu-more2 {
   margin-top: 8px;
   font-size: 12px !important;
 }
 
-/* line 61, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 61, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a.edu-more {
   color: #ff9a00;
 }
 
-/* line 61, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 61, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a.edu-more b {
   color: #ff9a00;
   font-family: "\5B8B\4F53";
 }
 
-/* line 62, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 62, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a.edu-more2 {
   color: #00875a;
 }
 
-/* line 62, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 62, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a.edu-more2 b {
   color: #00875a;
   font-family: "\5B8B\4F53";
 }
 
-/* line 63, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 63, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a.s-detail {
   color: #ee8325;
   font-size: 12px;
 }
-/* line 63, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 63, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 a.s-detail:hover {
   color: #cd3622;
   text-decoration: none;
 }
 
-/* line 64, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 64, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 h1, h2, h3, h4, h5, h6, b, strong {
   font-weight: normal;
 }
 
-/* line 64, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 64, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 li {
   list-style: none;
 }
 
-/* line 65, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 65, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 body {
   font: 14px/1.5 "\5B8B\4F53", Arial, sans-serif;
 }
 
 /* sprites */
-/* line 68, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 68, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 i.sprites {
   display: inline-block;
   text-indent: -9999px;
   background: url(../images/sprites.jpg) no-repeat;
 }
 
-/* line 69, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 69, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 i.sscp {
   width: 34px;
   height: 44px;
@@ -675,210 +674,215 @@ i.sscp {
 }
 
 /* layout */
-/* line 72, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 72, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .wrapper {
   width: 1000px;
   margin: 0 auto;
   word-break: break-all;
 }
 
-/* line 73, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 73, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .row, .ad-banner {
   width: 1000px;
   clear: both;
 }
 
-/* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 74, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .ad-banner {
   margin: 15px 0;
 }
-/* line 74, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 74, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .ad-banner a {
   display: block;
 }
 
-/* line 75, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 75, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .g-box {
   border: 1px solid #d7d7d7;
 }
 
-/* line 75, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 75, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .g-bg {
   background: #fffcf8;
 }
 
-/* line 75, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 75, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .ef-bg {
   background: #eff8ff;
 }
 
-/* line 77, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 75, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
+.f9-bg {
+  background: #f9f9f9;
+}
+
+/* line 77, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .gl-col1, .gl-col2, .law-col1, .law-col2, .law-col1-2, .edu-col1, .edu-col2, .phi-col1, .phi-col2, .phi-col1-2, .plan-col1,
 .social-col1, .social-col1-2, .book-col1, .book-col1-2, .uni-col1, .uni-col1-2 {
   float: left;
   overflow: hidden;
 }
 
-/* line 79, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 79, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .gl-col3, .law-col3, .edu-col3, .phi-col3, .plan-col3, .social-col2, .social-col3, .book-col2, .book-col2-3, .book-col3,
 .uni-col2, .uni-col3 {
   float: right;
   overflow: hidden;
 }
 
-/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 80, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .gl-col1 {
   width: 317px;
 }
 
-/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 80, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .gl-col2 {
   width: 357px;
   margin-left: 22px;
 }
 
-/* line 80, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 80, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .gl-col3 {
   width: 282px;
 }
 
-/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .law-col1 {
   width: 305px;
 }
 
-/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .law-col2 {
   width: 370px;
   margin-left: 25px;
 }
 
-/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .law-col3 {
   width: 275px;
 }
 
-/* line 81, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 81, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .law-col1-2 {
   width: 700px;
 }
 
-/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 82, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .edu-col1 {
   width: 295px;
 }
 
-/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 82, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .edu-col2 {
   width: 415px;
   margin-left: 25px;
 }
 
-/* line 82, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 82, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .edu-col3 {
   width: 240px;
 }
 
-/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 83, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .phi-col1 {
   width: 306px;
 }
 
-/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 83, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .phi-col2 {
   width: 366px;
   margin-left: 20px;
 }
 
-/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 83, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .phi-col3 {
   width: 288px;
 }
 
-/* line 83, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 83, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .phi-col1-2 {
   width: 692px;
   zoom: 1;
 }
 
-/* line 84, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 84, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .plan-col1 {
   width: 665px;
 }
 
-/* line 84, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 84, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .plan-col3 {
   width: 320px;
 }
 
-/* line 85, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 85, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .social-col1 {
   width: 376px;
 }
 
-/* line 85, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 85, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .social-col2 {
   width: 302px;
 }
 
-/* line 85, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 85, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .social-col1-2 {
   width: 690px;
 }
 
-/* line 85, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 85, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .social-col3 {
   width: 298px;
 }
 
-/* line 86, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 86, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .book-col1 {
   width: 278px;
 }
 
-/* line 86, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 86, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .book-col2, .book-col3 {
   width: 348px;
 }
 
-/* line 86, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 86, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .book-col1-2 {
   width: 639px;
 }
 
-/* line 86, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 86, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .book-col2-3 {
   width: 709px;
 }
 
-/* line 87, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 87, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .uni-col1 {
   width: 358px;
 }
 
-/* line 87, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 87, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .uni-col2 {
   width: 354px;
 }
 
-/* line 87, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 87, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .uni-col1-2 {
   width: 730px;
 }
 
-/* line 87, C:/Zaki/yma work/sscp/scss/partial/_commen-set.scss */
+/* line 87, D:/Work/coding/scss-tryout/scss/partial/_commen-set.scss */
 .uni-col3 {
   width: 252px;
 }
 
 /* top header */
-/* line 2, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 2, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header {
   height: 72px;
   padding: 2px;
   border: 1px solid #ddd;
 }
-/* line 6, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 6, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .top-nav {
   color: #fff;
   font-size: 12px;
@@ -886,46 +890,46 @@ i.sscp {
   padding: 0 7px;
   background: #005dab;
 }
-/* line 12, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 12, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .top-nav a {
   color: #fff;
   display: inline-block;
 }
-/* line 16, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 16, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .top-nav span {
   margin: 3px 0 0;
 }
-/* line 19, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 19, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .top-nav span.fr a {
   float: left;
   margin-left: 10px;
 }
-/* line 26, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 26, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .sub-nav {
   float: left;
   width: 650px;
   padding: 5px 0 0 5px;
 }
-/* line 30, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 30, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .sub-nav a, .header .sub-nav span {
   float: left;
   color: #595757;
   font-family: "\5FAE\8F6F\96C5\9ED1";
 }
-/* line 35, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 35, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .sub-nav a {
   text-decoration: none;
 }
-/* line 37, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 37, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .sub-nav a:hover {
   color: #005dab;
   font-weight: bold;
 }
-/* line 42, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 42, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .sub-nav span {
   margin: 0 9px;
 }
-/* line 46, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 46, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .access-sets {
   float: right;
   width: 336px;
@@ -935,14 +939,14 @@ i.sscp {
   text-align: right;
   position: relative;
 }
-/* line 54, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 54, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .access-sets i {
   display: inline-block;
   vertical-align: middle;
   margin: 0 8px;
   background: url(../images/sprites.jpg) no-repeat;
 }
-/* line 59, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 59, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .access-sets i.Sa {
   width: 32px;
   height: 24px;
@@ -951,68 +955,68 @@ i.sscp {
   top: 4px;
   left: 36px;
 }
-/* line 67, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 67, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .access-sets i.data {
   width: 14px;
   height: 17px;
   background-position: -36px -35px;
 }
-/* line 72, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 72, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .access-sets i.pictures {
   width: 17px;
   height: 17px;
   background-position: -51px -35px;
 }
-/* line 77, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 77, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .access-sets i.rss {
   width: 19px;
   height: 17px;
   background-position: -69px -35px;
 }
-/* line 82, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 82, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .access-sets i.book {
   width: 18px;
   height: 17px;
   background-position: -88px -35px;
 }
-/* line 89, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 89, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .access-sets p a {
   color: #1e4d81;
 }
-/* line 92, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 92, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .header .access-sets p span {
   display: inline-block;
   margin: 0 10px;
 }
 
-/* line 100, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 100, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .logo-search {
   height: 58px;
   margin: 12px 0 0;
 }
-/* line 103, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 103, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .logo-search .logo {
   float: left;
   height: 54px;
   margin: 3px 40px 0 0;
 }
-/* line 107, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 107, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .logo-search .logo span {
   display: none;
   visibility: hidden;
 }
-/* line 112, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 112, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .logo-search .top-banner {
   float: left;
 }
-/* line 115, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 115, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .logo-search form {
   float: right;
   width: 262px;
   height: 22px;
   padding: 36px 0 0;
 }
-/* line 120, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 120, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .logo-search form .enter-keyword {
   float: right;
   width: 210px;
@@ -1021,7 +1025,7 @@ i.sscp {
   padding: 3px;
   border: 1px solid #ddd;
 }
-/* line 128, C:/Zaki/yma work/sscp/scss/partial/_header.scss */
+/* line 128, D:/Work/coding/scss-tryout/scss/partial/_header.scss */
 .logo-search form .submit-btn {
   float: right;
   cursor: pointer;
@@ -1033,7 +1037,7 @@ i.sscp {
 }
 
 /* main navs */
-/* line 2, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 2, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .gl-main-nav {
   font-size: 14px;
   text-align: center;
@@ -1042,29 +1046,29 @@ i.sscp {
   border-width: 5px 0 2px;
   margin: 10px 0 22px;
 }
-/* line 9, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 9, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .gl-main-nav .mn {
   margin: 3px 0 0;
 }
-/* line 11, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 11, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .gl-main-nav .mn span {
   margin: 0 4px;
 }
-/* line 14, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 14, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .gl-main-nav .mn a {
   color: #525f94;
   display: inline-block;
   margin: 0 4px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
 }
-/* line 19, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 19, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .gl-main-nav .mn a:hover {
   color: #005dab;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 28, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 28, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .law-main-nav {
   color: #96001e;
   height: 28px;
@@ -1074,7 +1078,7 @@ i.sscp {
   padding-left: 14px;
   position: relative;
 }
-/* line 36, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 36, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .law-main-nav .right-arrow {
   display: block;
   width: 12px;
@@ -1084,46 +1088,46 @@ i.sscp {
   top: -3px;
   right: -3px;
 }
-/* line 46, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 46, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .law-main-nav .mn span {
   margin: 0 10px;
 }
-/* line 49, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 49, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .law-main-nav .mn a {
   color: #96001e;
 }
-/* line 51, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 51, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .law-main-nav .mn a:hover {
   font-weight: bold;
 }
 
-/* line 58, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 58, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .edu-main-nav {
   color: #005466;
   height: 44px;
   margin: 11px 0 20px;
   background: url(../images/edu_main_nav_bg.jpg) 0 0 no-repeat;
 }
-/* line 63, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 63, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .edu-main-nav .mn {
   height: 24px;
   line-height: 24px;
   padding: 6px 0 0 10px;
 }
-/* line 67, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 67, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .edu-main-nav .mn span {
   margin: 0 5px;
 }
-/* line 70, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 70, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .edu-main-nav .mn a {
   color: #005466;
 }
-/* line 72, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 72, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .edu-main-nav .mn a:hover {
   font-weight: bold;
 }
 
-/* line 79, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 79, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .phi-main-nav {
   height: 52px;
   margin: 11px 0 10px;
@@ -1132,7 +1136,7 @@ i.sscp {
   background: url(../images/phi_main_nav_bg.jpg) 0 0 repeat-x;
   position: relative;
 }
-/* line 86, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 86, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .phi-main-nav span {
   display: block;
   width: 4px;
@@ -1141,17 +1145,17 @@ i.sscp {
   position: absolute;
   top: 0;
 }
-/* line 93, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 93, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .phi-main-nav span.lt-bd {
   left: 0;
   background-position: 0 -52px;
 }
-/* line 97, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 97, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .phi-main-nav span.rt-bd {
   right: 0;
   background-position: 0 -104px;
 }
-/* line 102, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 102, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .phi-main-nav .mn {
   width: 100%;
   height: 24px;
@@ -1159,7 +1163,7 @@ i.sscp {
   margin-left: 2px;
   padding-top: 12px;
 }
-/* line 108, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 108, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .phi-main-nav .mn a {
   float: left;
   margin: 0 6px;
@@ -1170,13 +1174,13 @@ i.sscp {
   -moz-text-shadow: 1px 0 2px rgba(21, 67, 129, 0.71);
   text-shadow: 1px 0 2px rgba(21, 67, 129, 0.71);
 }
-/* line 117, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 117, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .phi-main-nav .mn a:hover {
   text-decoration: none;
   color: #00fff0;
 }
 
-/* line 125, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 125, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .plan-main-nav {
   height: 27px;
   line-height: 27px;
@@ -1184,19 +1188,19 @@ i.sscp {
   border: 1px solid #4d505d;
   background: url(../images/plan_main_nav_bg.jpg) 0 0 repeat-x;
 }
-/* line 131, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 131, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .plan-main-nav .lt {
   float: left;
   width: 30px;
   height: 27px;
   background: url(../images/plan_main_nav_lt_bg.jpg) 0 0 no-repeat;
 }
-/* line 137, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 137, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .plan-main-nav .mn {
   float: right;
   margin-right: 30px;
 }
-/* line 140, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 140, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .plan-main-nav .mn a {
   float: left;
   margin-right: 10px;
@@ -1205,24 +1209,24 @@ i.sscp {
   font-size: 14px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
 }
-/* line 147, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 147, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .plan-main-nav .mn a:hover {
   text-decoration: none;
   background: url(../images/plan_main_nav_bg.jpg) 0 -27px repeat-x;
 }
 
-/* line 155, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 155, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .social-main-nav {
   height: 31px;
   margin: 13px 0 14px;
   background: url(../images/social_main_nav_bg.jpg) 0 0 no-repeat;
 }
-/* line 159, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 159, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .social-main-nav .mn {
   float: left;
   padding-left: 35px;
 }
-/* line 162, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 162, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .social-main-nav .mn a {
   float: left;
   color: #fff;
@@ -1231,12 +1235,12 @@ i.sscp {
   height: 31px;
   line-height: 30px;
 }
-/* line 169, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 169, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .social-main-nav .mn a:hover {
   text-decoration: none;
   background: url(../images/social_main_nav_hover_bg.jpg) 0 0 repeat-x;
 }
-/* line 174, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 174, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .social-main-nav .mn span {
   float: left;
   margin: 8px 0 0;
@@ -1246,18 +1250,18 @@ i.sscp {
   background: #fff;
 }
 
-/* line 185, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 185, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .book-main-nav {
   height: 32px;
   line-height: 32px;
   margin: 11px 0 14px;
   background: #e6aa6c;
 }
-/* line 190, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 190, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .book-main-nav .mn {
   float: left;
 }
-/* line 192, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 192, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .book-main-nav .mn a {
   float: left;
   color: #fff;
@@ -1266,46 +1270,46 @@ i.sscp {
   padding: 0 7px;
   background: url(../images/book_main_nav_bg.jpg) 100% 2px no-repeat;
 }
-/* line 199, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 199, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .book-main-nav .mn a.first {
   padding-left: 15px;
 }
-/* line 202, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 202, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .book-main-nav .mn a.last {
   padding-right: 19px;
   background-image: none;
 }
-/* line 206, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 206, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .book-main-nav .mn a:hover {
   text-decoration: none;
   background: #b24540;
 }
 
-/* line 214, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 214, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .uni-main-nav {
   height: 43px;
   line-height: 34px;
   margin: 23px 0 10px;
   background: url(../images/uni_main_nav_bg_repeat.jpg) repeat-x;
 }
-/* line 219, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 219, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .uni-main-nav .right-arrow {
   float: right;
   width: 18px;
   height: 34px;
   background: url(../images/uni_main_nav_end_bg.jpg) 100% 0 no-repeat;
 }
-/* line 225, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 225, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .uni-main-nav a {
   font-size: 16px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
   font-weight: bold;
 }
-/* line 229, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 229, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .uni-main-nav a:hover {
   text-decoration: none;
 }
-/* line 232, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 232, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .uni-main-nav a.main-left {
   color: #0759a0;
   float: left;
@@ -1314,12 +1318,12 @@ i.sscp {
   padding-left: 18px;
   background: url(../images/uni_main_nav_end_bg.jpg) 0 0 no-repeat;
 }
-/* line 241, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 241, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .uni-main-nav .mn {
   float: left;
   padding-left: 30px;
 }
-/* line 244, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 244, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .uni-main-nav .mn a {
   color: #fff;
   float: left;
@@ -1327,11 +1331,11 @@ i.sscp {
   height: 43px;
   text-align: center;
 }
-/* line 250, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 250, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .uni-main-nav .mn a:hover {
   background: url(../images/uni_main_nav_hover_bg.jpg) 50% 0 no-repeat;
 }
-/* line 254, C:/Zaki/yma work/sscp/scss/partial/_main-nav.scss */
+/* line 254, D:/Work/coding/scss-tryout/scss/partial/_main-nav.scss */
 .uni-main-nav .mn span {
   color: #2472b5;
   float: left;
@@ -1339,18 +1343,18 @@ i.sscp {
 }
 
 /* title set */
-/* line 2, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 2, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .gl-head, .gl-head2 {
   height: 25px;
   border-left: 5px solid #a10000;
 }
-/* line 5, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 5, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .gl-head span, .gl-head2 span {
   display: block;
   height: 23px;
   border-bottom: 2px solid #1e4d81;
 }
-/* line 9, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 9, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .gl-head span em.title_a, .gl-head span em.title_b, .gl-head2 span em.title_a, .gl-head2 span em.title_b {
   color: #1e4d81;
   float: left;
@@ -1364,39 +1368,39 @@ i.sscp {
   -moz-text-shadow: 0 1px 0 #c7d3df;
   text-shadow: 0 1px 0 #c7d3df;
 }
-/* line 22, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 22, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .gl-head span em.title_b, .gl-head2 span em.title_b {
   color: #515151;
   -webkit-text-shadow: 0 1px 0 #dcdcdc;
   -moz-text-shadow: 0 1px 0 #dcdcdc;
   text-shadow: 0 1px 0 #dcdcdc;
 }
-/* line 28, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 28, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .gl-head span em.f18, .gl-head2 span em.f18 {
   font-size: 18px;
   margin-top: 2px;
 }
-/* line 33, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 33, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .gl-head img, .gl-head2 img {
   margin: 5px 0 0 8px;
 }
 
-/* line 37, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 37, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .gl-head2 {
   border-left: none;
 }
-/* line 39, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 39, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .gl-head2 img {
   margin: 0 0 -2px;
 }
 
-/* line 43, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 43, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .ft-head {
   height: 25px;
   margin: 0 0 5px;
   background: url(../images/gl_feature_bg.jpg) no-repeat;
 }
-/* line 47, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 47, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .ft-head em {
   float: left;
   color: #fff;
@@ -1410,14 +1414,14 @@ i.sscp {
   text-shadow: 0 1px 0 #557499;
 }
 
-/* line 61, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 61, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head, .law-head2, .law-head3 {
   font-size: 15px !important;
   font-family: "\5FAE\8F6F\96C5\9ED1";
   height: 26px;
   background: #efeff0;
 }
-/* line 66, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 66, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head .lh, .law-head2 .lh, .law-head3 .lh {
   float: left;
   font-weight: bold;
@@ -1425,11 +1429,11 @@ i.sscp {
   letter-spacing: 1px;
   position: relative;
 }
-/* line 72, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 72, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head .lh:hover, .law-head2 .lh:hover, .law-head3 .lh:hover {
   text-decoration: none;
 }
-/* line 75, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 75, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head .lh .r, .law-head2 .lh .r, .law-head3 .lh .r {
   display: block;
   width: 9px;
@@ -1438,87 +1442,87 @@ i.sscp {
   position: absolute;
 }
 
-/* line 84, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 84, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head {
   color: #fff;
   line-height: 22px;
 }
-/* line 87, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 87, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head .lh {
   color: #fff;
   border: 2px solid #96001e;
   background: #96001e;
 }
-/* line 91, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 91, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head .lh .r {
   background-position: 0 -60px;
   top: -2px;
   right: -2px;
 }
-/* line 96, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 96, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head .lh:hover {
   color: #96001e;
   background: #fff;
 }
-/* line 99, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 99, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head .lh:hover .r {
   background-position: 0 -34px;
 }
 
-/* line 105, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 105, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2 {
   line-height: 22px;
 }
-/* line 107, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 107, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2 .lh {
   color: #96001e;
   border: 2px solid #96001e;
   background: #fff;
 }
-/* line 111, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 111, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2 .lh .r {
   background-position: 0 -34px;
   top: -2px;
   right: -2px;
 }
-/* line 116, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 116, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2 .lh:hover {
   color: #fff;
   background: #96001e;
 }
-/* line 119, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 119, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2 .lh:hover .r {
   background-position: 0 -60px;
 }
 
-/* line 125, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 125, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head3 {
   line-height: 22px;
 }
-/* line 127, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 127, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head3 .lh {
   color: #155f82;
   border: 2px solid #155f82;
   background: #fff;
 }
-/* line 131, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 131, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head3 .lh .r {
   background-position: 0 -86px;
   top: -2px;
   right: -2px;
 }
-/* line 136, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 136, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head3 .lh:hover {
   color: #fff;
   border-color: #96001e;
   background: #96001e;
 }
-/* line 140, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 140, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head3 .lh:hover .r {
   background-position: 0 -60px;
 }
 
-/* line 146, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 146, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher, .law-head2-switcher {
   font-size: 15px !important;
   font-weight: bold;
@@ -1526,93 +1530,94 @@ i.sscp {
   height: 26px;
   line-height: 26px;
 }
-/* line 152, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 152, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher a, .law-head2-switcher a {
   float: left;
   margin: 0 6px 0 0;
   padding: 0 10px 0 6px;
 }
-/* line 156, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 156, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher a:hover, .law-head2-switcher a:hover {
   text-decoration: none;
 }
 
-/* line 161, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 161, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher {
   background: #efeff1 url(../images/law_head_switcher_bg.jpg) no-repeat;
 }
-/* line 163, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 163, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher a {
   color: #155F82;
 }
-/* line 165, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 165, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher a.on {
   color: #fff;
 }
-/* line 169, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 169, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher.tw-tab1 {
   background-position: 0 0 !important;
 }
-/* line 172, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 172, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher.tw-tab2 {
   background-position: 0 -26px !important;
 }
-/* line 175, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 175, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher.three-tabs, .law-head-switcher.th-tab1 {
   background-position: 0 -78px !important;
 }
-/* line 178, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 178, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher.th-tab2 {
   background-position: 0 -104px !important;
 }
-/* line 181, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 181, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head-switcher.th-tab3 {
   background-position: 0 -130px !important;
 }
 
-/* line 185, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 185, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2-switcher {
   background: #efeff1 url(../images/law_head_switcher2_bg.jpg) no-repeat;
 }
-/* line 187, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 187, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2-switcher a {
   color: #fff;
 }
-/* line 189, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 189, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2-switcher a.on {
   color: #96001e;
 }
-/* line 193, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 193, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2-switcher.tw-tab1 {
   background-position: 0 0 !important;
 }
-/* line 196, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 196, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2-switcher.tw-tab2 {
   background-position: 0 -26px !important;
 }
-/* line 199, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 199, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2-switcher.three-tabs1, .law-head2-switcher.th-tab1 {
   background-position: 0 -78px !important;
 }
-/* line 202, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 202, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2-switcher.th-tab2 {
   background-position: 0 -104px !important;
 }
-/* line 205, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 205, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .law-head2-switcher.th-tab3 {
   background-position: 0 -130px !important;
 }
 
-/* line 210, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 210, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head {
   height: 28px;
   border-bottom: 1px solid #d0cfcf;
 }
-/* line 213, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 213, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head .eh {
   color: #006069;
   font-size: 18px;
-  font-family: "方正大黑简体", "\5FAE\8F6F\96C5\9ED1";
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  font-weight: bold;
   float: left;
   height: 29px;
   line-height: 22px;
@@ -1621,7 +1626,7 @@ i.sscp {
   _position: relative;
   _bottom: -1px;
 }
-/* line 224, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 225, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head .eh span {
   float: left;
   padding: 2px 12px 5px 0;
@@ -1629,37 +1634,39 @@ i.sscp {
   background: url(../images/edu_sprites_edu.jpg) 100% 0 no-repeat;
 }
 
-/* line 232, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 233, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2, .edu-head4 {
   height: 27px;
 }
-/* line 234, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 235, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh, .edu-head4 .eh {
   color: #006069;
   font-size: 16px;
-  font-family: "方正大黑简体", "\5FAE\8F6F\96C5\9ED1";
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  font-weight: bold;
   float: left;
   height: 25px;
   line-height: 20px;
   padding: 0 0 0 7px;
   background: url(../images/edu_sprites_edu.jpg) 0 -29px no-repeat;
 }
-/* line 243, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 245, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh span, .edu-head4 .eh span {
   float: left;
   padding: 2px 12px 2px 0;
   background: url(../images/edu_sprites_edu.jpg) 100% -29px no-repeat;
 }
-/* line 249, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 251, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .edu-more, .edu-head4 .edu-more {
   margin: 5px 0 0;
 }
 
-/* line 254, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 256, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 {
   float: left;
+  font-weight: bold;
 }
-/* line 256, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 259, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a {
   float: left;
   cursor: pointer;
@@ -1669,63 +1676,63 @@ i.sscp {
   font-size: 16px;
   padding: 0 0 0 7px;
 }
-/* line 264, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 267, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a span {
   float: left;
 }
-/* line 267, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 270, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a:hover {
   text-decoration: none;
 }
-/* line 270, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 273, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a.alpha, .edu-head2 .eh2 a.beta {
   color: #b5b5b6;
-  font-family: "\5FAE\8F6F\96C5\9ED1", "方正大黑简体";
+  font-family: "\5FAE\8F6F\96C5\9ED1";
   background: url(../images/edu_sprites_edu.jpg) 0 -104px no-repeat;
 }
-/* line 274, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 277, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a.alpha span, .edu-head2 .eh2 a.beta span {
   padding: 2px 7px 3px 0;
 }
-/* line 277, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 280, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a.alpha.on, .edu-head2 .eh2 a.beta.on {
   color: #006069;
-  font-family: "方正大黑简体", "\5FAE\8F6F\96C5\9ED1";
+  font-family: "\5FAE\8F6F\96C5\9ED1";
   background: url(../images/edu_sprites_edu.jpg) 0 -29px no-repeat;
 }
-/* line 281, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 284, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a.alpha.on span, .edu-head2 .eh2 a.beta.on span {
   background: url(../images/edu_sprites_edu.jpg) 97% -29px no-repeat !important;
 }
-/* line 286, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 289, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a.omega {
   color: #b5b5b6;
-  font-family: "\5FAE\8F6F\96C5\9ED1", "方正大黑简体";
+  font-family: "\5FAE\8F6F\96C5\9ED1";
   background: url(../images/edu_sprites_edu.jpg) 0 -104px no-repeat;
 }
-/* line 290, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 293, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a.omega span {
   padding: 2px 12px 3px 0;
   background: url(../images/edu_sprites_edu.jpg) 100% -104px no-repeat;
 }
-/* line 294, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 297, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a.omega.on {
   color: #006069;
-  font-family: "方正大黑简体", "\5FAE\8F6F\96C5\9ED1";
+  font-family: "\5FAE\8F6F\96C5\9ED1";
   background: url(../images/edu_sprites_edu.jpg) 0 -29px no-repeat;
 }
-/* line 298, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 301, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head2 .eh2 a.omega.on span {
   background: url(../images/edu_sprites_edu.jpg) 100% -29px no-repeat;
 }
 
-/* line 306, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 309, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head3 {
   height: 29px;
   border-top: 1px solid #96c84f;
   border-bottom: 1px solid #d0cfcf;
 }
-/* line 310, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 313, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head3 span {
   float: left;
   font-size: 16px;
@@ -1734,15 +1741,15 @@ i.sscp {
   padding: 2px 3px 0 2px;
   border-top: 2px solid #96c84f;
 }
-/* line 317, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 320, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head3 span a {
   color: #006069;
 }
-/* line 319, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 322, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head3 span a:hover {
   text-decoration: none;
 }
-/* line 324, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 327, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head3 em {
   color: #96c84f;
   font-style: normal;
@@ -1750,23 +1757,23 @@ i.sscp {
   margin: 5px 0 0;
 }
 
-/* line 331, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 334, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .eh-bb1 {
   background: url(../images/edu_head_bg1.jpg) 0 100% no-repeat;
 }
 
-/* line 332, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 335, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .eh-bb2 {
   background: url(../images/edu_head_bg2.jpg) 0 100% no-repeat;
 }
 
-/* line 333, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 336, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head3-switcher {
   height: 29px;
   border-top: 1px solid #96c84f;
   border-bottom: 1px solid #d0cfcf;
 }
-/* line 337, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 340, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head3-switcher .item {
   color: #a1a1a1;
   float: left;
@@ -1775,11 +1782,11 @@ i.sscp {
   font-size: 14px;
   padding-top: 5px;
 }
-/* line 344, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 347, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head3-switcher .item:hover {
   text-decoration: none;
 }
-/* line 347, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 350, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head3-switcher .item.on {
   color: #006069;
   font-size: 16px;
@@ -1787,7 +1794,7 @@ i.sscp {
   border-top: 2px solid #96c84f;
   text-decoration: none;
 }
-/* line 355, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 358, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head3-switcher em {
   color: #96c84f;
   font-style: normal;
@@ -1795,21 +1802,22 @@ i.sscp {
   margin: 5px 5px 0;
 }
 
-/* line 363, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 366, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh {
   color: #fff;
   background-position: 0 -54px;
 }
-/* line 366, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 369, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh span {
   padding: 2px 12px 3px 0;
   background-position: 100% -54px;
 }
-/* line 371, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 374, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 {
   float: left;
+  font-weight: bold;
 }
-/* line 373, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 377, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a {
   float: left;
   cursor: pointer;
@@ -1819,81 +1827,81 @@ i.sscp {
   font-size: 16px;
   padding: 0 0 0 7px;
 }
-/* line 381, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 385, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a span {
   float: left;
 }
-/* line 384, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 388, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a:hover {
   text-decoration: none;
 }
-/* line 387, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 391, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a.alpha, .edu-head4 .eh4 a.beta {
-  font-family: "\5FAE\8F6F\96C5\9ED1", "方正大黑简体";
+  font-family: "\5FAE\8F6F\96C5\9ED1";
   background: url(../images/edu_sprites_edu.jpg) 0 -79px no-repeat;
 }
-/* line 390, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 394, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a.alpha span, .edu-head4 .eh4 a.beta span {
   padding: 2px 7px 3px 0;
 }
-/* line 393, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 397, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a.alpha.on, .edu-head4 .eh4 a.beta.on {
-  font-family: "方正大黑简体", "\5FAE\8F6F\96C5\9ED1";
+  font-family: "\5FAE\8F6F\96C5\9ED1";
   background: url(../images/edu_sprites_edu.jpg) 0 -54px no-repeat;
 }
-/* line 396, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 400, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a.alpha.on span, .edu-head4 .eh4 a.beta.on span {
   background: url(../images/edu_sprites_edu.jpg) -7px -54px no-repeat !important;
 }
-/* line 401, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 405, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a.beta, .edu-head4 .eh4 a.omega {
   margin-left: 1px;
 }
-/* line 402, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 406, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a.omega {
-  font-family: "\5FAE\8F6F\96C5\9ED1", "方正大黑简体";
+  font-family: "\5FAE\8F6F\96C5\9ED1";
   background: url(../images/edu_sprites_edu.jpg) 0 -79px no-repeat;
 }
-/* line 405, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 409, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a.omega span {
   padding: 2px 12px 3px 0;
   background: url(../images/edu_sprites_edu.jpg) 100% -79px no-repeat;
 }
-/* line 409, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 413, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a.omega.on {
-  font-family: "方正大黑简体", "\5FAE\8F6F\96C5\9ED1";
+  font-family: "\5FAE\8F6F\96C5\9ED1";
   background: url(../images/edu_sprites_edu.jpg) 0 -54px no-repeat;
 }
-/* line 412, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 416, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .edu-head4 .eh4 a.omega.on span {
   background: url(../images/edu_sprites_edu.jpg) 100% -54px no-repeat;
 }
 
-/* line 421, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 425, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head-top {
   height: 26px;
   border-bottom: 1px solid #e2e2e2;
   position: relative;
 }
-/* line 425, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 429, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head-top span {
   display: block;
   height: 25px;
   border-bottom: 1px solid #f5f5f5;
 }
-/* line 429, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 433, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head-top span a.more {
   float: right;
   font-size: 14px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
   margin: 5px 0 0;
 }
-/* line 434, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 438, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head-top span a.more:hover {
   color: #2672a6;
   text-decoration: none;
 }
-/* line 439, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 443, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head-top span a.title {
   color: #fff;
   font-size: 16px;
@@ -1908,29 +1916,29 @@ i.sscp {
   _top: 1px;
   left: 0;
 }
-/* line 452, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 456, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head-top span a.title:hover {
   text-decoration: none;
 }
 
-/* line 458, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 462, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head, .phi-head2 {
   height: 33px;
   background: url(../images/phi_h2_bg.jpg) left bottom repeat-x;
 }
-/* line 461, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 465, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head a.more, .phi-head2 a.more {
   color: #8e8e8e;
   float: right;
   font-family: Arial, sans-serif;
   font-size: 18px;
 }
-/* line 466, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 470, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head a.more:hover, .phi-head2 a.more:hover {
   color: #014d67;
   text-decoration: none;
 }
-/* line 471, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 475, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head span, .phi-head2 span {
   float: left;
   font-size: 18px;
@@ -1938,27 +1946,27 @@ i.sscp {
   font-weight: bold;
   text-indent: 3px;
 }
-/* line 477, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 481, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head span a, .phi-head2 span a {
   color: #014d67;
 }
-/* line 479, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 483, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head span a:hover, .phi-head2 span a:hover {
   color: #00fff0;
   text-decoration: none;
 }
 
-/* line 486, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 490, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head2 {
   height: 32px;
   overflow: visible;
   background: url(../images/phi_h2_bg_sidebar_blue.jpg) 0 30px repeat-x;
 }
-/* line 490, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 494, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head2 a.more {
   margin-right: 5px;
 }
-/* line 493, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 497, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head2 span {
   font-size: 16px;
   text-indent: 0;
@@ -1971,12 +1979,12 @@ i.sscp {
   bottom: -1px;
 }
 
-/* line 505, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 509, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head3 {
   height: 26px;
   background: url(../images/phi_h2_bg_sidebar_gray.jpg) left bottom repeat-x;
 }
-/* line 508, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 512, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head3 span {
   float: left;
   font-size: 16px;
@@ -1986,73 +1994,73 @@ i.sscp {
   padding: 0 2px 0 11px;
   background: url(../images/phi_h2_bg_sidebar_blue.jpg) left bottom repeat-x;
 }
-/* line 516, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 520, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head3 span a {
   color: #18405d;
 }
-/* line 518, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 522, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head3 span a:hover {
   color: #00fff0;
   text-decoration: none;
 }
-/* line 522, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 526, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head3 span a b {
   font-size: 18px;
   padding-left: 5px;
 }
 
-/* line 529, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 533, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head4 {
   height: 29px;
   line-height: 29px;
   padding-left: 5px;
   background: url(../images/phi_h2_lt_bg.jpg) left bottom no-repeat;
 }
-/* line 534, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 538, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head4 a {
   color: #2871a7;
   font-size: 16px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
   font-weight: bold;
 }
-/* line 539, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 543, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .phi-head4 a:hover {
   color: #00fff0;
   text-decoration: none;
 }
 
-/* line 545, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 549, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .plan-head {
   height: 56px;
   padding: 0 24px 0 15px;
   border-bottom: 1px solid #d7d7d7;
   background: url(../images/plan_top_bar_bg.jpg) 0 0 no-repeat;
 }
-/* line 550, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 554, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .plan-head a.fl {
   color: #363636;
   font-size: 18px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
   margin: 17px 0 0;
 }
-/* line 556, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 560, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .plan-head a.plan-more {
   margin: 22px 0 0;
 }
 
-/* line 562, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 566, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd a {
   float: left;
   color: #6d9fc0;
   font-size: 18px;
   font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1", sans-serif;
 }
-/* line 567, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 571, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd a:hover {
   color: #0973b9;
   text-decoration: none;
 }
-/* line 572, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 576, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd span {
   float: left;
   font-size: 0;
@@ -2061,28 +2069,28 @@ i.sscp {
   background: #f8c6a8;
 }
 
-/* line 580, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 584, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd1 {
   height: 41px;
   border-bottom: 1px solid #d7d7d7;
   background: url(../images/social_hd_bg1.jpg) 0 1px no-repeat;
 }
-/* line 584, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 588, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd1 a {
   margin: 12px 0 0 12px;
 }
-/* line 587, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 591, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd1 span {
   margin: 16px 0 0 12px;
 }
 
-/* line 591, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 595, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd2 {
   height: 21px;
   line-height: 22px;
   background: url(../images/social_hd_bg2.jpg) 0 0 no-repeat;
 }
-/* line 595, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 599, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd2 a {
   float: left;
   margin-left: 24px;
@@ -2090,13 +2098,13 @@ i.sscp {
   font-size: 18px;
   font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1", sans-serif;
 }
-/* line 601, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 605, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd2 a:hover {
   color: #f6fba2;
   text-decoration: none;
 }
 
-/* line 607, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 611, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd3 {
   height: 44px;
   line-height: 44px;
@@ -2104,22 +2112,22 @@ i.sscp {
   background: url(../images/8px_dot_orange.jpg) 10px 50% no-repeat;
 }
 
-/* line 613, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 617, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd4 {
   height: 40px;
   background: url(../images/social_hd_bg3.jpg) 50% 100% no-repeat;
 }
-/* line 616, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 620, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd4 a {
   margin: 7px 0 0 17px;
 }
 
-/* line 620, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 624, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd5 {
   height: 39px;
   border-bottom: 1px solid #d7d7d7;
 }
-/* line 623, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 627, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd5 i {
   float: left;
   width: 19px;
@@ -2127,21 +2135,21 @@ i.sscp {
   margin: 10px 0 0 10px;
   background: url(../images/social_sprites.jpg) -172px 1px no-repeat;
 }
-/* line 630, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 634, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd5 a {
   margin: 8px 0 0 10px;
 }
-/* line 633, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 637, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd5 span {
   margin: 12px 0 0 10px;
 }
 
-/* line 637, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 641, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd6 {
   height: 40px;
   border-bottom: 1px solid #d7d7d7;
 }
-/* line 640, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 644, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd6 a {
   float: left;
   width: 108px;
@@ -2149,44 +2157,44 @@ i.sscp {
   margin: 8px 0 0 15px;
   background: url(../images/social_sprites.jpg) 0 0 no-repeat;
 }
-/* line 646, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 650, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd6 a:hover {
   text-decoration: none;
 }
 
-/* line 651, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 655, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd7 {
   height: 29px;
   line-height: 29px;
 }
-/* line 654, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 658, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd7 span {
   height: 100%;
   display: block;
   background: url(../images/social_hd_sprites.jpg) 100% 0 no-repeat;
 }
-/* line 658, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 662, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd7 span a {
   float: left;
   width: 113px;
   text-indent: -9999px;
 }
-/* line 663, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 667, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd7 span.area {
   background-position: 100% 100%;
 }
-/* line 664, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 668, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd7 span.area a {
   width: 95px;
 }
 
-/* line 671, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 675, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd8 {
   height: 40px;
   line-height: 40px;
   background: url(../images/social_hd_bg4.jpg) no-repeat;
 }
-/* line 675, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 679, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd8 a {
   color: #fff;
   float: left;
@@ -2195,24 +2203,24 @@ i.sscp {
   font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1";
 }
 
-/* line 683, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 687, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd9 {
   height: 30px;
   line-height: 30px;
 }
-/* line 686, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 690, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd9 a {
   padding-left: 20px;
   background: url(../images/3px_dot_orange.jpg) 10px 50% no-repeat;
 }
 
-/* line 691, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 695, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd10 {
   height: 37px;
   margin: 0 6px;
   background: url(../images/social_hd_bg3.jpg) 50% 100% no-repeat;
 }
-/* line 695, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 699, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd10 i {
   float: left;
   width: 27px;
@@ -2220,31 +2228,31 @@ i.sscp {
   margin: 5px 0 0;
   background: url(../images/social_sprites.jpg) -122px 0 no-repeat;
 }
-/* line 702, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 706, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd10 a {
   margin: 6px 0 0 6px;
 }
 
-/* line 706, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 710, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd-line {
   height: 26px;
   margin: 0 0 8px;
   background: url(../images/social_hd_bg5.jpg) no-repeat;
 }
-/* line 710, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 714, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd-line a {
   float: left;
   width: 88px;
   height: 26px;
   margin-left: 23px;
 }
-/* line 715, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 719, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .social-hd-line a:hover {
   text-decoration: none;
   background: url(../images/social_global.jpg) no-repeat;
 }
 
-/* line 723, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 727, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd a {
   float: left;
   color: #b24540;
@@ -2252,30 +2260,30 @@ i.sscp {
   font-weight: bold;
   font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1", sans-serif;
 }
-/* line 729, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 733, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd a:hover {
   text-decoration: none;
 }
-/* line 732, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 736, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd a.fr {
   font-size: 14px;
   font-family: "\5B8B\4F53", Arial, sans-serif;
   font-weight: normal;
   margin-right: 10px;
 }
-/* line 737, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 741, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd a.fr:hover {
   text-decoration: underline;
 }
 
-/* line 743, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 747, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd1 {
   height: 36px;
   line-height: 37px;
   border: solid #d7d7d7;
   border-width: 1px 0;
 }
-/* line 748, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 752, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd1 i.one {
   float: left;
   width: 20px;
@@ -2283,7 +2291,7 @@ i.sscp {
   margin: 9px 8px 0 9px;
   background: url(../images/book_one_book.jpg) no-repeat;
 }
-/* line 756, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 760, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd1 i.two {
   float: left;
   width: 22px;
@@ -2292,13 +2300,13 @@ i.sscp {
   background: url(../images/book_two_book.jpg) no-repeat;
 }
 
-/* line 764, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 768, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd2 {
   height: 33px;
   line-height: 30px;
   background: url(../images/book_hd_bg.jpg) 0 30px repeat-x;
 }
-/* line 768, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 772, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd2 .title {
   float: left;
   height: 30px;
@@ -2310,16 +2318,16 @@ i.sscp {
   font-family: "\9ED1\4F53", "\5FAE\8F6F\96C5\9ED1", sans-serif;
   border-bottom: 3px solid #e6aa6c;
 }
-/* line 778, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 782, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd2 .title:hover {
   text-decoration: none;
 }
-/* line 782, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 786, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd2 a.fr {
   margin-right: 10px;
 }
 
-/* line 788, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 792, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-col1 .book-hd2 .title {
   line-height: 30px;
   padding: 0 12px;
@@ -2327,13 +2335,13 @@ i.sscp {
   border-color: #b24540;
 }
 
-/* line 797, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 801, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-col2 .book-hd2, .book-col3 .book-hd2 {
   height: 32px;
   line-height: 28px;
   background: url(../images/book_hd_bg.jpg) 0 28px repeat-x;
 }
-/* line 801, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 805, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-col2 .book-hd2 .title, .book-col3 .book-hd2 .title {
   height: 28px;
   line-height: 28px;
@@ -2341,223 +2349,223 @@ i.sscp {
   font-size: 18px;
   border-bottom-width: 4px;
 }
-/* line 807, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 811, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-col2 .book-hd2 .title span, .book-col3 .book-hd2 .title span {
   color: #e6aa6c;
   _font-size: 16px;
   font-family: "\534E\6587\6977\4F53", sans-serif;
 }
 
-/* line 815, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 819, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd3 {
   height: 32px;
   line-height: 32px;
   background: #f3f3f2;
 }
-/* line 819, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 823, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd3 .title {
   float: left;
   width: 108px;
   height: 32px;
   background: url(../images/book_hd_sprites.jpg) no-repeat;
 }
-/* line 823, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 827, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd3 .title span {
   display: none;
 }
-/* line 827, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 831, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd3 .title.scenery {
   background-position: 0 0;
 }
-/* line 830, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 834, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd3 .title.interview {
   background-position: 0 -32px;
 }
-/* line 833, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 837, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd3 .title.bk-list {
   background-position: 0 -64px;
 }
-/* line 836, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 840, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd3 .title.nous {
   background-position: -108px 0;
 }
-/* line 839, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 843, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd3 .title.bk-lib {
   background-position: -108px -32px;
 }
-/* line 842, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 846, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd3 .title.bl-talk {
   background-position: -108px -64px;
 }
-/* line 846, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 850, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .book-hd3 a.fr {
   margin-right: 10px;
 }
 
-/* line 852, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 856, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd span {
   float: left;
   font-size: 17px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
   font-weight: bold;
 }
-/* line 858, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 862, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd span a:hover {
   text-decoration: none;
 }
-/* line 863, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 867, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd a.fr {
   margin-right: 10px;
   font-size: 12px;
 }
-/* line 866, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 870, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd a.fr:hover {
   text-decoration: none;
 }
 
-/* line 871, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 875, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd1, .uni-hd2, .uni-hd3 {
   height: 30px;
   line-height: 30px;
   background: #dbefff;
 }
-/* line 875, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 879, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd1 span, .uni-hd2 span, .uni-hd3 span {
   margin-left: 13px;
 }
-/* line 877, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 881, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd1 span a, .uni-hd2 span a, .uni-hd3 span a {
   color: #0759a0;
 }
 
-/* line 882, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 886, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd2 {
   background: url(../images/uni_hd_bg_sprites.jpg) no-repeat;
 }
-/* line 884, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 888, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd2.bg1 {
   background-position: 0 0;
 }
-/* line 887, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 891, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd2.bg2 {
   background-position: 0 -30px;
 }
-/* line 890, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 894, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd2.bg3 {
   background-position: 0 -60px;
 }
-/* line 894, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 898, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd2 span a {
   color: #fff;
 }
 
-/* line 899, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 903, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd3 {
   background: #9bb43b;
 }
-/* line 902, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 906, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd3 span a {
   color: #fff;
 }
-/* line 905, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 909, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd3 span.project-tabs {
   margin-left: 0;
 }
-/* line 907, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 911, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd3 span.project-tabs a {
   float: left;
   padding: 0 13px;
   background: url(../images/uni_project_tabs_bg.jpg) 100% 50% no-repeat;
 }
-/* line 911, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 915, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd3 span.project-tabs a.last {
   background: none;
 }
-/* line 914, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 918, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd3 span.project-tabs a.on {
   background: #657e04;
 }
-/* line 920, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 924, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd3 a.fr {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 925, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 929, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd4 {
   height: 32px;
   border-bottom: 1px solid #0759a0;
 }
-/* line 928, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 932, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd4 span {
   margin: 3px 0 0 2px;
 }
-/* line 930, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 934, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd4 span a {
   color: #0759a0;
 }
-/* line 934, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 938, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd4 a.fr {
   margin: 11px 5px 0 0;
 }
 
-/* line 938, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 942, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd5 {
   height: 30px;
   overflow: hidden;
   background: url(../images/1px_dot_green.jpg) 0 25px repeat-x;
 }
-/* line 942, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 946, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd5 span {
   float: left;
   font-family: "\5FAE\8F6F\96C5\9ED1";
   padding-right: 13px;
   background: white url(../images/uni_hd5_bg.jpg) 100% 11px no-repeat;
 }
-/* line 947, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 951, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd5 span a {
   float: left;
   font-weight: bold;
 }
-/* line 950, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 954, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd5 span a i {
   font-style: normal;
 }
-/* line 952, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 956, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd5 span a i.tt1 {
   color: #0759a0;
   font-size: 22px;
 }
-/* line 956, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 960, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd5 span a i.tt2 {
   color: #73a7d0;
   font-size: 18px;
 }
-/* line 961, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 965, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd5 span a:hover {
   text-decoration: none;
 }
-/* line 966, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 970, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd5 a.fr {
   margin: 7px 5px 0 0;
   font-size: 12px;
 }
-/* line 969, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 973, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd5 a.fr:hover {
   text-decoration: none;
 }
 
-/* line 974, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 978, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd6 {
   height: 37px;
   border-bottom: 1px solid #c4db6a;
 }
-/* line 977, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 981, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd6 span {
   float: left;
   padding: 2px 0 0;
 }
-/* line 980, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 984, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd6 span a {
   color: #73a7d0;
   float: left;
@@ -2568,98 +2576,104 @@ i.sscp {
   line-height: 33px;
   text-align: center;
 }
-/* line 989, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 993, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd6 span a.on {
   color: #0759a0;
   background: url(../images/uni_hd6_bg_on.jpg) 50% 0 no-repeat;
 }
-/* line 995, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 999, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd6 a.fr {
   margin: 19px 5px 0 0;
 }
 
-/* line 999, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
-.uni-hd7 {
+/* line 1003, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
+.uni-hd7, .uni-hd8 {
   height: 32px;
   border-bottom: 1px solid #d7d7d7;
   background: #f9f9f9;
 }
-/* line 1003, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
-.uni-hd7 span {
+/* line 1007, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
+.uni-hd7 span, .uni-hd8 span {
   margin: 5px 0 0 8px;
 }
-/* line 1005, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
-.uni-hd7 span a {
+/* line 1009, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
+.uni-hd7 span a, .uni-hd8 span a {
   color: #0759a0;
 }
-/* line 1009, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
-.uni-hd7 a.fr {
+/* line 1013, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
+.uni-hd7 a.fr, .uni-hd8 a.fr {
   margin-top: 8px;
 }
 
-/* line 1013, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 1017, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
+.uni-hd8 {
+  height: 33px;
+  background: url(../images/uni_hd8_bg.jpg) 0 0 repeat-x;
+}
+
+/* line 1021, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd9 {
   height: 25px;
   overflow: hidden;
 }
-/* line 1016, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 1024, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd9 span {
   background: #0759a0;
 }
-/* line 1018, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 1026, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd9 span a {
   color: #fff;
   padding: 0 10px;
 }
-/* line 1023, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 1031, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd9 a.fr {
   margin: 7px 5px 0 0;
 }
 
-/* line 1027, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 1035, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd10 {
   height: 27px;
   background: #dbefff;
 }
-/* line 1030, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 1038, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd10 span {
   background: #0759a0;
 }
-/* line 1032, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 1040, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd10 span a {
   float: left;
   line-height: 27px;
   color: #fff;
   padding: 0 15px;
 }
-/* line 1039, C:/Zaki/yma work/sscp/scss/partial/_head.scss */
+/* line 1047, D:/Work/coding/scss-tryout/scss/partial/_head.scss */
 .uni-hd10 a.fr {
   margin: 5px 5px 0 0;
 }
 
 /* pictures slide */
-/* line 2, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide, .phi-slide {
+/* line 2, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide, .phi-slide, .uni-slide {
   height: 292px;
 }
-/* line 4, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide .flexslider, .phi-slide .flexslider {
+/* line 4, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide .flexslider, .phi-slide .flexslider, .uni-slide .flexslider {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-/* line 8, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide .flexslider .flex-viewport, .phi-slide .flexslider .flex-viewport {
+/* line 8, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide .flexslider .flex-viewport, .phi-slide .flexslider .flex-viewport, .uni-slide .flexslider .flex-viewport {
   width: 318px;
   height: 252px;
 }
-/* line 11, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide .flexslider .flex-viewport li, .phi-slide .flexslider .flex-viewport li {
+/* line 11, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide .flexslider .flex-viewport li, .phi-slide .flexslider .flex-viewport li, .uni-slide .flexslider .flex-viewport li {
   height: 252px;
   position: relative;
 }
-/* line 14, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide .flexslider .flex-viewport li span, .phi-slide .flexslider .flex-viewport li span {
+/* line 14, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide .flexslider .flex-viewport li span, .phi-slide .flexslider .flex-viewport li span, .uni-slide .flexslider .flex-viewport li span {
   display: block;
   height: 45px;
   width: 100%;
@@ -2670,8 +2684,8 @@ i.sscp {
   left: 0;
   bottom: 0;
 }
-/* line 25, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide .flexslider .flex-viewport li a, .phi-slide .flexslider .flex-viewport li a {
+/* line 25, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide .flexslider .flex-viewport li a, .phi-slide .flexslider .flex-viewport li a, .uni-slide .flexslider .flex-viewport li a {
   color: #fff;
   font-size: 12px;
   display: block;
@@ -2688,15 +2702,15 @@ i.sscp {
   left: 0;
   bottom: 14px;
 }
-/* line 41, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide .flexslider .flex-control-nav, .phi-slide .flexslider .flex-control-nav {
+/* line 41, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide .flexslider .flex-control-nav, .phi-slide .flexslider .flex-control-nav, .uni-slide .flexslider .flex-control-nav {
   font-size: 0;
   height: 6px;
   margin: 24px 0 0;
   padding-left: 128px;
 }
-/* line 46, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide .flexslider .flex-control-nav li, .phi-slide .flexslider .flex-control-nav li {
+/* line 46, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide .flexslider .flex-control-nav li, .phi-slide .flexslider .flex-control-nav li, .uni-slide .flexslider .flex-control-nav li {
   list-style: none;
   float: left;
   zoom: 1;
@@ -2704,8 +2718,8 @@ i.sscp {
   height: 6px;
   margin: 0 5px;
 }
-/* line 53, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide .flexslider .flex-control-nav li a, .phi-slide .flexslider .flex-control-nav li a {
+/* line 53, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide .flexslider .flex-control-nav li a, .phi-slide .flexslider .flex-control-nav li a, .uni-slide .flexslider .flex-control-nav li a {
   color: #bcbcbc;
   cursor: pointer;
   display: block;
@@ -2713,34 +2727,34 @@ i.sscp {
   height: 100%;
   background: #bcbcbc;
 }
-/* line 60, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide .flexslider .flex-control-nav li a.flex-active, .gl-slide .flexslider .flex-control-nav li a:hover, .phi-slide .flexslider .flex-control-nav li a.flex-active, .phi-slide .flexslider .flex-control-nav li a:hover {
+/* line 60, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide .flexslider .flex-control-nav li a.flex-active, .gl-slide .flexslider .flex-control-nav li a:hover, .phi-slide .flexslider .flex-control-nav li a.flex-active, .phi-slide .flexslider .flex-control-nav li a:hover, .uni-slide .flexslider .flex-control-nav li a.flex-active, .uni-slide .flexslider .flex-control-nav li a:hover {
   color: #a00000;
   background: #a00000;
 }
-/* line 67, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
-.gl-slide .flexslider .flex-direction-nav, .phi-slide .flexslider .flex-direction-nav {
+/* line 67, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.gl-slide .flexslider .flex-direction-nav, .phi-slide .flexslider .flex-direction-nav, .uni-slide .flexslider .flex-direction-nav {
   display: none;
 }
 
-/* line 73, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 73, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .phi-slide {
   height: 236px;
 }
-/* line 76, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 76, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .phi-slide .flexslider .flex-viewport {
   width: 306px;
   height: 204px;
 }
-/* line 79, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 79, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .phi-slide .flexslider .flex-viewport li {
   height: 204px;
 }
-/* line 81, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 81, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .phi-slide .flexslider .flex-viewport li span {
   height: 27px;
 }
-/* line 84, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 84, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .phi-slide .flexslider .flex-viewport li a {
   font-size: 16px;
   font-family: "\5FAE\8F6F\96C5\9ED1";
@@ -2748,46 +2762,46 @@ i.sscp {
   bottom: 3px;
   _bottom: 5px;
 }
-/* line 90, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 90, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .phi-slide .flexslider .flex-viewport li a:hover {
   text-decoration: underline;
 }
-/* line 96, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 96, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .phi-slide .flexslider .flex-control-nav {
   padding-left: 115px;
 }
-/* line 99, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 99, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .phi-slide .flexslider .flex-control-nav li a {
   color: #939393;
   background: #939393;
 }
-/* line 102, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 102, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .phi-slide .flexslider .flex-control-nav li a.flex-active, .phi-slide .flexslider .flex-control-nav li a:hover {
   color: #82adcb;
   background: #82adcb;
 }
 
-/* line 112, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 112, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .law-slide {
   height: 309px;
 }
-/* line 114, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 114, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .law-slide .flexslider {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 120, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 120, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .law-slide .flex-viewport {
   width: 370px;
   height: 309px;
 }
-/* line 123, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 123, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .law-slide .flex-viewport li {
   height: 309px;
 }
-/* line 127, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 127, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .law-slide .flex-control-nav {
   width: 97%;
   height: 33px;
@@ -2802,12 +2816,12 @@ i.sscp {
   bottom: 0;
   z-index: 10000;
 }
-/* line 140, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 140, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .law-slide .flex-control-nav li {
   display: inline;
   padding-right: 5px;
 }
-/* line 143, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 143, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .law-slide .flex-control-nav li a {
   color: #c6c6c6;
   cursor: pointer;
@@ -2815,27 +2829,27 @@ i.sscp {
   font-family: "\5FAE\8F6F\96C5\9ED1";
   padding: 0 5px;
 }
-/* line 149, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 149, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .law-slide .flex-control-nav li a.flex-active {
   font-size: 20px;
   color: #ff0;
 }
-/* line 153, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 153, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .law-slide .flex-control-nav li a:hover {
   text-decoration: none;
 }
-/* line 159, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 159, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .law-slide .flex-direction-nav {
   display: none;
 }
 
 /* law scroll box */
-/* line 165, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 165, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box {
   position: relative;
   margin: 12px 0 0;
 }
-/* line 168, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 168, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .x-ward {
   display: block;
   width: 14px;
@@ -2844,26 +2858,26 @@ i.sscp {
   position: absolute;
   top: 55px;
 }
-/* line 176, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 176, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .forward {
   left: 0;
   _left: -20px;
   background-position: 0 -112px;
 }
-/* line 180, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 180, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .forward:hover {
   background-position: 0 -138px;
 }
-/* line 184, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 184, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .backward {
   right: 0;
   background-position: 0 -164px;
 }
-/* line 187, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 187, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .backward:hover {
   background-position: 0 -190px;
 }
-/* line 191, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 191, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .scroll-img {
   width: 655px;
   height: 166px;
@@ -2871,13 +2885,13 @@ i.sscp {
   overflow: hidden;
   font-size: 18px;
 }
-/* line 197, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 197, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .scroll-img ul {
   width: 1000px;
   height: 166px;
   line-height: 1;
 }
-/* line 201, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 201, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .scroll-img ul li {
   float: left;
   display: inline;
@@ -2885,15 +2899,15 @@ i.sscp {
   height: 100%;
   margin: 0 13px;
 }
-/* line 207, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 207, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .scroll-img ul li a {
   cursor: pointer;
 }
-/* line 209, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 209, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .scroll-img ul li a:hover {
   color: #96001e;
 }
-/* line 212, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 212, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .scroll-box .scroll-img ul li a span {
   font-size: 12px;
   display: block;
@@ -2905,28 +2919,28 @@ i.sscp {
   word-wrap: normal;
 }
 
-/* line 225, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 225, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide {
   height: 286px;
 }
-/* line 227, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 227, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide .flexslider {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 232, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 232, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide .flexslider .flex-viewport {
   width: 295px;
   height: 286px;
 }
-/* line 235, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 235, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide .flexslider .flex-viewport li {
   height: 286px;
   text-align: center;
 }
-/* line 239, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 239, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide .flexslider .flex-viewport a {
   color: #555;
   font-size: 12px;
@@ -2939,7 +2953,7 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 250, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 250, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide .flex-control-nav {
   width: 97%;
   height: 29px;
@@ -2954,12 +2968,12 @@ i.sscp {
   bottom: 41px;
   z-index: 10000;
 }
-/* line 263, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 263, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide .flex-control-nav li {
   display: inline;
   padding-right: 5px;
 }
-/* line 266, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 266, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide .flex-control-nav li a {
   color: #000;
   cursor: pointer;
@@ -2967,25 +2981,25 @@ i.sscp {
   font-family: "\5FAE\8F6F\96C5\9ED1";
   padding: 0 5px;
 }
-/* line 272, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 272, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide .flex-control-nav li a.flex-active {
   font-size: 20px;
   color: #ff0;
 }
-/* line 276, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 276, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide .flex-control-nav li a:hover {
   text-decoration: none;
 }
-/* line 282, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 282, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .edu-slide .flex-direction-nav {
   display: none;
 }
 
-/* line 287, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 287, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide {
   height: 337px;
 }
-/* line 289, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 289, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider {
   width: 100%;
   height: 100%;
@@ -2993,7 +3007,7 @@ i.sscp {
   position: relative;
   z-index: 1000000;
 }
-/* line 295, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 295, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider .slide-more {
   color: #9f9f9f;
   font-size: 11px;
@@ -3002,22 +3016,22 @@ i.sscp {
   top: 251px;
   z-index: 1000000000000000;
 }
-/* line 298, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 298, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider .slide-more:hover {
   color: #01a5ae;
   text-decoration: none;
 }
-/* line 307, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 307, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport {
   width: 376px;
   height: 337px;
 }
-/* line 310, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 310, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li {
   height: 337px;
   position: relative;
 }
-/* line 313, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 313, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .bg {
   width: 100%;
   height: 19px;
@@ -3030,7 +3044,7 @@ i.sscp {
   top: 249px;
   z-index: 0;
 }
-/* line 325, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 325, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .link {
   width: 361px;
   height: 65px;
@@ -3040,7 +3054,7 @@ i.sscp {
   left: 0;
   bottom: 0;
 }
-/* line 333, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 333, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .link .title {
   color: #14436f;
   font-family: "\5FAE\8F6F\96C5\9ED1";
@@ -3051,12 +3065,12 @@ i.sscp {
   white-space: nowrap;
   word-wrap: normal;
 }
-/* line 339, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 339, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .link .title:hover {
   color: #3d75bb;
   text-decoration: none;
 }
-/* line 344, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 344, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .link .desc {
   color: #959595;
   font-size: 12px;
@@ -3064,12 +3078,12 @@ i.sscp {
   display: block;
   line-height: 16px;
 }
-/* line 350, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 350, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flexslider .flex-viewport li .link .desc:hover {
   color: #464646;
   text-decoration: none;
 }
-/* line 359, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 359, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flex-control-nav {
   width: 91%;
   height: 18px;
@@ -3084,12 +3098,12 @@ i.sscp {
   bottom: 70px;
   z-index: 10000000;
 }
-/* line 372, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 372, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flex-control-nav li {
   display: inline;
   padding-right: 5px;
 }
-/* line 375, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 375, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flex-control-nav li a {
   color: #fff;
   cursor: pointer;
@@ -3098,26 +3112,26 @@ i.sscp {
   padding: 0 5px;
   height: 100%;
 }
-/* line 382, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 382, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flex-control-nav li a.flex-active {
   background: #f08220;
 }
-/* line 385, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 385, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flex-control-nav li a:hover {
   text-decoration: none;
 }
-/* line 391, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 391, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .social-slide .flex-direction-nav {
   display: none;
 }
 
 /* book scroll box */
-/* line 397, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 397, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec {
   padding: 13px 28px;
   position: relative;
 }
-/* line 400, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 400, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .x-ward {
   display: block;
   width: 10px;
@@ -3126,62 +3140,116 @@ i.sscp {
   position: absolute;
   top: 45px;
 }
-/* line 408, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 408, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .forward {
   left: 5px;
   _left: -20px;
   background-position: 0 0;
 }
-/* line 412, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 412, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .forward:hover {
   background-position: 0 -45px;
 }
-/* line 416, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 416, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .backward {
   right: 5px;
   background-position: -10px 0;
 }
-/* line 419, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 419, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .backward:hover {
   background-position: -10px -45px;
 }
-/* line 423, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 423, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .rec-list {
   width: 652px;
   height: 110px;
   overflow: hidden;
 }
-/* line 427, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 427, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .rec-list ul {
   height: 110px;
   width: 1000px;
 }
-/* line 430, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 430, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .rec-list ul li {
   float: left;
   display: inline;
   margin: 0 5px 0 6px;
 }
-/* line 434, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 434, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .rec-list ul li a {
   float: left;
   width: 82px;
   height: 110px;
 }
-/* line 438, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 438, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .rec-list ul li a img {
   width: 80px;
   height: 106px;
   border: 1px solid #c7d3f0;
 }
-/* line 444, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 444, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .new-books-rec .rec-list ul li a:hover img {
   border-color: #f00;
 }
 
-/* line 454, C:/Zaki/yma work/sscp/scss/partial/_slide.scss */
+/* line 454, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
 .uni-slide {
   height: 385px;
+}
+/* line 457, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.uni-slide .flexslider .flex-viewport {
+  width: 358px;
+  height: 300px;
+}
+/* line 460, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.uni-slide .flexslider .flex-viewport li {
+  height: 300px;
+  position: relative;
+}
+/* line 463, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.uni-slide .flexslider .flex-viewport li a {
+  color: #fff;
+  font-size: 16px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  letter-spacing: 1px;
+  height: 28px;
+  line-height: 28px;
+  background: #7688a5;
+  bottom: 0;
+  _bottom: 3px;
+}
+/* line 471, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.uni-slide .flexslider .flex-viewport li a:hover {
+  text-decoration: none;
+}
+/* line 479, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.uni-slide .flexslider .flex-control-nav {
+  height: 72px;
+  margin: 5px -20px 0 0 !important;
+  padding-left: 0;
+  overflow: hidden;
+}
+/* line 484, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.uni-slide .flexslider .flex-control-nav li {
+  width: 112px;
+  height: 64px;
+  margin: 0 10px 0 0 !important;
+  _margin: 0 8px 0 0 !important;
+}
+/* line 489, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.uni-slide .flexslider .flex-control-nav li a {
+  display: block;
+  border: 1px solid #a1c9eb;
+  overflow: hidden;
+}
+/* line 493, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.uni-slide .flexslider .flex-control-nav li a.flex-active, .uni-slide .flexslider .flex-control-nav li a:hover {
+  border-color: #1965a7;
+}
+/* line 496, D:/Work/coding/scss-tryout/scss/partial/_slide.scss */
+.uni-slide .flexslider .flex-control-nav li a img {
+  width: 100%;
 }
 
 /* management page */
@@ -5314,7 +5382,7 @@ i.sscp {
 
 /* line 1702, ../scss/style.scss */
 .uni-news h3 {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   margin: 10px 0 5px;
 }
 /* line 1705, ../scss/style.scss */
@@ -5332,7 +5400,7 @@ i.sscp {
 .uni-dao {
   color: #696868;
   padding: 10px 0 0;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 /* line 1719, ../scss/style.scss */
 .uni-dao .dao-box {
@@ -5427,13 +5495,164 @@ i.sscp {
   margin-left: 17px;
 }
 
+/* line 1796, ../scss/style.scss */
+.uni-foreign-famous {
+  padding: 15px 20px 20px;
+}
+/* line 1798, ../scss/style.scss */
+.uni-foreign-famous .fu-pic {
+  display: block;
+  height: 130px;
+  text-align: center;
+}
+/* line 1802, ../scss/style.scss */
+.uni-foreign-famous .fu-pic img {
+  display: inline-block;
+}
+/* line 1806, ../scss/style.scss */
+.uni-foreign-famous h3 {
+  margin: 10px 0 15px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+/* line 1812, ../scss/style.scss */
+.uni-foreign-famous h3 a {
+  color: #0759a0;
+}
+/* line 1814, ../scss/style.scss */
+.uni-foreign-famous h3 a:hover {
+  color: #73a7d0;
+  text-decoration: none;
+}
+/* line 1820, ../scss/style.scss */
+.uni-foreign-famous p {
+  color: #696868;
+  font-size: 13px;
+  text-indent: 2em;
+  line-height: 20px;
+}
+/* line 1825, ../scss/style.scss */
+.uni-foreign-famous p a.detail {
+  color: #73a7d0;
+}
+/* line 1827, ../scss/style.scss */
+.uni-foreign-famous p a.detail:hover {
+  color: #0759a0;
+  text-decoration: none;
+}
+
+/* line 1834, ../scss/style.scss */
+.uni-subject {
+  padding: 11px 0;
+}
+/* line 1836, ../scss/style.scss */
+.uni-subject h3 {
+  height: 22px;
+  line-height: 22px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+/* line 1841, ../scss/style.scss */
+.uni-subject h3 a {
+  float: left;
+  color: #0759a0;
+  margin-left: 14px;
+  padding-left: 12px;
+  background: url(../images/uni_hd5_bg.jpg) 0 3px no-repeat;
+}
+/* line 1847, ../scss/style.scss */
+.uni-subject h3 a:hover {
+  text-decoration: none;
+}
+/* line 1852, ../scss/style.scss */
+.uni-subject .subjects {
+  height: 170px;
+  line-height: 28px;
+}
+/* line 1855, ../scss/style.scss */
+.uni-subject .subjects a {
+  float: left;
+  width: 110px;
+  height: 28px;
+  margin-left: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+/* line 1861, ../scss/style.scss */
+.uni-subject .subjects a:hover {
+  color: #73a7d0;
+  text-decoration: none;
+}
+
+/* line 1871, ../scss/style.scss */
+.uni-col1 .uni-subject .subjects a {
+  width: 156px;
+}
+
+/* line 1877, ../scss/style.scss */
+.uni-feature-plan {
+  height: 270px;
+  padding: 13px 0 0;
+  background: white url(../images/uni_feature_plan_bg.jpg) 0 0 repeat-x;
+}
+/* line 1881, ../scss/style.scss */
+.uni-feature-plan .fp-detail {
+  height: 112px;
+  padding: 0 5px;
+}
+/* line 1884, ../scss/style.scss */
+.uni-feature-plan .fp-detail a.fl {
+  border: 1px solid #e6e6e6;
+}
+/* line 1886, ../scss/style.scss */
+.uni-feature-plan .fp-detail a.fl img {
+  float: left;
+}
+/* line 1890, ../scss/style.scss */
+.uni-feature-plan .fp-detail h3 {
+  margin: 0 0 3px;
+  padding-left: 122px;
+  font-weight: bold;
+}
+/* line 1894, ../scss/style.scss */
+.uni-feature-plan .fp-detail h3 a {
+  color: #0759a0;
+}
+/* line 1896, ../scss/style.scss */
+.uni-feature-plan .fp-detail h3 a:hover {
+  color: #73a7d0;
+  text-decoration: none;
+}
+/* line 1902, ../scss/style.scss */
+.uni-feature-plan .fp-detail p {
+  color: #696868;
+  font-size: 13px;
+  padding-left: 122px;
+}
+/* line 1906, ../scss/style.scss */
+.uni-feature-plan .fp-detail p a {
+  color: #73a7d0;
+}
+/* line 1908, ../scss/style.scss */
+.uni-feature-plan .fp-detail p a:hover {
+  color: #0759a0;
+  text-decoration: none;
+}
+
 /* footer set */
-/* line 2, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 2, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer {
   width: 1000px;
   margin: 6px 0 0;
 }
-/* line 5, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 5, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .ft-gap {
   font-size: 0;
   width: 100%;
@@ -5443,14 +5662,14 @@ i.sscp {
   border-width: 2px 0 6px;
   background: #fff;
 }
-/* line 14, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 14, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .rel-link {
   color: #595757;
   padding: 3px 0 3px 5px;
   border: 1px solid #ddd;
   border-color: #f2f2f2 #ddd;
 }
-/* line 19, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 19, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .rel-link h3 {
   font-size: 17px;
   font-weight: bold;
@@ -5458,35 +5677,35 @@ i.sscp {
   font-family: "\5FAE\8F6F\96C5\9ED1";
   width: 100%;
 }
-/* line 26, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 26, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .rel-link h4 {
   font-weight: bold;
 }
-/* line 29, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 29, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .rel-link div {
   width: 100%;
   line-height: 24px;
 }
-/* line 33, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 33, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .rel-link a {
   color: #595757;
   float: left;
   margin-right: 15px;
   white-space: nowrap;
 }
-/* line 40, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 40, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .ft-link {
   color: #3b3b3b;
   padding: 10px 0 10px 6px;
   border-bottom: 1px solid #f2f2f2;
 }
-/* line 45, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 45, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .copyright {
   color: #393939;
   text-align: center;
   padding: 5px 0 15px;
 }
-/* line 49, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 49, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .copyright .statement {
   display: inline-block;
   height: 44px;
@@ -5494,13 +5713,13 @@ i.sscp {
   padding: 0 0 0 40px;
   position: relative;
 }
-/* line 55, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 55, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .copyright .statement i {
   position: absolute;
   left: 0;
   top: 0;
 }
-/* line 60, C:/Zaki/yma work/sscp/scss/partial/_footer.scss */
+/* line 60, D:/Work/coding/scss-tryout/scss/partial/_footer.scss */
 .footer .copyright .statement .st {
   color: #015daa;
   display: block;
@@ -5509,135 +5728,135 @@ i.sscp {
 }
 
 /* global cascading style */
-/* line 1800, ../scss/style.scss */
+/* line 1920, ../scss/style.scss */
 .gl-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
-/* line 1800, ../scss/style.scss */
+/* line 1920, ../scss/style.scss */
 .gl-wrapper .footer .rel-link a:hover {
   color: #005dab;
 }
 
-/* line 1802, ../scss/style.scss */
+/* line 1922, ../scss/style.scss */
 .law-wrapper .footer .rel-link h3 {
   color: #2f3942;
 }
 
-/* line 1805, ../scss/style.scss */
+/* line 1925, ../scss/style.scss */
 .law-wrapper .footer .rel-link a:hover,
 .law-wrapper .law-sermon h2 a:hover,
 .law-wrapper .law-sermon a:hover .c15 {
   color: #96001e !important;
 }
 
-/* line 1806, ../scss/style.scss */
+/* line 1926, ../scss/style.scss */
 .law-wrapper .law-sermon p a {
   color: #585858;
 }
 
-/* line 1808, ../scss/style.scss */
+/* line 1928, ../scss/style.scss */
 .edu-wrapper .footer .rel-link h3 {
   color: #006069;
 }
 
-/* line 1811, ../scss/style.scss */
+/* line 1931, ../scss/style.scss */
 .edu-wrapper .footer .rel-link a:hover,
 .edu-wrapper .edu-observe h2 a:hover,
 .edu-wrapper .edu-observe a:hover .c15 {
   color: #006f63 !important;
 }
 
-/* line 1813, ../scss/style.scss */
+/* line 1933, ../scss/style.scss */
 .phi-wrapper .footer .rel-link h3 {
   color: #3171b9;
 }
-/* line 1813, ../scss/style.scss */
+/* line 1933, ../scss/style.scss */
 .phi-wrapper .footer .rel-link a:hover {
   color: #2670a6;
   text-decoration: none;
 }
-/* line 1813, ../scss/style.scss */
+/* line 1933, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div {
   padding-left: 5px;
 }
-/* line 1813, ../scss/style.scss */
+/* line 1933, ../scss/style.scss */
 .phi-wrapper .footer .rel-link div a {
   margin-right: 8px;
 }
 
-/* line 1815, ../scss/style.scss */
+/* line 1935, ../scss/style.scss */
 .book-wrapper .header .top-nav {
   background: #e6aa6c;
 }
 
-/* line 1817, ../scss/style.scss */
+/* line 1937, ../scss/style.scss */
 .book-wrapper .footer .rel-link h3,
 .book-wrapper .header .sub-nav a:hover {
   color: #e6aa6c;
 }
 
-/* line 1818, ../scss/style.scss */
+/* line 1938, ../scss/style.scss */
 .book-wrapper .footer {
   border-top: 4px solid #e6aa6c;
 }
 
-/* line 1819, ../scss/style.scss */
+/* line 1939, ../scss/style.scss */
 .book-wrapper .footer .rel-link {
   border: none;
 }
 
-/* line 1820, ../scss/style.scss */
+/* line 1940, ../scss/style.scss */
 .book-wrapper .footer .rel-link div span {
   float: left;
   margin-right: 10px;
 }
 
-/* line 1821, ../scss/style.scss */
+/* line 1941, ../scss/style.scss */
 .book-wrapper .footer .rel-link div a {
   margin-right: 10px;
 }
 
-/* line 1822, ../scss/style.scss */
+/* line 1942, ../scss/style.scss */
 .book-wrapper .footer .ft-link {
   border-top: 2px solid #e6aa6c;
   border-bottom: none;
 }
 
-/* line 1824, ../scss/style.scss */
+/* line 1944, ../scss/style.scss */
 .uni-wrapper .header .top-nav {
   color: #f0edce;
   background: #bebebe;
 }
-/* line 1824, ../scss/style.scss */
+/* line 1944, ../scss/style.scss */
 .uni-wrapper .header .top-nav a {
   color: #f0edce;
 }
 
-/* line 1825, ../scss/style.scss */
+/* line 1945, ../scss/style.scss */
 .uni-wrapper .footer .rel-link {
   padding: 8px 6px 6px;
   border: 1px solid #ddf0ff;
   border-top: 2px solid #9ac5e9;
 }
-/* line 1825, ../scss/style.scss */
+/* line 1945, ../scss/style.scss */
 .uni-wrapper .footer .rel-link h3 {
   background: #f9f9f9;
   font-weight: normal;
 }
-/* line 1825, ../scss/style.scss */
+/* line 1945, ../scss/style.scss */
 .uni-wrapper .footer .rel-link h3 span {
   display: inline-block;
   padding: 3px 9px;
   color: #0759a0;
   background: #dbefff;
 }
-/* line 1825, ../scss/style.scss */
+/* line 1945, ../scss/style.scss */
 .uni-wrapper .footer .rel-link div {
   padding: 8px;
   width: 972px;
   background: #f9f9f9;
 }
-/* line 1825, ../scss/style.scss */
+/* line 1945, ../scss/style.scss */
 .uni-wrapper .footer .rel-link a:hover {
   color: #73a7d0;
   text-decoration: none;
