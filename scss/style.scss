@@ -1241,7 +1241,7 @@
 }
 .social-news-brief{
 	margin: 0 0 10px;
-	padding: 0 0 15px;
+	padding: 0 0 10px;
 	border-bottom: 1px dotted #d7d7d7;
 	h3{
 		width: 100%;
@@ -1552,6 +1552,9 @@
 			color: $c-b2;
 			font-size: 38px;
 			font-family: $msyh, sans-serif;
+			&:hover{
+				text-decoration: none;
+			}
 		}
 	}
 	.sub-desc{
@@ -1766,6 +1769,7 @@
 		.lable{
 			position: absolute;
 			left: 5px;
+			_left: -40px;
 			a{
 				margin-right: 3px;
 				&:hover{
@@ -1921,6 +1925,18 @@
 	margin-left: 1050px;
 	position: fixed;
 	bottom: 200px;
+	span{
+		display: none;
+	}
+}
+.uni-click-to-bottom{
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url(../images/uni_to_top.jpg) 0 0 no-repeat;
+	margin-left: 1050px;
+	position: fixed;
+	top: 200px;
 	span{
 		display: none;
 	}
